@@ -1,0 +1,180 @@
+{
+  "role": "Ingegnere del software",
+  "heroTitle": "Ciao, sono Igor. Sviluppo software che collega le idee.",
+  "intro": "Ingegnere del software per applicazioni web, sistemi cloud e prodotti digitali. Dalla prima idea ai dettagli che fanno funzionare tutto.",
+  "home": "Home",
+  "experience": "Esperienza",
+  "project": "Richiedi un progetto",
+  "contact": "Contatti",
+  "servicesTitle": "Cosa posso sviluppare per te",
+  "webTitle": "Applicazioni web",
+  "webDescription": "Interfacce e funzionalità pensate per il tuo prodotto.",
+  "productTitle": "Prodotti digitali",
+  "productDescription": "Dall’idea iniziale a un prodotto software utilizzabile.",
+  "ctaTitle": "Parliamo del tuo prossimo progetto.",
+  "ctaDescription": "Raccontami la tua idea e valutiamo insieme i prossimi passi.",
+  "experienceTitle": "Esperienza e progetti",
+  "experienceDescription": "Sviluppo full-stack, sistemi serverless AWS e Azure, integrazioni AI e leadership tecnica.",
+  "projectTitle": "Avvia un progetto",
+  "projectDescription": "Descrivi la tua idea, gli obiettivi e le tempistiche previste.",
+  "contactTitle": "Contattami",
+  "contactDescription": "Hai una domanda o un’idea per un progetto? Scrivimi un’email.",
+  "nameLabel": "Il tuo nome",
+  "emailLabel": "La tua email",
+  "detailsLabel": "Dettagli del progetto",
+  "submit": "Apri bozza email",
+  "formHint": "Apre il tuo programma email con una bozza. Nulla viene inviato automaticamente.",
+  "languageLabel": "Scegli la lingua",
+  "skip": "Vai al contenuto",
+  "explore": "Scopri la mia esperienza",
+  "seoDescription": "Ingegnere del software per applicazioni web e prodotti digitali.",
+  "draftReady": "Bozza email preparata. Completala e inviala dal tuo programma email.",
+  "experienceContent": {
+    "role": "Ingegnere del software",
+    "overview": "Sviluppo applicazioni web dal frontend al backend e all’infrastruttura cloud. La mia esperienza comprende sistemi aziendali, media digitali, marketplace e commercio, con attenzione ad architetture riutilizzabili, rilasci affidabili e stabilità in produzione.",
+    "workTitle": "Esperienze di sviluppo selezionate",
+    "skillsTitle": "Tecnologie e strumenti",
+    "cards": [
+      {
+        "id": "enterprise",
+        "title": "Applicazioni aziendali e piattaforme condivise",
+        "focus": "Sviluppo full-stack",
+        "highlights": [
+          "Sviluppo di funzionalità per la gestione remota dei dispositivi e i processi operativi, con controllo granulare degli accessi basato sui ruoli e componenti React/MUI condivisi tra applicazioni.",
+          "Riduzione delle chiamate API ridondanti, esecuzione parallela nel backend, ottimizzazione delle scansioni Redis e flussi Azure Durable Functions per manutenzione e deployment."
+        ]
+      },
+      {
+        "id": "serverless",
+        "title": "Sistemi serverless e modernizzazione cloud",
+        "focus": "Sviluppo backend e cloud",
+        "highlights": [
+          "Guida e automazione della migrazione da JavaScript a TypeScript di 36 repository e oltre 150 funzioni AWS Lambda, insieme all’aggiornamento ad AWS SDK v3.",
+          "Sviluppo di servizi GraphQL e infrastruttura come codice, standardizzazione di modelli e persistenza tramite pacchetti NPM, gestione di monitoraggio, avvisi e processi CI/CD."
+        ]
+      },
+      {
+        "id": "marketplace",
+        "title": "Marketplace con funzionalità AI",
+        "focus": "Sviluppo del prodotto e responsabilità tecnica",
+        "highlights": [
+          "Responsabilità per frontend, backend, dati, deployment cloud e supporto in produzione; migrazione del frontend a Next.js per rendering lato server e SEO tecnica.",
+          "Integrazione di descrizioni dei prodotti generate con AI e validazione dei contenuti, con ricerca unificata tra prodotti, eventi e utenti."
+        ]
+      },
+      {
+        "id": "commerce",
+        "title": "E-commerce per più mercati",
+        "focus": "Sviluppo di negozi online",
+        "highlights": [
+          "Manutenzione di negozi Magento Enterprise in 22 paesi, con template responsive e funzionalità condivise.",
+          "Sviluppo della navigazione mobile e collaborazione con i designer per esperienze cliente coerenti e localizzate."
+        ]
+      },
+      {
+        "id": "hospitality",
+        "title": "Applicazioni per la ristorazione",
+        "focus": "Sviluppo frontend",
+        "highlights": [
+          "Sviluppo di applicazioni React e Material UI per clienti, cucina e back office.",
+          "Localizzazione in inglese, tedesco, francese e italiano, integrazione dei pagamenti Stripe e collaborazione con i clienti per migliorare il prodotto."
+        ]
+      }
+    ],
+    "contributions": {
+      "title": "Contributi pubblici",
+      "intro": "Piccoli strumenti che rendono più piacevole lo sviluppo quotidiano.",
+      "items": [
+        {
+          "id": "mui-icon-preview",
+          "role": "Estensione VS Code · Autore",
+          "headline": "Vedi l’icona, mantieni il ritmo.",
+          "description": "Il nome di un’icona racconta solo metà della storia. MUI Icon Preview ne mostra la forma direttamente in VS Code, con anteprime SVG al passaggio del mouse e nei suggerimenti di completamento. Cerca tra le icone installate e inserisci import e JSX senza interrompere il lavoro.",
+          "detail": "Tutto funziona in locale con il pacchetto @mui/icons-material del progetto. Nessun passaggio al browser, nessun caricamento del codice sorgente.",
+          "linkLabel": "Scopri l’estensione",
+          "sourceLabel": "Codice su GitHub"
+        },
+        {
+          "id": "http-headers-validation",
+          "role": "Pacchetto npm · Contributo TypeScript",
+          "headline": "Un piccolo controllo per ogni richiesta.",
+          "description": "Gli header HTTP trasportano i dettagli della comunicazione web. Questa utility mirata valida nomi e valori degli header, offrendo un modo semplice per verificarli prima di passarli ad altri componenti.",
+          "detail": "Il mio contributo ha aggiunto il supporto TypeScript, rendendo questa utility JavaScript più semplice da usare nei progetti tipizzati.",
+          "linkLabel": "Visualizza su npm",
+          "sourceLabel": "Codice su GitHub"
+        }
+      ]
+    },
+    "collaborationTitle": "Responsabilità end-to-end e collaborazione tra team",
+    "collaborationParagraphs": [
+      "Ho esperienza nel portare avanti autonomamente un progetto dall’idea iniziale a un prodotto funzionante, collegando gli obiettivi di business alle decisioni tecniche e seguendo architettura, implementazione, rilascio e supporto in produzione. Porto autonomia nell’avanzamento del lavoro, attenzione ai compromessi e un senso di responsabilità che continua oltre la prima consegna.",
+      "Lavoro efficacemente sia in autonomia sia in piccoli team focalizzati, grandi organizzazioni di sviluppo e contesti in cui più team contribuiscono allo stesso ecosistema di prodotti. Adatto il mio contributo alle esigenze: sviluppo operativo sull’intero stack, realizzazione di componenti e servizi condivisi o coordinamento delle dipendenze con altri team. Il mio obiettivo è integrare i singoli contributi in un insieme coerente e manutenibile.",
+      "Per me collaborare significa chiarire le priorità, far emergere tempestivamente i rischi e trasformare la complessità tecnica in decisioni concrete. Con product owner, designer, sviluppatori e architetti software definisco piani realizzabili, condivido il contesto e mantengo il lavoro allineato alle esigenze del prodotto. Attraverso revisioni del codice, mentoring, inserimento dei colleghi e documentazione chiara, favorisco la circolazione delle conoscenze tra team e la continuità dello sviluppo durante l’evoluzione del prodotto."
+    ]
+  },
+  "homeContent": {
+    "overviewLabel": "Un po’ di contesto",
+    "overviewTitle": "Da un’idea a un sistema che le persone possono usare.",
+    "overviewDescription": "Il mio lavoro collega interfacce, servizi backend e infrastruttura cloud. Mi piace capire il quadro completo e trasformarlo in soluzioni chiare e pratiche.",
+    "areas": [
+      {
+        "title": "Applicazioni web",
+        "description": "Interfacce responsive, componenti riutilizzabili ed esperienze utente coerenti."
+      },
+      {
+        "title": "Cloud e backend",
+        "description": "API, servizi serverless e l’infrastruttura alla base del prodotto."
+      },
+      {
+        "title": "Sviluppo del prodotto",
+        "description": "Unire frontend, backend e rilascio, dall’idea alla produzione."
+      }
+    ],
+    "approachTitle": "Come affronto un progetto",
+    "steps": [
+      {
+        "title": "Capire il problema",
+        "description": "Partire dalle persone, dagli obiettivi e dai vincoli. Assicurarsi di risolvere il problema giusto."
+      },
+      {
+        "title": "Sviluppare con uno scopo",
+        "description": "Scegliere una direzione pratica, comunicare con chiarezza e procedere per passi gestibili."
+      },
+      {
+        "title": "Continuare a migliorare",
+        "description": "Ascoltare i feedback, affinare l’esperienza e restare coinvolti dopo il rilascio."
+      }
+    ],
+    "personalLabel": "Oltre il codice",
+    "personalTitle": "Lontano dallo schermo. All’aria aperta.",
+    "personalDescription": "Fuori dal mondo del software, mi piace essere attivo e stare all’aperto. Corsa, ciclismo, nuoto, sollevamento pesi o una semplice passeggiata — cerco spazio per il movimento e il tempo nella natura.",
+    "activities": [
+      {
+        "id": "running",
+        "label": "Corsa"
+      },
+      {
+        "id": "cycling",
+        "label": "Ciclismo"
+      },
+      {
+        "id": "swimming",
+        "label": "Nuoto"
+      },
+      {
+        "id": "weights",
+        "label": "Sollevamento pesi"
+      },
+      {
+        "id": "walking",
+        "label": "Passeggiate"
+      },
+      {
+        "id": "nature",
+        "label": "Tempo nella natura"
+      }
+    ],
+    "personalNoteTitle": "Attività diverse. Un cambio di scenario.",
+    "personalNote": "Certi giorni un allenamento, altri solo una passeggiata e aria fresca. C’è spazio per entrambi."
+  }
+}

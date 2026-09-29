@@ -1,0 +1,180 @@
+{
+  "role": "Szoftvermérnök",
+  "heroTitle": "Szia, Igor vagyok. Összekapcsolom az ötleteket a szoftverben.",
+  "intro": "Webalkalmazásokkal, felhőrendszerekkel és digitális termékekkel foglalkozó szoftvermérnök. Az első ötlettől a működést biztosító részletekig.",
+  "home": "Kezdőlap",
+  "experience": "Tapasztalat",
+  "project": "Projektajánlat kérése",
+  "contact": "Kapcsolat",
+  "servicesTitle": "Amiben segíthetek",
+  "webTitle": "Webalkalmazások",
+  "webDescription": "A termékedhez igazított felületek és funkciók.",
+  "productTitle": "Digitális termékek",
+  "productDescription": "Az első ötlettől a használható szoftvertermékig.",
+  "ctaTitle": "Beszéljünk a következő projektedről.",
+  "ctaDescription": "Oszd meg az ötletedet, és tekintsük át a következő lépéseket.",
+  "experienceTitle": "Tapasztalat és projektek",
+  "experienceDescription": "Full-stack fejlesztés, AWS és Azure serverless rendszerek, AI-integrációk és műszaki vezetés.",
+  "projectTitle": "Indítsunk egy projektet",
+  "projectDescription": "Írd le az ötletedet, céljaidat és a tervezett határidőt.",
+  "contactTitle": "Lépj kapcsolatba velem",
+  "contactDescription": "Kérdésed vagy projektötleted van? Küldj emailt.",
+  "nameLabel": "Neved",
+  "emailLabel": "Email-címed",
+  "detailsLabel": "Projekt részletei",
+  "submit": "Email-piszkozat megnyitása",
+  "formHint": "Megnyitja a levelezőprogramot egy piszkozattal. Semmit nem küld el automatikusan.",
+  "languageLabel": "Nyelv kiválasztása",
+  "skip": "Ugrás a tartalomra",
+  "explore": "Tapasztalataim megtekintése",
+  "seoDescription": "Szoftvermérnök webalkalmazások és digitális termékek fejlesztéséhez.",
+  "draftReady": "Az email-piszkozat elkészült. Egészítsd ki és küldd el a levelezőprogramodból.",
+  "experienceContent": {
+    "role": "Szoftvermérnök",
+    "overview": "Webalkalmazásokat fejlesztek a frontendtől a backenden át a felhőinfrastruktúráig. Tapasztalatom vállalati rendszerekre, digitális médiára, piacterekre és kereskedelemre terjed ki, újrafelhasználható architektúrával, megbízható szállítással és stabil éles működéssel.",
+    "workTitle": "Válogatott fejlesztési tapasztalat",
+    "skillsTitle": "Technológiák és eszközök",
+    "cards": [
+      {
+        "id": "enterprise",
+        "title": "Vállalati alkalmazások és közös platformok",
+        "focus": "Full-stack fejlesztés",
+        "highlights": [
+          "Távoli eszközkezelési és üzemeltetési funkciókat fejlesztettem, részletes szerepköralapú hozzáférés-kezeléssel és több alkalmazásban használt React/MUI-komponensekkel.",
+          "Csökkentettem a felesleges API-hívásokat, párhuzamos backend-végrehajtást vezettem be, optimalizáltam a Redis-kereséseket, és Azure Durable Functions folyamatokat terveztem karbantartáshoz és telepítéshez."
+        ]
+      },
+      {
+        "id": "serverless",
+        "title": "Serverless rendszerek és felhőmodernizáció",
+        "focus": "Backend- és felhőfejlesztés",
+        "highlights": [
+          "Vezettem és automatizáltam 36 kódtár és több mint 150 AWS Lambda-függvény JavaScriptről TypeScriptre történő migrációját, valamint az AWS SDK v3-ra való átállást.",
+          "GraphQL-szolgáltatásokat és kóddal leírt infrastruktúrát fejlesztettem, NPM-csomagokkal egységesítettem a modelleket és adattárolást, valamint felügyeleti, riasztási és CI/CD-folyamatokat tartottam karban."
+        ]
+      },
+      {
+        "id": "marketplace",
+        "title": "AI-funkciókkal támogatott piactér",
+        "focus": "Termékfejlesztés és műszaki felelősség",
+        "highlights": [
+          "A frontendért, backendért, adatokért, felhőtelepítésért és éles támogatásért feleltem; a frontendet Next.js-re migráltam a szerveroldali renderelés és a technikai SEO érdekében.",
+          "AI-alapú termékleírás-generálást és tartalomellenőrzést integráltam, valamint egységes keresést fejlesztettem termékekhez, eseményekhez és felhasználókhoz."
+        ]
+      },
+      {
+        "id": "commerce",
+        "title": "Többpiacos e-kereskedelem",
+        "focus": "Webáruház-fejlesztés",
+        "highlights": [
+          "22 országban működő Magento Enterprise webáruházakat tartottam karban, reszponzív sablonokat és közös funkciókat fejlesztve.",
+          "Mobil navigációt készítettem, és tervezőkkel együttműködve egységes, lokalizált vásárlói élményt alakítottam ki."
+        ]
+      },
+      {
+        "id": "hospitality",
+        "title": "Vendéglátóipari alkalmazások",
+        "focus": "Frontendfejlesztés",
+        "highlights": [
+          "React- és Material UI-alkalmazásokat fejlesztettem ügyféloldali, konyhai és háttérirodai folyamatokhoz.",
+          "Angol, német, francia és olasz lokalizációt, valamint Stripe-fizetést valósítottam meg, és ügyfelekkel együtt dolgoztam a termék fejlesztésén."
+        ]
+      }
+    ],
+    "contributions": {
+      "title": "Nyilvános hozzájárulások",
+      "intro": "Apró eszközök a gördülékenyebb mindennapi fejlesztéshez.",
+      "items": [
+        {
+          "id": "mui-icon-preview",
+          "role": "VS Code-bővítmény · Készítő",
+          "headline": "Lásd az ikont, maradj lendületben.",
+          "description": "Az ikon neve csak a történet felét mondja el. A MUI Icon Preview közvetlenül a VS Code-ban mutatja meg a formáját: SVG-előnézettel az egérmutató alatt és a kódkiegészítésben. Kereshetsz a telepített ikonok között, majd beszúrhatod az importot és a JSX-et a munka megszakítása nélkül.",
+          "detail": "Minden helyben fut a projekt @mui/icons-material csomagjával. Nincs böngészős kitérő és nincs forráskódfeltöltés.",
+          "linkLabel": "A bővítmény megtekintése",
+          "sourceLabel": "Forráskód a GitHubon"
+        },
+        {
+          "id": "http-headers-validation",
+          "role": "npm-csomag · TypeScript-hozzájárulás",
+          "headline": "Apró ellenőrzés minden kérés útján.",
+          "description": "A HTTP-fejlécek hordozzák a webes kommunikáció fontos részleteit. Ez a célzott segédprogram a fejlécek nevét és értékét ellenőrzi, egyszerű ellenőrzési lehetőséget adva a továbbítás előtt.",
+          "detail": "TypeScript-támogatással járultam hozzá a csomaghoz, megkönnyítve ennek a JavaScript-eszköznek a használatát típusos projektekben.",
+          "linkLabel": "Megtekintés az npm-en",
+          "sourceLabel": "Forráskód a GitHubon"
+        }
+      ]
+    },
+    "collaborationTitle": "Teljes körű projektfelelősség és csapatok közötti együttműködés",
+    "collaborationParagraphs": [
+      "Van tapasztalatom projektek önálló végigvitelében a kezdeti ötlettől a működő termékig: az üzleti célokat műszaki döntésekkel kapcsolom össze, és az architektúrától a megvalósításon és kiadáson át az éles támogatásig vállalok felelősséget. Önállóan viszem előre a munkát, átláthatóvá teszem a kompromisszumokat, és az első átadás után is részt veszek a termék életében.",
+      "Önállóan, kis létszámú, fókuszált csapatokban, nagy fejlesztői szervezetekben és több csapat közös termék-ökoszisztémájában is hatékonyan dolgozom. A helyzethez igazítom a szerepemet: a teljes stack fejlesztésétől a közös komponensek és szolgáltatások kialakításán át a más csapatokkal fennálló függőségek összehangolásáig. Arra törekszem, hogy az egyes megoldások egységes, karbantartható rendszerré álljanak össze.",
+      "Számomra az együttműködés egyértelmű prioritásokat, a kockázatok korai jelzését és a műszaki összetettség megvalósítható döntésekké alakítását jelenti. Product ownerekkel, tervezőkkel, fejlesztőkkel és szoftverarchitektekkel közösen alakítok ki reális terveket, osztom meg az összefüggéseket, és igazítom a munkát a termék igényeihez. Kódellenőrzéssel, mentorálással, betanítással és világos dokumentációval segítem a csapatok közötti tudásmegosztást és a fejlesztés folytonosságát."
+    ]
+  },
+  "homeContent": {
+    "overviewLabel": "Egy kis háttér",
+    "overviewTitle": "A termékötlettől a használható rendszerig.",
+    "overviewDescription": "Munkám összeköti a felületeket, a backend-szolgáltatásokat és a felhőinfrastruktúrát. Szeretem megérteni a teljes képet, és világos, gyakorlatias megoldásokká alakítani.",
+    "areas": [
+      {
+        "title": "Webalkalmazások",
+        "description": "Reszponzív felületek, újrafelhasználható komponensek és egységes felhasználói élmények."
+      },
+      {
+        "title": "Felhő és backend",
+        "description": "API-k, serverless szolgáltatások és a termék mögötti infrastruktúra."
+      },
+      {
+        "title": "Termékfejlesztés",
+        "description": "A frontend, a backend és a kiadás összekapcsolása az ötlettől az éles működésig."
+      }
+    ],
+    "approachTitle": "Így közelítek egy projekthez",
+    "steps": [
+      {
+        "title": "A probléma megértése",
+        "description": "Az emberekből, célokból és korlátokból indulok ki. Fontos, hogy a megfelelő problémát oldjuk meg."
+      },
+      {
+        "title": "Tudatos fejlesztés",
+        "description": "Gyakorlatias irány, egyértelmű kommunikáció és kezelhető fejlesztési lépések."
+      },
+      {
+        "title": "Folyamatos javítás",
+        "description": "Visszajelzések meghallgatása, az élmény finomítása és részvétel a kiadás után is."
+      }
+    ],
+    "personalLabel": "A kódon túl",
+    "personalTitle": "Távol a képernyőtől. Közel a természethez.",
+    "personalDescription": "A szoftverfejlesztésen kívül szeretek mozogni és a szabadban lenni. Futás, kerékpározás, úszás, súlyzós edzés vagy egyszerűen séta — szívesen szánok időt a mozgásra és a természetre.",
+    "activities": [
+      {
+        "id": "running",
+        "label": "Futás"
+      },
+      {
+        "id": "cycling",
+        "label": "Kerékpározás"
+      },
+      {
+        "id": "swimming",
+        "label": "Úszás"
+      },
+      {
+        "id": "weights",
+        "label": "Súlyzós edzés"
+      },
+      {
+        "id": "walking",
+        "label": "Séta"
+      },
+      {
+        "id": "nature",
+        "label": "Idő a természetben"
+      }
+    ],
+    "personalNoteTitle": "Változatos mozgás. Más környezet.",
+    "personalNote": "Van, amikor edzés, máskor csak egy séta a friss levegőn. Mindkettőnek van helye."
+  }
+}

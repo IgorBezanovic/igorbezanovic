@@ -1,0 +1,180 @@
+{
+  "role": "Software Engineer",
+  "heroTitle": "Hi, I’m Igor. I build software that connects the dots.",
+  "intro": "Software Engineer working across web applications, cloud systems and digital products. From the first idea to the details that make it work.",
+  "home": "Home",
+  "experience": "Experience",
+  "project": "Ask for a project",
+  "contact": "Contact me",
+  "servicesTitle": "What I can help you build",
+  "webTitle": "Web applications",
+  "webDescription": "Interfaces and functionality shaped around your product.",
+  "productTitle": "Digital products",
+  "productDescription": "From an initial idea to a usable software product.",
+  "ctaTitle": "Let’s talk about your next project.",
+  "ctaDescription": "Tell me what you have in mind and we can explore the next steps.",
+  "experienceTitle": "Experience and projects",
+  "experienceDescription": "Full-stack engineering, AWS and Azure serverless systems, AI integrations and technical leadership.",
+  "projectTitle": "Start a project",
+  "projectDescription": "Describe your idea, goals and expected timeline.",
+  "contactTitle": "Get in touch",
+  "contactDescription": "Have a question or a project in mind? Send me an email.",
+  "nameLabel": "Your name",
+  "emailLabel": "Your email",
+  "detailsLabel": "Project details",
+  "submit": "Open email draft",
+  "formHint": "This opens your email app with a draft. Nothing is sent automatically.",
+  "languageLabel": "Choose language",
+  "skip": "Skip to content",
+  "explore": "Explore my experience",
+  "seoDescription": "Software engineer developing web applications and digital products.",
+  "draftReady": "Email draft prepared. Complete and send it in your email app.",
+  "experienceContent": {
+    "role": "Software Engineer",
+    "overview": "I build web applications across the frontend, backend and cloud infrastructure. My experience includes enterprise systems, digital media, marketplaces and commerce, with a focus on reusable architecture, reliable delivery and production stability.",
+    "workTitle": "Selected engineering experience",
+    "skillsTitle": "Technology toolkit",
+    "cards": [
+      {
+        "id": "enterprise",
+        "title": "Enterprise applications & shared platforms",
+        "focus": "Full-stack development",
+        "highlights": [
+          "Built functionality for remote device management and operational workflows, including granular role-based access control and shared React/MUI components used across applications.",
+          "Reduced redundant API calls, introduced parallel backend execution, optimized Redis scans and designed Azure Durable Functions workflows for maintenance and deployments."
+        ]
+      },
+      {
+        "id": "serverless",
+        "title": "Serverless systems & cloud modernization",
+        "focus": "Backend and cloud engineering",
+        "highlights": [
+          "Led and automated a JavaScript-to-TypeScript migration across 36 repositories and more than 150 AWS Lambda functions, alongside AWS SDK v3 modernization.",
+          "Built GraphQL services and infrastructure as code, standardized shared models and persistence through NPM packages, and maintained production monitoring, alerts and CI/CD workflows."
+        ]
+      },
+      {
+        "id": "marketplace",
+        "title": "AI-assisted marketplace",
+        "focus": "Product engineering and technical ownership",
+        "highlights": [
+          "Owned delivery across frontend, backend, data, cloud deployment and production support; migrated the frontend to Next.js for server-side rendering and technical SEO.",
+          "Integrated AI-generated product descriptions and content validation, and built unified search across products, events and users."
+        ]
+      },
+      {
+        "id": "commerce",
+        "title": "Multi-market e-commerce",
+        "focus": "Storefront development",
+        "highlights": [
+          "Maintained Magento Enterprise storefronts across 22 countries, building responsive templates and shared storefront functionality.",
+          "Developed mobile navigation and collaborated with designers on consistent, localized customer experiences."
+        ]
+      },
+      {
+        "id": "hospitality",
+        "title": "Hospitality applications",
+        "focus": "Frontend development",
+        "highlights": [
+          "Developed React and Material UI applications for customer-facing, kitchen and back-office workflows.",
+          "Implemented English, German, French and Italian localization, integrated Stripe payments and collaborated with clients on product improvements."
+        ]
+      }
+    ],
+    "contributions": {
+      "title": "Public contributions",
+      "intro": "Small tools that make everyday development feel a little smoother.",
+      "items": [
+        {
+          "id": "mui-icon-preview",
+          "role": "VS Code extension · Creator",
+          "headline": "See the icon, stay in the flow.",
+          "description": "An icon name tells only half the story. MUI Icon Preview brings the actual shape into VS Code with SVG previews on hover and in completions. Search the installed icon catalog and insert an import and JSX usage without breaking your coding rhythm.",
+          "detail": "Everything runs locally using the workspace’s @mui/icons-material package. No browser detour, no uploaded source code.",
+          "linkLabel": "Explore the extension",
+          "sourceLabel": "Source on GitHub"
+        },
+        {
+          "id": "http-headers-validation",
+          "role": "npm package · TypeScript contributor",
+          "headline": "A small check at the edge of every request.",
+          "description": "HTTP headers carry the details that keep web communication working. This focused utility validates header names and values, giving developers a simple way to check them before passing them along.",
+          "detail": "My contribution added TypeScript support, making this JavaScript utility easier to use in typed projects.",
+          "linkLabel": "View on npm",
+          "sourceLabel": "Source on GitHub"
+        }
+      ]
+    },
+    "collaborationTitle": "End-to-end ownership & collaborative delivery",
+    "collaborationParagraphs": [
+      "I am comfortable taking a project from an initial idea to a working product, connecting business goals with technical decisions and carrying the work through architecture, implementation, release and production support. I bring the independence to move things forward, the judgment to make trade-offs explicit and the accountability to stay involved beyond the first delivery.",
+      "I work effectively both independently and within small, focused teams, larger engineering organizations and environments where several teams contribute to the same product ecosystem. I adapt to the context: working hands-on across the stack, developing shared capabilities or coordinating dependencies with the people who build on them. My focus is on making individual contributions fit into a coherent, maintainable whole.",
+      "For me, collaboration means creating clarity around priorities, surfacing risks early and turning technical complexity into decisions people can act on. I work with product owners, designers, engineers and solution architects to shape practical implementation plans, share context and keep delivery aligned with the product’s needs. Through code reviews, mentoring, onboarding and clear documentation, I help knowledge travel across team boundaries and support continuity as the product evolves."
+    ]
+  },
+  "homeContent": {
+    "overviewLabel": "A little context",
+    "overviewTitle": "From a product idea to a system people can use.",
+    "overviewDescription": "My work connects interfaces, backend services and cloud infrastructure. I enjoy understanding the whole picture and turning it into clear, practical solutions.",
+    "areas": [
+      {
+        "title": "Web applications",
+        "description": "Responsive interfaces, reusable components and connected user experiences."
+      },
+      {
+        "title": "Cloud & backend",
+        "description": "APIs, serverless services and the infrastructure behind the product."
+      },
+      {
+        "title": "Product development",
+        "description": "Bringing frontend, backend and delivery together, from idea to production."
+      }
+    ],
+    "approachTitle": "How I approach a project",
+    "steps": [
+      {
+        "title": "Understand the problem",
+        "description": "Start with the people, the goals and the constraints. Make sure we are solving the right problem."
+      },
+      {
+        "title": "Build with intention",
+        "description": "Choose a practical direction, keep communication clear and build in manageable steps."
+      },
+      {
+        "title": "Keep improving",
+        "description": "Listen to feedback, refine the experience and stay involved after the release."
+      }
+    ],
+    "personalLabel": "Beyond the code",
+    "personalTitle": "Away from the screen. Out in the world.",
+    "personalDescription": "Outside of software, I enjoy being active and spending time outdoors. Running, cycling, swimming, lifting weights or simply taking a walk — I like making room for movement and time in nature.",
+    "activities": [
+      {
+        "id": "running",
+        "label": "Running"
+      },
+      {
+        "id": "cycling",
+        "label": "Cycling"
+      },
+      {
+        "id": "swimming",
+        "label": "Swimming"
+      },
+      {
+        "id": "weights",
+        "label": "Weight training"
+      },
+      {
+        "id": "walking",
+        "label": "Walking"
+      },
+      {
+        "id": "nature",
+        "label": "Time in nature"
+      }
+    ],
+    "personalNoteTitle": "Different activities. A change of scenery.",
+    "personalNote": "Some days it’s a workout, others it’s just a walk and fresh air. There’s room for both."
+  }
+}

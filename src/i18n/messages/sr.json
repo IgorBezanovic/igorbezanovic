@@ -1,0 +1,180 @@
+{
+  "role": "Softverski inženjer",
+  "heroTitle": "Ćao, ja sam Igor. Razvijam softver koji povezuje stvari.",
+  "intro": "Softverski inženjer koji razvija web aplikacije, cloud sisteme i digitalne proizvode. Od prve ideje do detalja koji čine da sve radi.",
+  "home": "Početna",
+  "experience": "Iskustvo",
+  "project": "Zatraži projekat",
+  "contact": "Kontakt",
+  "servicesTitle": "Šta mogu da razvijem za vas",
+  "webTitle": "Web aplikacije",
+  "webDescription": "Interfejsi i funkcionalnosti prilagođeni vašem proizvodu.",
+  "productTitle": "Digitalni proizvodi",
+  "productDescription": "Od početne ideje do upotrebljivog softverskog proizvoda.",
+  "ctaTitle": "Razgovarajmo o vašem sledećem projektu.",
+  "ctaDescription": "Podelite svoju ideju i zajedno ćemo razmotriti naredne korake.",
+  "experienceTitle": "Iskustvo i projekti",
+  "experienceDescription": "Full-stack razvoj, AWS i Azure serverless sistemi, AI integracije i tehničko vođstvo.",
+  "projectTitle": "Pokrenimo projekat",
+  "projectDescription": "Opišite ideju, ciljeve i očekivani rok.",
+  "contactTitle": "Stupimo u kontakt",
+  "contactDescription": "Imate pitanje ili ideju za projekat? Pošaljite mi email.",
+  "nameLabel": "Vaše ime",
+  "emailLabel": "Vaš email",
+  "detailsLabel": "Detalji projekta",
+  "submit": "Otvori email nacrt",
+  "formHint": "Otvara vaš email program sa nacrtom. Ništa se ne šalje automatski.",
+  "languageLabel": "Izaberi jezik",
+  "skip": "Pređi na sadržaj",
+  "explore": "Pogledaj moje iskustvo",
+  "seoDescription": "Softverski inženjer za razvoj web aplikacija i digitalnih proizvoda.",
+  "draftReady": "Email nacrt je pripremljen. Dopunite ga i pošaljite iz svog email programa.",
+  "experienceContent": {
+    "role": "Softverski inženjer",
+    "overview": "Razvijam web aplikacije kroz frontend, backend i cloud infrastrukturu. Moje iskustvo obuhvata enterprise sisteme, digitalne medije, marketplace platforme i trgovinu, uz fokus na višekratno upotrebljivu arhitekturu, pouzdanu isporuku i stabilnost u produkciji.",
+    "workTitle": "Odabrano inženjersko iskustvo",
+    "skillsTitle": "Tehnologije i alati",
+    "cards": [
+      {
+        "id": "enterprise",
+        "title": "Enterprise aplikacije i zajedničke platforme",
+        "focus": "Full-stack razvoj",
+        "highlights": [
+          "Razvijao sam funkcionalnosti za daljinsko upravljanje uređajima i operativne procese, uključujući granularnu kontrolu pristupa po ulogama i zajedničke React/MUI komponente za više aplikacija.",
+          "Smanjivao sam suvišne API pozive, uvodio paralelno izvršavanje backend operacija, optimizovao Redis pretrage i dizajnirao Azure Durable Functions tokove za održavanje i deployment."
+        ]
+      },
+      {
+        "id": "serverless",
+        "title": "Serverless sistemi i modernizacija clouda",
+        "focus": "Backend i cloud inženjerstvo",
+        "highlights": [
+          "Vodio sam i automatizovao migraciju sa JavaScripta na TypeScript kroz 36 repozitorijuma i više od 150 AWS Lambda funkcija, uz prelazak na AWS SDK v3.",
+          "Razvijao sam GraphQL servise i infrastrukturu kroz kod, standardizovao zajedničke modele i upis podataka kroz NPM pakete i održavao monitoring, obaveštenja i CI/CD procese."
+        ]
+      },
+      {
+        "id": "marketplace",
+        "title": "Marketplace sa AI funkcionalnostima",
+        "focus": "Razvoj proizvoda i tehnička odgovornost",
+        "highlights": [
+          "Bio sam odgovoran za frontend, backend, podatke, cloud deployment i produkcijsku podršku; migrirao sam frontend na Next.js radi serverskog renderovanja i tehničkog SEO-a.",
+          "Integrisao sam AI generisanje opisa proizvoda i proveru sadržaja, kao i objedinjenu pretragu proizvoda, događaja i korisnika."
+        ]
+      },
+      {
+        "id": "commerce",
+        "title": "E-commerce za više tržišta",
+        "focus": "Razvoj internet prodavnica",
+        "highlights": [
+          "Održavao sam Magento Enterprise prodavnice u 22 zemlje, razvijajući responzivne šablone i zajedničke funkcionalnosti.",
+          "Razvijao sam mobilnu navigaciju i sarađivao sa dizajnerima na doslednom, lokalizovanom korisničkom iskustvu."
+        ]
+      },
+      {
+        "id": "hospitality",
+        "title": "Aplikacije za ugostiteljstvo",
+        "focus": "Frontend razvoj",
+        "highlights": [
+          "Razvijao sam React i Material UI aplikacije za korisnike, kuhinju i administrativne procese.",
+          "Implementirao sam englesku, nemačku, francusku i italijansku lokalizaciju, integrisao Stripe plaćanja i sarađivao sa klijentima na unapređenju proizvoda."
+        ]
+      }
+    ],
+    "contributions": {
+      "title": "Javni doprinosi",
+      "intro": "Mali alati koji svakodnevni razvoj čine jednostavnijim i prijatnijim.",
+      "items": [
+        {
+          "id": "mui-icon-preview",
+          "role": "VS Code ekstenzija · Autor",
+          "headline": "Vidi ikonu, ostani u toku.",
+          "description": "Naziv ikone govori samo pola priče. MUI Icon Preview prikazuje njen stvarni izgled direktno u VS Code-u, kroz SVG pregled na hoveru i u predlozima za dopunu koda. Pretraži instalirane ikone i ubaci import i JSX bez prekidanja ritma rada.",
+          "detail": "Sve radi lokalno, koristeći @mui/icons-material iz projekta. Bez odlaska u browser i bez slanja izvornog koda.",
+          "linkLabel": "Pogledaj ekstenziju",
+          "sourceLabel": "Kod na GitHub-u"
+        },
+        {
+          "id": "http-headers-validation",
+          "role": "npm paket · TypeScript doprinos",
+          "headline": "Mala provera na putu svakog zahteva.",
+          "description": "HTTP zaglavlja nose detalje koji omogućavaju komunikaciju na webu. Ovaj namenski alat proverava nazive i vrednosti zaglavlja i pruža jednostavan način da se provere pre daljeg prosleđivanja.",
+          "detail": "Moj doprinos je dodavanje TypeScript podrške, kako bi se ovaj JavaScript alat lakše koristio u tipiziranim projektima.",
+          "linkLabel": "Pogledaj na npm-u",
+          "sourceLabel": "Kod na GitHub-u"
+        }
+      ]
+    },
+    "collaborationTitle": "Odgovornost za ceo projekat i timska saradnja",
+    "collaborationParagraphs": [
+      "Imam iskustvo da samostalno nosim projekat od početne ideje do funkcionalnog proizvoda, povezujući poslovne ciljeve sa tehničkim odlukama i prateći realizaciju kroz arhitekturu, razvoj, puštanje u rad i produkcijsku podršku. Donosim samostalnost da stvari pomerim napred, sposobnost da jasno sagledam kompromise i odgovornost koja se ne završava prvom isporukom.",
+      "Podjednako se dobro snalazim u samostalnom radu, malim fokusiranim timovima, velikim inženjerskim organizacijama i okruženjima u kojima više timova gradi isti ekosistem proizvoda. Prilagođavam se potrebama projekta: od praktičnog rada kroz ceo stack, preko razvoja zajedničkih komponenti i servisa, do usklađivanja zavisnosti sa timovima koji ih koriste. Važno mi je da pojedinačna rešenja postanu deo povezane celine koju je moguće pouzdano razvijati i održavati.",
+      "Za mene saradnja znači jasne prioritete, rano prepoznavanje rizika i pretvaranje tehničke složenosti u konkretne odluke i naredne korake. Sa product ownerima, dizajnerima, inženjerima i arhitektama oblikujem izvodljive planove, delim kontekst i usklađujem isporuku sa potrebama proizvoda. Kroz pregled koda, mentorstvo, uvođenje kolega u projekat i jasnu dokumentaciju doprinosim tome da znanje ne ostane unutar jednog tima i da razvoj zadrži kontinuitet kako proizvod raste."
+    ]
+  },
+  "homeContent": {
+    "overviewLabel": "Ukratko o mom radu",
+    "overviewTitle": "Od ideje do sistema koji ljudi mogu da koriste.",
+    "overviewDescription": "Moj rad povezuje interfejse, backend servise i cloud infrastrukturu. Volim da razumem celu sliku i pretvorim je u jasna, praktična rešenja.",
+    "areas": [
+      {
+        "title": "Web aplikacije",
+        "description": "Responzivni interfejsi, višekratno upotrebljive komponente i povezano korisničko iskustvo."
+      },
+      {
+        "title": "Cloud i backend",
+        "description": "API-ji, serverless servisi i infrastruktura na kojoj proizvod radi."
+      },
+      {
+        "title": "Razvoj proizvoda",
+        "description": "Povezivanje frontenda, backenda i isporuke, od ideje do produkcije."
+      }
+    ],
+    "approachTitle": "Kako pristupam projektu",
+    "steps": [
+      {
+        "title": "Razumeti problem",
+        "description": "Poći od ljudi, ciljeva i ograničenja. Proveriti da rešavamo pravi problem."
+      },
+      {
+        "title": "Razvijati sa jasnim ciljem",
+        "description": "Izabrati praktičan pravac, jasno komunicirati i razvijati kroz ostvarive korake."
+      },
+      {
+        "title": "Nastaviti unapređivanje",
+        "description": "Slušati povratne informacije, unapređivati iskustvo i ostati uključen nakon puštanja u rad."
+      }
+    ],
+    "personalLabel": "Van sveta koda",
+    "personalTitle": "Dalje od ekrana. Bliže prirodi.",
+    "personalDescription": "Van softvera, volim aktivnosti i boravak na otvorenom. Trčanje, biciklizam, plivanje, dizanje tegova ili jednostavno šetnja — volim da ostavim prostor za kretanje i vreme u prirodi.",
+    "activities": [
+      {
+        "id": "running",
+        "label": "Trčanje"
+      },
+      {
+        "id": "cycling",
+        "label": "Biciklizam"
+      },
+      {
+        "id": "swimming",
+        "label": "Plivanje"
+      },
+      {
+        "id": "weights",
+        "label": "Dizanje tegova"
+      },
+      {
+        "id": "walking",
+        "label": "Šetnja"
+      },
+      {
+        "id": "nature",
+        "label": "Boravak u prirodi"
+      }
+    ],
+    "personalNoteTitle": "Različite aktivnosti. Promena okruženja.",
+    "personalNote": "Nekad je to trening, nekad samo šetnja i svež vazduh. Ima mesta i za jedno i za drugo."
+  }
+}

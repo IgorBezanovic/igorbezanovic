@@ -1,0 +1,180 @@
+{
+  "role": "Softwareentwickler",
+  "heroTitle": "Hallo, ich bin Igor. Ich entwickle Software, die Zusammenhänge schafft.",
+  "intro": "Softwareentwickler für Webanwendungen, Cloud-Systeme und digitale Produkte. Von der ersten Idee bis zu den Details, die alles zum Laufen bringen.",
+  "home": "Startseite",
+  "experience": "Erfahrung",
+  "project": "Projekt anfragen",
+  "contact": "Kontakt",
+  "servicesTitle": "Was ich für Sie entwickeln kann",
+  "webTitle": "Webanwendungen",
+  "webDescription": "Oberflächen und Funktionen, die zu Ihrem Produkt passen.",
+  "productTitle": "Digitale Produkte",
+  "productDescription": "Von der ersten Idee zu einem nutzbaren Softwareprodukt.",
+  "ctaTitle": "Sprechen wir über Ihr nächstes Projekt.",
+  "ctaDescription": "Erzählen Sie mir von Ihrer Idee, und wir besprechen die nächsten Schritte.",
+  "experienceTitle": "Erfahrung und Projekte",
+  "experienceDescription": "Full-Stack-Entwicklung, serverlose Systeme mit AWS und Azure, KI-Integrationen und technische Führung.",
+  "projectTitle": "Ein Projekt starten",
+  "projectDescription": "Beschreiben Sie Ihre Idee, Ziele und den gewünschten Zeitrahmen.",
+  "contactTitle": "Kontakt aufnehmen",
+  "contactDescription": "Eine Frage oder eine Projektidee? Schreiben Sie mir eine E-Mail.",
+  "nameLabel": "Ihr Name",
+  "emailLabel": "Ihre E-Mail-Adresse",
+  "detailsLabel": "Projektdetails",
+  "submit": "E-Mail-Entwurf öffnen",
+  "formHint": "Öffnet Ihr E-Mail-Programm mit einem Entwurf. Es wird nichts automatisch versendet.",
+  "languageLabel": "Sprache wählen",
+  "skip": "Zum Inhalt springen",
+  "explore": "Meine Erfahrung ansehen",
+  "seoDescription": "Softwareentwickler für Webanwendungen und digitale Produkte.",
+  "draftReady": "E-Mail-Entwurf vorbereitet. Ergänzen und senden Sie ihn in Ihrem E-Mail-Programm.",
+  "experienceContent": {
+    "role": "Softwareentwickler",
+    "overview": "Ich entwickle Webanwendungen vom Frontend über das Backend bis zur Cloud-Infrastruktur. Meine Erfahrung umfasst Unternehmenssysteme, digitale Medien, Marktplätze und Handel, mit Fokus auf wiederverwendbare Architektur, zuverlässige Auslieferung und stabilen Betrieb.",
+    "workTitle": "Ausgewählte Entwicklungserfahrung",
+    "skillsTitle": "Technologien und Werkzeuge",
+    "cards": [
+      {
+        "id": "enterprise",
+        "title": "Unternehmensanwendungen und gemeinsame Plattformen",
+        "focus": "Full-Stack-Entwicklung",
+        "highlights": [
+          "Entwicklung von Funktionen für die Fernverwaltung von Geräten und betriebliche Abläufe, einschließlich granularer rollenbasierter Zugriffskontrolle und gemeinsam genutzter React/MUI-Komponenten.",
+          "Reduzierung redundanter API-Aufrufe, parallele Backend-Ausführung, Optimierung von Redis-Scans und Entwicklung von Azure-Durable-Functions-Abläufen für Wartung und Bereitstellung."
+        ]
+      },
+      {
+        "id": "serverless",
+        "title": "Serverlose Systeme und Cloud-Modernisierung",
+        "focus": "Backend- und Cloud-Entwicklung",
+        "highlights": [
+          "Leitung und Automatisierung der Migration von JavaScript zu TypeScript in 36 Repositorys und mehr als 150 AWS-Lambda-Funktionen sowie Modernisierung auf AWS SDK v3.",
+          "Entwicklung von GraphQL-Diensten und Infrastructure as Code, Standardisierung gemeinsamer Modelle und Datenpersistenz durch NPM-Pakete sowie Pflege von Monitoring, Alarmierung und CI/CD."
+        ]
+      },
+      {
+        "id": "marketplace",
+        "title": "KI-gestützter Marktplatz",
+        "focus": "Produktentwicklung und technische Verantwortung",
+        "highlights": [
+          "Verantwortung für Frontend, Backend, Daten, Cloud-Bereitstellung und Produktionssupport; Migration des Frontends zu Next.js für serverseitiges Rendering und technische SEO.",
+          "Integration KI-generierter Produktbeschreibungen und Inhaltsprüfung sowie Entwicklung einer gemeinsamen Suche über Produkte, Veranstaltungen und Nutzer."
+        ]
+      },
+      {
+        "id": "commerce",
+        "title": "E-Commerce für mehrere Märkte",
+        "focus": "Shop-Entwicklung",
+        "highlights": [
+          "Pflege von Magento-Enterprise-Shops in 22 Ländern mit responsiven Vorlagen und gemeinsam genutzten Shop-Funktionen.",
+          "Entwicklung mobiler Navigation und Zusammenarbeit mit Designern für konsistente, lokalisierte Kundenerlebnisse."
+        ]
+      },
+      {
+        "id": "hospitality",
+        "title": "Anwendungen für die Gastronomie",
+        "focus": "Frontend-Entwicklung",
+        "highlights": [
+          "Entwicklung von React- und Material-UI-Anwendungen für Kunden, Küche und Backoffice.",
+          "Umsetzung englischer, deutscher, französischer und italienischer Lokalisierung, Integration von Stripe-Zahlungen und gemeinsame Produktverbesserungen mit Kunden."
+        ]
+      }
+    ],
+    "contributions": {
+      "title": "Öffentliche Beiträge",
+      "intro": "Kleine Werkzeuge, die den Entwicklungsalltag angenehmer machen.",
+      "items": [
+        {
+          "id": "mui-icon-preview",
+          "role": "VS-Code-Erweiterung · Autor",
+          "headline": "Das Icon sehen, im Arbeitsfluss bleiben.",
+          "description": "Ein Icon-Name erzählt nur die halbe Geschichte. MUI Icon Preview zeigt die tatsächliche Form direkt in VS Code: als SVG-Vorschau beim Hover und in der Codevervollständigung. Installierte Icons lassen sich durchsuchen und mit Import und JSX einfügen, ohne den Arbeitsfluss zu unterbrechen.",
+          "detail": "Alles läuft lokal mit dem @mui/icons-material-Paket des Projekts. Kein Umweg über den Browser, kein Hochladen von Quellcode.",
+          "linkLabel": "Erweiterung entdecken",
+          "sourceLabel": "Quellcode auf GitHub"
+        },
+        {
+          "id": "http-headers-validation",
+          "role": "npm-Paket · TypeScript-Beitrag",
+          "headline": "Eine kleine Prüfung für jeden Request.",
+          "description": "HTTP-Header transportieren die Details der Webkommunikation. Dieses kompakte Werkzeug validiert Namen und Werte von Headern und ermöglicht eine einfache Prüfung vor der Weitergabe.",
+          "detail": "Mein Beitrag ergänzte TypeScript-Unterstützung und erleichtert die Nutzung dieses JavaScript-Werkzeugs in typisierten Projekten.",
+          "linkLabel": "Auf npm ansehen",
+          "sourceLabel": "Quellcode auf GitHub"
+        }
+      ]
+    },
+    "collaborationTitle": "Verantwortung von der Idee bis zum Betrieb und Zusammenarbeit",
+    "collaborationParagraphs": [
+      "Ich habe Erfahrung darin, Projekte eigenständig von der ersten Idee bis zum funktionierenden Produkt zu begleiten. Dabei verbinde ich Geschäftsziele mit technischen Entscheidungen und übernehme Verantwortung für Architektur, Umsetzung, Veröffentlichung und Produktionssupport. Ich bringe die Selbstständigkeit mit, Vorhaben voranzutreiben, Zielkonflikte transparent zu machen und auch nach der ersten Auslieferung Verantwortung zu tragen.",
+      "Ich arbeite sowohl eigenständig als auch in kleinen, fokussierten Teams, großen Entwicklungsorganisationen und Umgebungen, in denen mehrere Teams zu einem gemeinsamen Produktökosystem beitragen. Meine Rolle passe ich dem Bedarf an: praktische Entwicklung über den gesamten Stack, Aufbau gemeinsam genutzter Komponenten und Dienste oder Abstimmung von Abhängigkeiten mit anderen Teams. Einzelne Beiträge sollen zu einem schlüssigen, wartbaren Ganzen werden.",
+      "Zusammenarbeit bedeutet für mich, Prioritäten zu klären, Risiken früh anzusprechen und technische Komplexität in umsetzbare Entscheidungen zu übersetzen. Mit Product Ownern, Designern, Entwicklern und Softwarearchitekten erarbeite ich praktikable Pläne, teile Kontext und richte die Umsetzung an den Produktanforderungen aus. Durch Code-Reviews, Mentoring, Einarbeitung und klare Dokumentation unterstütze ich den Wissenstransfer über Teamgrenzen hinweg und die kontinuierliche Weiterentwicklung des Produkts."
+    ]
+  },
+  "homeContent": {
+    "overviewLabel": "Ein wenig Hintergrund",
+    "overviewTitle": "Von der Produktidee zum nutzbaren System.",
+    "overviewDescription": "Meine Arbeit verbindet Oberflächen, Backend-Dienste und Cloud-Infrastruktur. Ich verstehe gern das Gesamtbild und übersetze es in klare, praktische Lösungen.",
+    "areas": [
+      {
+        "title": "Webanwendungen",
+        "description": "Responsive Oberflächen, wiederverwendbare Komponenten und stimmige Nutzererlebnisse."
+      },
+      {
+        "title": "Cloud und Backend",
+        "description": "APIs, serverlose Dienste und die Infrastruktur hinter dem Produkt."
+      },
+      {
+        "title": "Produktentwicklung",
+        "description": "Frontend, Backend und Auslieferung zusammenbringen, von der Idee bis zum Betrieb."
+      }
+    ],
+    "approachTitle": "Mein Vorgehen im Projekt",
+    "steps": [
+      {
+        "title": "Das Problem verstehen",
+        "description": "Mit Menschen, Zielen und Rahmenbedingungen beginnen. Sicherstellen, dass wir das richtige Problem lösen."
+      },
+      {
+        "title": "Mit klarem Ziel entwickeln",
+        "description": "Eine praktikable Richtung wählen, klar kommunizieren und in überschaubaren Schritten entwickeln."
+      },
+      {
+        "title": "Kontinuierlich verbessern",
+        "description": "Feedback aufnehmen, das Erlebnis verfeinern und nach der Veröffentlichung eingebunden bleiben."
+      }
+    ],
+    "personalLabel": "Abseits des Codes",
+    "personalTitle": "Weg vom Bildschirm. Hinaus ins Freie.",
+    "personalDescription": "Neben der Softwareentwicklung bin ich gern aktiv und draußen. Laufen, Radfahren, Schwimmen, Krafttraining oder einfach Spazierengehen — ich nehme mir gern Zeit für Bewegung und Natur.",
+    "activities": [
+      {
+        "id": "running",
+        "label": "Laufen"
+      },
+      {
+        "id": "cycling",
+        "label": "Radfahren"
+      },
+      {
+        "id": "swimming",
+        "label": "Schwimmen"
+      },
+      {
+        "id": "weights",
+        "label": "Krafttraining"
+      },
+      {
+        "id": "walking",
+        "label": "Spazierengehen"
+      },
+      {
+        "id": "nature",
+        "label": "Zeit in der Natur"
+      }
+    ],
+    "personalNoteTitle": "Verschiedene Aktivitäten. Ein Tapetenwechsel.",
+    "personalNote": "Manchmal ist es ein Training, manchmal nur ein Spaziergang an der frischen Luft. Beides hat seinen Platz."
+  }
+}

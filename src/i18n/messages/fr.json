@@ -1,0 +1,180 @@
+{
+  "role": "Ingénieur logiciel",
+  "heroTitle": "Bonjour, moi c’est Igor. Je développe des logiciels qui relient les idées.",
+  "intro": "Ingénieur logiciel spécialisé dans les applications web, les systèmes cloud et les produits numériques. De la première idée aux détails qui font fonctionner l’ensemble.",
+  "home": "Accueil",
+  "experience": "Expérience",
+  "project": "Proposer un projet",
+  "contact": "Contact",
+  "servicesTitle": "Ce que je peux développer pour vous",
+  "webTitle": "Applications web",
+  "webDescription": "Des interfaces et fonctionnalités adaptées à votre produit.",
+  "productTitle": "Produits numériques",
+  "productDescription": "De l’idée initiale à un produit logiciel utilisable.",
+  "ctaTitle": "Parlons de votre prochain projet.",
+  "ctaDescription": "Présentez-moi votre idée et explorons les prochaines étapes.",
+  "experienceTitle": "Expérience et projets",
+  "experienceDescription": "Développement full-stack, systèmes serverless AWS et Azure, intégrations IA et leadership technique.",
+  "projectTitle": "Lancer un projet",
+  "projectDescription": "Décrivez votre idée, vos objectifs et le calendrier envisagé.",
+  "contactTitle": "Contactez-moi",
+  "contactDescription": "Une question ou une idée de projet ? Envoyez-moi un email.",
+  "nameLabel": "Votre nom",
+  "emailLabel": "Votre email",
+  "detailsLabel": "Détails du projet",
+  "submit": "Ouvrir le brouillon",
+  "formHint": "Ouvre votre logiciel de messagerie avec un brouillon. Rien n’est envoyé automatiquement.",
+  "languageLabel": "Choisir la langue",
+  "skip": "Aller au contenu",
+  "explore": "Découvrir mon expérience",
+  "seoDescription": "Ingénieur logiciel spécialisé dans les applications web et les produits numériques.",
+  "draftReady": "Brouillon préparé. Complétez-le et envoyez-le depuis votre logiciel de messagerie.",
+  "experienceContent": {
+    "role": "Ingénieur logiciel",
+    "overview": "Je développe des applications web du frontend au backend et à l’infrastructure cloud. Mon expérience couvre les systèmes d’entreprise, les médias numériques, les places de marché et le commerce, avec un souci d’architecture réutilisable, de livraison fiable et de stabilité en production.",
+    "workTitle": "Expériences de développement sélectionnées",
+    "skillsTitle": "Technologies et outils",
+    "cards": [
+      {
+        "id": "enterprise",
+        "title": "Applications d’entreprise et plateformes partagées",
+        "focus": "Développement full-stack",
+        "highlights": [
+          "Développement de fonctionnalités de gestion à distance des appareils et de processus opérationnels, avec contrôle d’accès granulaire par rôle et composants React/MUI partagés entre applications.",
+          "Réduction des appels API redondants, exécution parallèle côté backend, optimisation des parcours Redis et conception de workflows Azure Durable Functions pour la maintenance et les déploiements."
+        ]
+      },
+      {
+        "id": "serverless",
+        "title": "Systèmes serverless et modernisation cloud",
+        "focus": "Développement backend et cloud",
+        "highlights": [
+          "Pilotage et automatisation de la migration de JavaScript vers TypeScript sur 36 dépôts et plus de 150 fonctions AWS Lambda, avec modernisation vers AWS SDK v3.",
+          "Développement de services GraphQL et d’infrastructure sous forme de code, standardisation des modèles et de la persistance via des paquets NPM, maintenance du suivi de production, des alertes et de la CI/CD."
+        ]
+      },
+      {
+        "id": "marketplace",
+        "title": "Place de marché assistée par IA",
+        "focus": "Développement produit et responsabilité technique",
+        "highlights": [
+          "Responsabilité du frontend, du backend, des données, du déploiement cloud et du support en production ; migration du frontend vers Next.js pour le rendu côté serveur et le SEO technique.",
+          "Intégration de descriptions de produits générées par IA et de validation des contenus, avec recherche unifiée sur les produits, événements et utilisateurs."
+        ]
+      },
+      {
+        "id": "commerce",
+        "title": "E-commerce sur plusieurs marchés",
+        "focus": "Développement de boutiques en ligne",
+        "highlights": [
+          "Maintenance de boutiques Magento Enterprise dans 22 pays, avec création de modèles adaptatifs et de fonctionnalités partagées.",
+          "Développement de la navigation mobile et collaboration avec les designers pour des expériences client cohérentes et localisées."
+        ]
+      },
+      {
+        "id": "hospitality",
+        "title": "Applications pour la restauration",
+        "focus": "Développement frontend",
+        "highlights": [
+          "Développement d’applications React et Material UI pour les clients, la cuisine et le back-office.",
+          "Localisation en anglais, allemand, français et italien, intégration des paiements Stripe et collaboration avec les clients pour améliorer le produit."
+        ]
+      }
+    ],
+    "contributions": {
+      "title": "Contributions publiques",
+      "intro": "De petits outils pour rendre le développement quotidien plus fluide.",
+      "items": [
+        {
+          "id": "mui-icon-preview",
+          "role": "Extension VS Code · Créateur",
+          "headline": "Voir l’icône, garder le rythme.",
+          "description": "Le nom d’une icône ne raconte que la moitié de l’histoire. MUI Icon Preview en révèle la forme directement dans VS Code, avec des aperçus SVG au survol et dans les suggestions de complétion. Recherchez les icônes installées et insérez leur import et leur JSX sans interrompre votre travail.",
+          "detail": "Tout fonctionne localement avec le paquet @mui/icons-material du projet. Aucun détour par le navigateur, aucun envoi du code source.",
+          "linkLabel": "Découvrir l’extension",
+          "sourceLabel": "Code sur GitHub"
+        },
+        {
+          "id": "http-headers-validation",
+          "role": "Paquet npm · Contribution TypeScript",
+          "headline": "Une petite vérification sur le chemin de chaque requête.",
+          "description": "Les en-têtes HTTP transportent les détails de la communication web. Cet utilitaire ciblé valide leurs noms et leurs valeurs, avec un moyen simple de les vérifier avant de les transmettre.",
+          "detail": "Ma contribution a ajouté le support de TypeScript, facilitant l’utilisation de cet utilitaire JavaScript dans les projets typés.",
+          "linkLabel": "Voir sur npm",
+          "sourceLabel": "Code sur GitHub"
+        }
+      ]
+    },
+    "collaborationTitle": "Responsabilité de bout en bout et collaboration entre équipes",
+    "collaborationParagraphs": [
+      "J’ai l’expérience nécessaire pour porter un projet de manière autonome, de l’idée initiale à un produit fonctionnel, en reliant les objectifs métier aux décisions techniques et en suivant l’architecture, la réalisation, la mise en production et le support. J’apporte l’autonomie pour faire avancer le travail, le discernement pour expliciter les compromis et une responsabilité qui se poursuit après la première livraison.",
+      "Je travaille aussi bien en autonomie qu’au sein de petites équipes ciblées, de grandes organisations d’ingénierie ou d’environnements où plusieurs équipes contribuent au même écosystème produit. J’adapte mon rôle au contexte : développement sur l’ensemble de la stack, création de composants et services partagés ou coordination des dépendances avec les autres équipes. Mon objectif est de faire converger les contributions individuelles vers un ensemble cohérent et maintenable.",
+      "Pour moi, collaborer consiste à clarifier les priorités, signaler les risques tôt et transformer la complexité technique en décisions concrètes. Avec les product owners, designers, développeurs et architectes logiciels, je construis des plans réalistes, partage le contexte et maintiens la réalisation en phase avec les besoins du produit. Les revues de code, le mentorat, l’intégration des collègues et une documentation claire permettent de transmettre les connaissances entre équipes et de préserver la continuité du développement à mesure que le produit évolue."
+    ]
+  },
+  "homeContent": {
+    "overviewLabel": "Un peu de contexte",
+    "overviewTitle": "D’une idée de produit à un système utilisable.",
+    "overviewDescription": "Mon travail relie les interfaces, les services backend et l’infrastructure cloud. J’aime comprendre la vue d’ensemble et la transformer en solutions claires et pratiques.",
+    "areas": [
+      {
+        "title": "Applications web",
+        "description": "Interfaces adaptatives, composants réutilisables et expériences utilisateur cohérentes."
+      },
+      {
+        "title": "Cloud et backend",
+        "description": "API, services serverless et infrastructure au service du produit."
+      },
+      {
+        "title": "Développement produit",
+        "description": "Réunir frontend, backend et livraison, de l’idée à la production."
+      }
+    ],
+    "approachTitle": "Mon approche d’un projet",
+    "steps": [
+      {
+        "title": "Comprendre le problème",
+        "description": "Partir des personnes, des objectifs et des contraintes. Vérifier que nous résolvons le bon problème."
+      },
+      {
+        "title": "Développer avec intention",
+        "description": "Choisir une direction pratique, communiquer clairement et avancer par étapes maîtrisables."
+      },
+      {
+        "title": "Continuer à améliorer",
+        "description": "Écouter les retours, affiner l’expérience et rester impliqué après la mise en production."
+      }
+    ],
+    "personalLabel": "Au-delà du code",
+    "personalTitle": "Loin de l’écran. Au grand air.",
+    "personalDescription": "En dehors du logiciel, j’aime bouger et passer du temps dehors. Course à pied, vélo, natation, musculation ou simple promenade — je fais de la place au mouvement et à la nature.",
+    "activities": [
+      {
+        "id": "running",
+        "label": "Course à pied"
+      },
+      {
+        "id": "cycling",
+        "label": "Vélo"
+      },
+      {
+        "id": "swimming",
+        "label": "Natation"
+      },
+      {
+        "id": "weights",
+        "label": "Musculation"
+      },
+      {
+        "id": "walking",
+        "label": "Promenades"
+      },
+      {
+        "id": "nature",
+        "label": "Temps dans la nature"
+      }
+    ],
+    "personalNoteTitle": "Des activités variées. Un changement de décor.",
+    "personalNote": "Certains jours, un entraînement ; d’autres, une simple promenade au grand air. Il y a de la place pour les deux."
+  }
+}
