@@ -145,9 +145,10 @@
         "description": "Ascoltare i feedback, affinare l’esperienza e restare coinvolti dopo il rilascio."
       }
     ],
+    "togetherLabel": "Tempo insieme",
     "personalLabel": "Oltre il codice",
-    "personalTitle": "Lontano dallo schermo. All’aria aperta.",
-    "personalDescription": "Fuori dal mondo del software, mi piace essere attivo e stare all’aperto. Corsa, ciclismo, nuoto, sollevamento pesi o una semplice passeggiata — cerco spazio per il movimento e il tempo nella natura.",
+    "personalTitle": "Lontano dallo schermo. Vicino a famiglia e amici.",
+    "personalDescription": "Al di fuori del lavoro, il tempo con la famiglia e gli amici viene prima di tutto. Mi piace stare insieme, chiacchierare e condividere i momenti di ogni giorno. Lascio spazio anche al movimento: corsa, ciclismo, nuoto, allenamento con i pesi, passeggiate e tempo nella natura.",
     "activities": [
       {
         "id": "running",
@@ -174,7 +175,7 @@
         "label": "Tempo nella natura"
       }
     ],
-    "personalNoteTitle": "Attività diverse. Un cambio di scenario.",
-    "personalNote": "Certi giorni un allenamento, altri solo una passeggiata e aria fresca. C’è spazio per entrambi."
+    "personalNoteTitle": "Buona compagnia. Tempo per muoversi.",
+    "personalNote": "Stare con le persone care, allenarmi o fare una passeggiata tranquilla: sono le cose a cui mi piace dedicare tempo fuori dal lavoro."
   }
 }

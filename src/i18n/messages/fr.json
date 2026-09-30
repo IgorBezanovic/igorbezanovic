@@ -145,9 +145,10 @@
         "description": "Écouter les retours, affiner l’expérience et rester impliqué après la mise en production."
       }
     ],
+    "togetherLabel": "Moments ensemble",
     "personalLabel": "Au-delà du code",
-    "personalTitle": "Loin de l’écran. Au grand air.",
-    "personalDescription": "En dehors du logiciel, j’aime bouger et passer du temps dehors. Course à pied, vélo, natation, musculation ou simple promenade — je fais de la place au mouvement et à la nature.",
+    "personalTitle": "Loin de l’écran. Proche de ma famille et de mes amis.",
+    "personalDescription": "En dehors du travail, le temps passé avec ma famille et mes amis est ma priorité. J’aime me retrouver avec eux, discuter et partager les moments du quotidien. Je garde aussi du temps pour bouger : course à pied, vélo, natation, musculation, promenades et sorties dans la nature.",
     "activities": [
       {
         "id": "running",
@@ -174,7 +175,7 @@
         "label": "Temps dans la nature"
       }
     ],
-    "personalNoteTitle": "Des activités variées. Un changement de décor.",
-    "personalNote": "Certains jours, un entraînement ; d’autres, une simple promenade au grand air. Il y a de la place pour les deux."
+    "personalNoteTitle": "Bien entouré. Du temps pour bouger.",
+    "personalNote": "Un moment avec mes proches, un entraînement ou une promenade au calme : voilà ce à quoi j’aime consacrer du temps en dehors du travail."
   }
 }

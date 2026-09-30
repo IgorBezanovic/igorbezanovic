@@ -12,6 +12,7 @@ type ContributionCardProps = {
   linkLabel: string;
   sourceHref?: string;
   sourceLabel?: string;
+  articleHref?: string;
   technologies: string[];
 };
 
@@ -59,6 +60,11 @@ export function ContributionCard(props: ContributionCardProps) {
         {props.sourceHref && (
           <Link href={props.sourceHref}>
             {props.sourceLabel} <span aria-hidden="true">↗</span>
+          </Link>
+        )}
+        {props.articleHref && (
+          <Link href={props.articleHref}>
+            DEV.to <span aria-hidden="true">↗</span>
           </Link>
         )}
       </Stack>

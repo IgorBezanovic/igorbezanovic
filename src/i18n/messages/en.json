@@ -145,9 +145,10 @@
         "description": "Listen to feedback, refine the experience and stay involved after the release."
       }
     ],
+    "togetherLabel": "Time together",
     "personalLabel": "Beyond the code",
-    "personalTitle": "Away from the screen. Out in the world.",
-    "personalDescription": "Outside of software, I enjoy being active and spending time outdoors. Running, cycling, swimming, lifting weights or simply taking a walk — I like making room for movement and time in nature.",
+    "personalTitle": "Away from the screen. Close to the people I love.",
+    "personalDescription": "Outside of work, time with family and friends comes first. I enjoy being together, catching up and sharing everyday moments. I also make room for movement: running, cycling, swimming, weight training, walks and time in nature.",
     "activities": [
       {
         "id": "running",
@@ -174,7 +175,7 @@
         "label": "Time in nature"
       }
     ],
-    "personalNoteTitle": "Different activities. A change of scenery.",
-    "personalNote": "Some days it’s a workout, others it’s just a walk and fresh air. There’s room for both."
+    "personalNoteTitle": "Good company. Time to stay active.",
+    "personalNote": "Time with the people closest to me, a workout or a quiet walk — these are the things I like to make room for outside of work."
   }
 }

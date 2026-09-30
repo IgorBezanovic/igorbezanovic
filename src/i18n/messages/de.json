@@ -145,9 +145,10 @@
         "description": "Feedback aufnehmen, das Erlebnis verfeinern und nach der Veröffentlichung eingebunden bleiben."
       }
     ],
+    "togetherLabel": "Gemeinsame Zeit",
     "personalLabel": "Abseits des Codes",
-    "personalTitle": "Weg vom Bildschirm. Hinaus ins Freie.",
-    "personalDescription": "Neben der Softwareentwicklung bin ich gern aktiv und draußen. Laufen, Radfahren, Schwimmen, Krafttraining oder einfach Spazierengehen — ich nehme mir gern Zeit für Bewegung und Natur.",
+    "personalTitle": "Weg vom Bildschirm. Nah bei Familie und Freunden.",
+    "personalDescription": "Außerhalb der Arbeit steht die Zeit mit Familie und Freunden für mich an erster Stelle. Ich genieße das Zusammensein, Gespräche und gemeinsame Alltagsmomente. Auch Bewegung gehört dazu: Laufen, Radfahren, Schwimmen, Krafttraining, Spaziergänge und Zeit in der Natur.",
     "activities": [
       {
         "id": "running",
@@ -174,7 +175,7 @@
         "label": "Zeit in der Natur"
       }
     ],
-    "personalNoteTitle": "Verschiedene Aktivitäten. Ein Tapetenwechsel.",
-    "personalNote": "Manchmal ist es ein Training, manchmal nur ein Spaziergang an der frischen Luft. Beides hat seinen Platz."
+    "personalNoteTitle": "Gute Gesellschaft. Zeit für Bewegung.",
+    "personalNote": "Zeit mit den Menschen, die mir nahestehen, ein Training oder ein ruhiger Spaziergang — dafür nehme ich mir außerhalb der Arbeit gerne Zeit."
   }
 }

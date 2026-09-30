@@ -4,12 +4,15 @@ export const contributions: Record<
     name: string;
     href: string;
     sourceHref?: string;
+    articleHref?: string;
     technologies: string[];
   }
 > = {
   "mui-icon-preview": {
     name: "MUI Icon Preview",
     sourceHref: "https://github.com/IgorBezanovic/mui-icon-preview",
+    articleHref:
+      "https://dev.to/igor_bezanovic/preview-mui-icons-directly-in-vs-code-with-mui-icon-preview-16ab",
     href: "https://marketplace.visualstudio.com/items?itemName=igorbezanovic.mui-icon-preview",
     technologies: ["VS Code", "Material UI", "SVG"],
   },

@@ -145,9 +145,10 @@
         "description": "Visszajelzések meghallgatása, az élmény finomítása és részvétel a kiadás után is."
       }
     ],
+    "togetherLabel": "Együtt töltött idő",
     "personalLabel": "A kódon túl",
-    "personalTitle": "Távol a képernyőtől. Közel a természethez.",
-    "personalDescription": "A szoftverfejlesztésen kívül szeretek mozogni és a szabadban lenni. Futás, kerékpározás, úszás, súlyzós edzés vagy egyszerűen séta — szívesen szánok időt a mozgásra és a természetre.",
+    "personalTitle": "Távol a képernyőtől. Közel a családhoz és a barátokhoz.",
+    "personalDescription": "A munkán kívül a családdal és a barátokkal töltött idő az első. Szeretem az együttlétet, a beszélgetéseket és a közös hétköznapi pillanatokat. A mozgásnak is jut hely: futás, kerékpározás, úszás, súlyzós edzés, séták és idő a természetben.",
     "activities": [
       {
         "id": "running",
@@ -174,7 +175,7 @@
         "label": "Idő a természetben"
       }
     ],
-    "personalNoteTitle": "Változatos mozgás. Más környezet.",
-    "personalNote": "Van, amikor edzés, máskor csak egy séta a friss levegőn. Mindkettőnek van helye."
+    "personalNoteTitle": "Jó társaság. Idő a mozgásra.",
+    "personalNote": "Együttlét a szeretteimmel, egy edzés vagy egy nyugodt séta — ezekre szeretek időt szánni a munkán kívül."
   }
 }

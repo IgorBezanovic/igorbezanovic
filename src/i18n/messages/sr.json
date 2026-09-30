@@ -145,9 +145,10 @@
         "description": "Slušati povratne informacije, unapređivati iskustvo i ostati uključen nakon puštanja u rad."
       }
     ],
+    "togetherLabel": "Vreme zajedno",
     "personalLabel": "Van sveta koda",
-    "personalTitle": "Dalje od ekrana. Bliže prirodi.",
-    "personalDescription": "Van softvera, volim aktivnosti i boravak na otvorenom. Trčanje, biciklizam, plivanje, dizanje tegova ili jednostavno šetnja — volim da ostavim prostor za kretanje i vreme u prirodi.",
+    "personalTitle": "Dalje od ekrana. Bliže porodici i prijateljima.",
+    "personalDescription": "Van posla, na prvom mestu mi je vreme sa porodicom i prijateljima. Volim druženje, razgovore i zajedničke svakodnevne trenutke. Tu su i sportske aktivnosti: trčanje, biciklizam, plivanje, trening sa tegovima, šetnje i boravak u prirodi.",
     "activities": [
       {
         "id": "running",
@@ -174,7 +175,7 @@
         "label": "Boravak u prirodi"
       }
     ],
-    "personalNoteTitle": "Različite aktivnosti. Promena okruženja.",
-    "personalNote": "Nekad je to trening, nekad samo šetnja i svež vazduh. Ima mesta i za jedno i za drugo."
+    "personalNoteTitle": "Dobro društvo. Vreme za rekreaciju.",
+    "personalNote": "Druženje sa najbližima, trening ili mirna šetnja — to su stvari za koje volim da odvojim vreme van posla."
   }
 }
