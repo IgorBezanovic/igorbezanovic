@@ -2,7 +2,8 @@ import Link from "next/link";
 import { Container, Stack } from "@mui/material";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries";
-import { pagePath, profile } from "@/lib/site";
+import { pagePath } from "@/lib/site";
+import { BrandLogo } from "@/components/ui/brand-logo";
 import { NavigationLinks } from "./navigation-links";
 import { ThemeSwitcher } from "./theme-switcher";
 import { LanguageSwitcher } from "./language-switcher";
@@ -14,8 +15,7 @@ export function Header({ locale, t }: { locale: Locale; t: Dictionary }) {
       </a>
       <Container className="header-inner">
         <Link href={pagePath(locale)} className="brand">
-          {profile.name}
-          <span className="brand-dot">.</span>
+          <BrandLogo />
         </Link>
         <nav aria-label={t.home}>
           <NavigationLinks

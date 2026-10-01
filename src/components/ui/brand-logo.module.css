@@ -1,0 +1,34 @@
+.logo {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+  line-height: 0;
+  aspect-ratio: 6;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.dark {
+  display: none;
+}
+
+:global([data-dark]) .light {
+  display: none;
+}
+
+:global([data-dark]) .dark {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  :global(html:not([data-light]):not([data-dark])) .light {
+    display: none;
+  }
+
+  :global(html:not([data-light]):not([data-dark])) .dark {
+    display: block;
+  }
+}

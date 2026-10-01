@@ -25,7 +25,8 @@ Regression tests use Node.js 22.13+ and the built-in Node test runner. To check 
 ## Structure
 
 - `src/app/[locale]`: layouts and route composition; four pages per locale.
-- `src/components/ui`: reusable presentation primitives.
+- `src/components/ui`: reusable presentation primitives, including the theme-aware `BrandLogo` wordmark.
+- `public/images/brand`: reusable transparent WebP logos for light and dark themes; asset details and usage are in the directory README.
 - `src/components/layout`: shared header, footer and language selector.
 - `src/components/sections`: reusable content sections.
 - `src/components/forms`: interactive project inquiry form.
@@ -35,6 +36,14 @@ Regression tests use Node.js 22.13+ and the built-in Node test runner. To check 
 - `src/lib/seo.ts`: localized metadata, canonical and alternate links.
 
 Routes: `/{locale}`, `/{locale}/experience`, `/{locale}/ask-for-project`, `/{locale}/contact-me`. The language selector preserves the page. Unsupported locales/pages return 404.
+
+## Site icons
+
+The shared IB monogram is defined in `src/app/icon.svg`. Next.js automatically links it, the 96px PNG, the multi-resolution `/favicon.ico` (16, 32, 48, 96 and 256px), Apple touch icons (152, 167 and 180px), and `/manifest.webmanifest` on every localized page. `/apple-touch-icon.png` also supports devices that request the conventional root URL.
+
+The manifest supplies opaque Android and desktop icons from 192 to 512px, separate maskable icons with the lettering inside the safe circle, and Windows app/tile sizes. It keeps `display: browser`; these assets do not add offline behavior or a service worker. Regenerate raster assets with `node scripts/generate-icons.mjs` using the existing Sharp installation. Tests check dimensions, ICO entries and maskable safe areas.
+
+Search engines can discover the same stable favicon URL; each engine controls whether and when it displays the icon. Production must use the final HTTPS `SITE_URL` and allow indexing. Googlebot and Googlebot-Image must be able to access the home page and favicon. Preview and unconfigured builds intentionally remain blocked from indexing. Deployment and recrawling are required before search results can update.
 
 ## Vercel deployment and monitoring
 

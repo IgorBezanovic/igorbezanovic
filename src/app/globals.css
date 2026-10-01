@@ -30,13 +30,10 @@ main {
   flex-wrap: wrap;
 }
 .brand {
-  font-size: 1.3125rem;
-  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   text-decoration: none;
-  letter-spacing: -0.8px;
-}
-.brand-dot {
-  color: var(--mui-palette-secondary-main);
 }
 nav {
   display: flex;
