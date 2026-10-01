@@ -23,13 +23,10 @@ export function ExperienceCard({
     >
       <Stack spacing={3}>
         <Box>
-          <Typography variant="overline" color="primary">
+          <Typography variant="overline" color="secondary">
             {focus}
           </Typography>
-          <Typography
-            variant="h3"
-            sx={{ fontSize: { xs: 24, md: 28 }, mt: 1, lineHeight: 1.25 }}
-          >
+          <Typography variant="h3" sx={{ mt: 1, lineHeight: 1.25 }}>
             {title}
           </Typography>
         </Box>

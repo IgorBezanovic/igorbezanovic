@@ -1,4 +1,9 @@
 {
+  "theme": {
+    "light": "Light theme",
+    "dark": "Dark theme",
+    "system": "Use system theme"
+  },
   "role": "Software Engineer",
   "heroTitle": "Hi, I’m Igor. I build software that connects the dots.",
   "intro": "Software Engineer working across web applications, cloud systems and digital products. From the first idea to the details that make it work.",

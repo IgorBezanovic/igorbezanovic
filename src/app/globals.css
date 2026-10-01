@@ -15,11 +15,11 @@ main {
   min-height: 70vh;
 }
 :focus-visible {
-  outline: 3px solid #245d47;
+  outline: 3px solid var(--mui-palette-secondary-main);
   outline-offset: 5px;
 }
 .site-header {
-  border-bottom: 1px solid #dde2da;
+  border-bottom: 1px solid var(--mui-palette-divider);
   padding: 24px 0;
 }
 .header-inner {
@@ -30,13 +30,13 @@ main {
   flex-wrap: wrap;
 }
 .brand {
-  font-size: 21px;
+  font-size: 1.3125rem;
   font-weight: 700;
   text-decoration: none;
   letter-spacing: -0.8px;
 }
 .brand-dot {
-  color: #245d47;
+  color: var(--mui-palette-secondary-main);
 }
 nav {
   display: flex;
@@ -44,26 +44,18 @@ nav {
   gap: 22px;
 }
 nav a {
-  font-size: 14px;
+  font-size: 0.875rem;
   text-decoration: none;
 }
+nav a[aria-current="page"],
 nav a:hover {
   text-decoration: underline;
 }
-.language-select {
-  padding: 10px;
-  border: 1px solid #c1ccc2;
-  border-radius: 8px;
-  background: transparent;
-  font: inherit;
-  color: inherit;
-  max-width: 130px;
-}
 .site-footer {
   padding: 32px 0;
-  border-top: 1px solid #dde2da;
-  font-size: 14px;
-  color: #626b65;
+  border-top: 1px solid var(--mui-palette-divider);
+  font-size: 0.875rem;
+  color: var(--mui-palette-text-secondary);
 }
 .footer-inner {
   display: flex !important;
@@ -76,7 +68,7 @@ nav a:hover {
   left: 16px;
   top: -100px;
   padding: 12px;
-  background: white;
+  background: var(--mui-palette-background-paper);
   z-index: 10;
 }
 .skip-link:focus {
@@ -93,4 +85,8 @@ nav a:hover {
   html {
     scroll-behavior: auto;
   }
+}
+
+.header-controls {
+  margin-left: auto;
 }

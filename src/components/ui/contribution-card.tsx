@@ -31,17 +31,14 @@ export function ContributionCard(props: ContributionCardProps) {
       }}
     >
       <Box>
-        <Typography variant="overline" color="primary">
+        <Typography variant="overline" color="secondary">
           {props.role}
         </Typography>
-        <Typography
-          variant="h3"
-          sx={{ mt: 1, fontSize: { xs: 25, md: 30 }, overflowWrap: "anywhere" }}
-        >
+        <Typography variant="h3" sx={{ mt: 1, overflowWrap: "anywhere" }}>
           {props.name}
         </Typography>
       </Box>
-      <Typography sx={{ fontSize: 21, fontWeight: 600 }}>
+      <Typography variant="h6" component="p">
         {props.headline}
       </Typography>
       <Typography color="text.secondary" sx={{ lineHeight: 1.8 }}>

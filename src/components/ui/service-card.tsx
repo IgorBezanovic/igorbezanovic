@@ -11,10 +11,10 @@ export function ServiceCard({
 }) {
   return (
     <Paper variant="outlined" sx={{ ...cardAccentStyles, p: 4, flex: 1 }}>
-      <Typography color="primary" variant="overline">
+      <Typography color="secondary" variant="overline">
         {number}
       </Typography>
-      <Typography variant="h3" sx={{ fontSize: 26, mt: 3, mb: 2 }}>
+      <Typography variant="h3" sx={{ mt: 3, mb: 2 }}>
         {title}
       </Typography>
       <Typography color="text.secondary">{description}</Typography>

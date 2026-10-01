@@ -1,11 +1,12 @@
 import { Stack, Typography } from "@mui/material";
+import type { ReactNode } from "react";
 export function PageHeading({
   eyebrow,
   title,
   description,
 }: {
   eyebrow?: string;
-  title: string;
+  title: ReactNode;
   description: string;
 }) {
   return (
@@ -13,7 +14,7 @@ export function PageHeading({
       {eyebrow && (
         <Typography
           variant="overline"
-          color="primary"
+          color="secondary"
           sx={{ letterSpacing: "0.16em" }}
         >
           {eyebrow}
@@ -21,8 +22,10 @@ export function PageHeading({
       )}
       <Typography variant="h1">{title}</Typography>
       <Typography
+        variant="subtitle1"
+        component="p"
         color="text.secondary"
-        sx={{ fontSize: { xs: 18, md: 22 }, maxWidth: 660, lineHeight: 1.7 }}
+        sx={{ maxWidth: 660, lineHeight: 1.7 }}
       >
         {description}
       </Typography>

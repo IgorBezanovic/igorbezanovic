@@ -1,4 +1,9 @@
 {
+  "theme": {
+    "light": "Helles Design",
+    "dark": "Dunkles Design",
+    "system": "Systemdesign verwenden"
+  },
   "role": "Softwareentwickler",
   "heroTitle": "Hallo, ich bin Igor. Ich entwickle Software, die Zusammenhänge schafft.",
   "intro": "Softwareentwickler für Webanwendungen, Cloud-Systeme und digitale Produkte. Von der ersten Idee bis zu den Details, die alles zum Laufen bringen.",

@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import type { Dictionary } from "@/i18n/dictionaries";
 import type { Locale } from "@/i18n/config";
 import { pagePath } from "@/lib/site";
@@ -16,7 +16,19 @@ export function HomeContent({ locale, t }: { locale: Locale; t: Dictionary }) {
       <Section>
         <PageHeading
           eyebrow={t.role}
-          title={t.heroTitle}
+          title={t.heroTitle.split(/(\bIgor\b)/).map((part, index) =>
+            part === "Igor" ? (
+              <Box
+                key={index}
+                component="span"
+                sx={{ color: "secondary.main" }}
+              >
+                {part}
+              </Box>
+            ) : (
+              part
+            ),
+          )}
           description={t.intro}
         />
         <Stack
@@ -36,7 +48,17 @@ export function HomeContent({ locale, t }: { locale: Locale; t: Dictionary }) {
       <WorkOverview locale={locale} t={t} />
       <WorkingApproach content={t.homeContent} />
       <PublicContributions content={t.experienceContent.contributions} />
-      <BeyondCode content={t.homeContent} />
+      <BeyondCode
+        content={{
+          personalLabel: t.homeContent.personalLabel,
+          personalTitle: t.homeContent.personalTitle,
+          personalDescription: t.homeContent.personalDescription,
+          togetherLabel: t.homeContent.togetherLabel,
+          activities: t.homeContent.activities,
+          personalNoteTitle: t.homeContent.personalNoteTitle,
+          personalNote: t.homeContent.personalNote,
+        }}
+      />
       <ProjectCta locale={locale} t={t} />
     </>
   );

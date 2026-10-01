@@ -1,8 +1,10 @@
 import Link from "next/link";
-import { Container } from "@mui/material";
+import { Container, Stack } from "@mui/material";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries";
 import { pagePath, profile } from "@/lib/site";
+import { NavigationLinks } from "./navigation-links";
+import { ThemeSwitcher } from "./theme-switcher";
 import { LanguageSwitcher } from "./language-switcher";
 export function Header({ locale, t }: { locale: Locale; t: Dictionary }) {
   return (
@@ -10,18 +12,30 @@ export function Header({ locale, t }: { locale: Locale; t: Dictionary }) {
       <a href="#main" className="skip-link">
         {t.skip}
       </a>
-      <Container maxWidth="lg" className="header-inner">
+      <Container className="header-inner">
         <Link href={pagePath(locale)} className="brand">
           {profile.name}
           <span className="brand-dot">.</span>
         </Link>
         <nav aria-label={t.home}>
-          <Link href={pagePath(locale)}>{t.home}</Link>
-          <Link href={pagePath(locale, "experience")}>{t.experience}</Link>
-          <Link href={pagePath(locale, "ask-for-project")}>{t.project}</Link>
-          <Link href={pagePath(locale, "contact-me")}>{t.contact}</Link>
+          <NavigationLinks
+            links={[
+              { href: pagePath(locale), label: t.home },
+              { href: pagePath(locale, "experience"), label: t.experience },
+              { href: pagePath(locale, "ask-for-project"), label: t.project },
+              { href: pagePath(locale, "contact-me"), label: t.contact },
+            ]}
+          />
         </nav>
-        <LanguageSwitcher locale={locale} label={t.languageLabel} />
+        <Stack
+          direction="row"
+          sx={{ alignItems: "center" }}
+          spacing={1}
+          className="header-controls"
+        >
+          <ThemeSwitcher labels={t.theme} />
+          <LanguageSwitcher locale={locale} label={t.languageLabel} />
+        </Stack>
       </Container>
     </header>
   );

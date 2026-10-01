@@ -8,7 +8,7 @@ export function Section({
 }) {
   return (
     <Box component="section" id={id} sx={{ py: { xs: 6, md: 10 } }}>
-      <Container maxWidth="lg">{children}</Container>
+      <Container>{children}</Container>
     </Box>
   );
 }

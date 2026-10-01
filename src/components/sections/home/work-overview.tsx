@@ -11,13 +11,15 @@ export function WorkOverview({ locale, t }: { locale: Locale; t: Dictionary }) {
   return (
     <Section id="work-overview">
       <Stack spacing={3} sx={{ maxWidth: 800, mb: 5 }}>
-        <Typography variant="overline" color="primary">
+        <Typography variant="overline" color="secondary">
           {content.overviewLabel}
         </Typography>
         <Typography variant="h2">{content.overviewTitle}</Typography>
         <Typography
+          variant="subtitle1"
+          component="p"
           color="text.secondary"
-          sx={{ fontSize: 19, lineHeight: 1.8 }}
+          sx={{ lineHeight: 1.8 }}
         >
           {content.overviewDescription}
         </Typography>

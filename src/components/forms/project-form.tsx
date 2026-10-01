@@ -3,7 +3,17 @@ import { useState, type FormEvent } from "react";
 import { Alert, Button, Stack, TextField, Typography } from "@mui/material";
 import type { Dictionary } from "@/i18n/dictionaries";
 import { profile } from "@/lib/site";
-export function ProjectForm({ t }: { t: Dictionary }) {
+export type ProjectFormLabels = Pick<
+  Dictionary,
+  | "nameLabel"
+  | "emailLabel"
+  | "detailsLabel"
+  | "projectTitle"
+  | "formHint"
+  | "submit"
+  | "draftReady"
+>;
+export function ProjectForm({ t }: { t: ProjectFormLabels }) {
   const [prepared, setPrepared] = useState(false);
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();

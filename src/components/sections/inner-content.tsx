@@ -29,12 +29,25 @@ export function InnerContent({
           title={content[0]}
           description={content[1]}
         />
-        {page === "ask-for-project" && <ProjectForm t={t} />}
+        {page === "ask-for-project" && (
+          <ProjectForm
+            t={{
+              nameLabel: t.nameLabel,
+              emailLabel: t.emailLabel,
+              detailsLabel: t.detailsLabel,
+              projectTitle: t.projectTitle,
+              formHint: t.formHint,
+              submit: t.submit,
+              draftReady: t.draftReady,
+            }}
+          />
+        )}
         {page === "contact-me" && (
           <Typography
+            variant="h3"
+            component="p"
             sx={{
               mt: 5,
-              fontSize: { xs: 19, md: 30 },
               overflowWrap: "anywhere",
             }}
           >

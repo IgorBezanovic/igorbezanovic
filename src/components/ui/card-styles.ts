@@ -1,4 +1,4 @@
 export const cardAccentStyles = {
   borderTop: "4px solid",
-  borderTopColor: "primary.main",
+  borderTopColor: "secondary.main",
 } as const;

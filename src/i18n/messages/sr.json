@@ -1,4 +1,9 @@
 {
+  "theme": {
+    "light": "Svetla tema",
+    "dark": "Tamna tema",
+    "system": "Koristi sistemsku temu"
+  },
   "role": "Softverski inženjer",
   "heroTitle": "Ćao, ja sam Igor. Razvijam softver koji povezuje stvari.",
   "intro": "Softverski inženjer koji razvija web aplikacije, cloud sisteme i digitalne proizvode. Od prve ideje do detalja koji čine da sve radi.",

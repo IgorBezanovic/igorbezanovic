@@ -11,7 +11,7 @@ export function ProjectCta({ locale, t }: { locale: Locale; t: Dictionary }) {
         spacing={3}
         sx={{
           p: { xs: 3, md: 6 },
-          bgcolor: "#e8eee7",
+          bgcolor: "action.hover",
           borderRadius: 3,
           alignItems: "flex-start",
         }}

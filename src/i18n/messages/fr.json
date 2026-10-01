@@ -1,4 +1,9 @@
 {
+  "theme": {
+    "light": "Thème clair",
+    "dark": "Thème sombre",
+    "system": "Utiliser le thème du système"
+  },
   "role": "Ingénieur logiciel",
   "heroTitle": "Bonjour, moi c’est Igor. Je développe des logiciels qui relient les idées.",
   "intro": "Ingénieur logiciel spécialisé dans les applications web, les systèmes cloud et les produits numériques. De la première idée aux détails qui font fonctionner l’ensemble.",

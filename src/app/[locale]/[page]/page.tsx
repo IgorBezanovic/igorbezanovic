@@ -5,6 +5,7 @@ import { pages } from "@/lib/site";
 import { pageMetadata } from "@/lib/seo";
 import { InnerContent } from "@/components/sections/inner-content";
 type Props = { params: Promise<{ locale: string; page: string }> };
+export const dynamicParams = false;
 function isPage(value: string): value is (typeof pages)[number] {
   return pages.includes(value as (typeof pages)[number]);
 }

@@ -1,4 +1,9 @@
 {
+  "theme": {
+    "light": "Világos téma",
+    "dark": "Sötét téma",
+    "system": "Rendszertéma használata"
+  },
   "role": "Szoftvermérnök",
   "heroTitle": "Szia, Igor vagyok. Összekapcsolom az ötleteket a szoftverben.",
   "intro": "Webalkalmazásokkal, felhőrendszerekkel és digitális termékekkel foglalkozó szoftvermérnök. Az első ötlettől a működést biztosító részletekig.",

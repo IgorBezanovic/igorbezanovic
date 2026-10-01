@@ -14,7 +14,12 @@ export function PublicContributions({
       <Typography variant="h2" sx={{ mb: 2 }}>
         {content.title}
       </Typography>
-      <Typography color="text.secondary" sx={{ mb: 4, fontSize: 20 }}>
+      <Typography
+        variant="subtitle1"
+        component="p"
+        color="text.secondary"
+        sx={{ mb: 4 }}
+      >
         {content.intro}
       </Typography>
       <Box

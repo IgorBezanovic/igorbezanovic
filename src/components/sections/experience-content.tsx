@@ -15,8 +15,10 @@ export function ExperienceContent({
     <>
       <Section>
         <Typography
+          variant="subtitle1"
+          component="p"
           color="text.secondary"
-          sx={{ maxWidth: 850, fontSize: 20, lineHeight: 1.8, mb: 6 }}
+          sx={{ maxWidth: 850, lineHeight: 1.8, mb: 6 }}
         >
           {content.overview}
         </Typography>

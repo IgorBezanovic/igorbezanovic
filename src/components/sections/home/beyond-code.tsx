@@ -1,6 +1,11 @@
 "use client";
 
 import Image from "next/image";
+import together from "../../../../public/images/beyond-code/together.webp";
+import running from "../../../../public/images/beyond-code/running.webp";
+import cycling from "../../../../public/images/beyond-code/cycling.webp";
+import swimming from "../../../../public/images/beyond-code/swimming.webp";
+import walking from "../../../../public/images/beyond-code/walking.webp";
 import { Box, Stack, Typography } from "@mui/material";
 import type { Dictionary } from "@/i18n/dictionaries";
 import { Section } from "../../ui/section";
@@ -8,6 +13,7 @@ import { Section } from "../../ui/section";
 const photos = [
   {
     id: "together",
+    image: together,
     area: "1 / 1 / 2 / 3",
     rotation: -3,
     color: "#fff1ce",
@@ -16,6 +22,7 @@ const photos = [
   },
   {
     id: "running",
+    image: running,
     area: "1 / 3 / 2 / 4",
     rotation: 3,
     color: "#ff806b",
@@ -24,6 +31,7 @@ const photos = [
   },
   {
     id: "cycling",
+    image: cycling,
     area: "2 / 1 / 3 / 2",
     rotation: 3,
     color: "#214f40",
@@ -32,6 +40,7 @@ const photos = [
   },
   {
     id: "swimming",
+    image: swimming,
     area: "2 / 2 / 3 / 3",
     rotation: 5,
     color: "#fff1ce",
@@ -40,6 +49,7 @@ const photos = [
   },
   {
     id: "walking",
+    image: walking,
     area: "2 / 3 / 3 / 4",
     rotation: -4,
     color: "#eef0ce",
@@ -52,16 +62,28 @@ const serif = 'Georgia, "Times New Roman", serif';
 export function BeyondCode({
   content,
 }: {
-  content: Dictionary["homeContent"];
+  content: Pick<
+    Dictionary["homeContent"],
+    | "personalLabel"
+    | "personalTitle"
+    | "personalDescription"
+    | "togetherLabel"
+    | "activities"
+    | "personalNoteTitle"
+    | "personalNote"
+  >;
 }) {
   return (
     <Section id="beyond-the-code">
       <Box
-        sx={{
+        sx={(theme) => ({
           bgcolor: "#faf8f2",
           borderRadius: { xs: 3, md: 4 },
           overflow: "hidden",
-        }}
+          ...theme.applyStyles("dark", {
+            backgroundColor: "var(--mui-palette-background-paper)",
+          }),
+        })}
       >
         <Box
           sx={{
@@ -109,7 +131,7 @@ export function BeyondCode({
           >
             <Typography
               variant="overline"
-              sx={{ color: "#426c5d", letterSpacing: "0.14em" }}
+              sx={{ color: "secondary.main", letterSpacing: "0.14em" }}
             >
               {content.personalLabel}
             </Typography>
@@ -118,10 +140,9 @@ export function BeyondCode({
               sx={{
                 fontFamily: serif,
                 fontWeight: 400,
-                fontSize: { xs: "2.5rem", sm: "3.25rem", md: "3.4rem" },
                 lineHeight: 1.1,
                 letterSpacing: "-0.045em",
-                color: "#202e27",
+                color: "text.primary",
                 textWrap: "balance",
               }}
             >
@@ -129,9 +150,8 @@ export function BeyondCode({
             </Typography>
             <Typography
               sx={{
-                color: "#4b5c54",
+                color: "text.secondary",
                 lineHeight: 1.85,
-                fontSize: { xs: 16, md: 17 },
               }}
             >
               {content.personalDescription}
@@ -197,6 +217,11 @@ export function BeyondCode({
                   component="figure"
                   key={photo.id}
                   onMouseMove={(event) => {
+                    if (
+                      window.matchMedia("(prefers-reduced-motion: reduce)")
+                        .matches
+                    )
+                      return;
                     const bounds = event.currentTarget.getBoundingClientRect();
                     const image = event.currentTarget.querySelector("img");
                     if (image) {
@@ -234,7 +259,17 @@ export function BeyondCode({
                     },
                     transition:
                       "transform 280ms cubic-bezier(0.2, 0.8, 0.2, 1)",
-                    willChange: "transform",
+                    "& img": {
+                      transform: "scale(1.08)",
+                      transition:
+                        "transform 320ms cubic-bezier(0.2, 0.8, 0.2, 1), filter 320ms ease-out",
+                    },
+                    "@media (prefers-reduced-motion: reduce)": {
+                      transform: "none",
+                      transition: "none",
+                      "& img": { transition: "none", transform: "none" },
+                      "& figcaption": { transform: "none" },
+                    },
                     filter: "drop-shadow(0 12px 18px rgba(30, 55, 43, 0.16))",
                     "&:hover": {
                       filter: "drop-shadow(0 18px 24px rgba(30, 55, 43, 0.22))",
@@ -254,10 +289,10 @@ export function BeyondCode({
                     }}
                   >
                     <Image
-                      src={`/images/beyond-code/${photo.id}.webp`}
+                      src={photo.image}
                       alt=""
                       fill
-                      loading={photo.id === "together" ? "eager" : "lazy"}
+                      loading="lazy"
                       sizes={
                         photo.id === "together"
                           ? "(max-width: 600px) 90vw, (max-width: 900px) 60vw, 350px"
@@ -265,10 +300,6 @@ export function BeyondCode({
                       }
                       style={{
                         objectFit: "cover",
-                        transform: "scale(1.08)",
-                        transition:
-                          "transform 320ms cubic-bezier(0.2, 0.8, 0.2, 1), filter 320ms ease-out",
-                        willChange: "transform, filter",
                       }}
                     />
                   </Box>
@@ -362,8 +393,8 @@ export function BeyondCode({
           <Typography
             sx={{
               position: "relative",
+              typography: "h4",
               fontFamily: serif,
-              fontSize: { xs: "1.9rem", md: "2.65rem" },
               lineHeight: 1.2,
               letterSpacing: "-0.025em",
               mb: 1.5,
@@ -375,7 +406,6 @@ export function BeyondCode({
             sx={{
               position: "relative",
               color: "#e0e9dc",
-              fontSize: { xs: 16, md: 17 },
               lineHeight: 1.8,
             }}
           >

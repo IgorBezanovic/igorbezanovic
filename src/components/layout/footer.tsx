@@ -3,7 +3,7 @@ import { profile } from "@/lib/site";
 export function Footer({ role }: { role: string }) {
   return (
     <footer className="site-footer">
-      <Container maxWidth="lg" className="footer-inner">
+      <Container className="footer-inner">
         <span>
           © {new Date().getFullYear()} {profile.name} · {role}
         </span>
