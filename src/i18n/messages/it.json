@@ -120,19 +120,43 @@
   "homeContent": {
     "overviewLabel": "Un po’ di contesto",
     "overviewTitle": "Da un’idea a un sistema che le persone possono usare.",
-    "overviewDescription": "Il mio lavoro collega interfacce, servizi backend e infrastruttura cloud. Mi piace capire il quadro completo e trasformarlo in soluzioni chiare e pratiche.",
+    "overviewDescription": "Collego le parti che fanno funzionare un prodotto digitale: l’esperienza visibile agli utenti, i servizi e i dati che la sostengono e l’infrastruttura che mantiene tutto operativo. Unisco lo sviluppo pratico all’architettura, alla pianificazione tecnica e alla responsabilità sul prodotto.",
     "areas": [
       {
         "title": "Applicazioni web",
-        "description": "Interfacce responsive, componenti riutilizzabili ed esperienze utente coerenti."
+        "description": "Creo interfacce che aiutano le persone a svolgere attività concrete, collegando design, logica applicativa e dati in un’esperienza coerente su schermi e lingue differenti.",
+        "highlights": [
+          "Interfacce responsive con React e Next.js",
+          "Componenti riutilizzabili e UI condivisa",
+          "Localizzazione e flussi di dati connessi"
+        ]
       },
       {
         "title": "Cloud e backend",
-        "description": "API, servizi serverless e l’infrastruttura alla base del prodotto."
+        "description": "Progetto i servizi dietro l’esperienza: API, modelli di dati, permessi e flussi di lavoro. Li collego a un’infrastruttura cloud che sostiene un funzionamento affidabile e la crescita futura.",
+        "highlights": [
+          "API REST e GraphQL e integrazioni",
+          "Sistemi serverless su AWS e Azure",
+          "Dati, controllo degli accessi e orchestrazione"
+        ]
       },
       {
         "title": "Sviluppo del prodotto",
-        "description": "Unire frontend, backend e rilascio, dall’idea alla produzione."
+        "description": "Unisco frontend, backend e rilascio attorno agli obiettivi del prodotto. Rimango coinvolto dalla pianificazione tecnica e dall’architettura fino all’implementazione, al rilascio e al supporto in produzione.",
+        "highlights": [
+          "Architettura e pianificazione tecnica",
+          "Ricerca, pagamenti e integrazioni AI",
+          "Rilascio e supporto continuativo al prodotto"
+        ]
+      },
+      {
+        "title": "Piattaforme condivise e rilascio",
+        "description": "Creo funzionalità riutilizzabili dai team e miglioro il percorso del software verso la produzione. Documentazione chiara, rilascio automatizzato e monitoraggio rendono il sistema più comprensibile e manutenibile.",
+        "highlights": [
+          "Pacchetti condivisi e infrastruttura come codice",
+          "CI/CD, monitoraggio e avvisi",
+          "Revisione del codice, mentoring e documentazione"
+        ]
       }
     ],
     "approachTitle": "Come affronto un progetto",
@@ -193,6 +217,7 @@
       }
     ],
     "personalNoteTitle": "Buona compagnia. Tempo per muoversi.",
-    "personalNote": "Stare con le persone care, allenarmi o fare una passeggiata tranquilla: sono le cose a cui mi piace dedicare tempo fuori dal lavoro."
+    "personalNote": "Stare con le persone care, allenarmi o fare una passeggiata tranquilla: sono le cose a cui mi piace dedicare tempo fuori dal lavoro.",
+    "overviewDetail": "Lavoro su applicazioni aziendali, marketplace, e-commerce e soluzioni per la ristorazione. Che si tratti di un nuovo prodotto o di una piattaforma esistente, considero come si integrano le parti, come il team potrà mantenerle e come il sistema potrà evolvere con l’attività."
   }
 }

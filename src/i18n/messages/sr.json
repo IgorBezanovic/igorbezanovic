@@ -120,19 +120,43 @@
   "homeContent": {
     "overviewLabel": "Ukratko o mom radu",
     "overviewTitle": "Od ideje do sistema koji ljudi mogu da koriste.",
-    "overviewDescription": "Moj rad povezuje interfejse, backend servise i cloud infrastrukturu. Volim da razumem celu sliku i pretvorim je u jasna, praktična rešenja.",
+    "overviewDescription": "Povezujem delove koji čine digitalni proizvod: iskustvo koje korisnici vide, servise i podatke u pozadini i infrastrukturu koja sve održava u radu. Kombinujem praktičan razvoj softvera sa arhitekturom, tehničkim planiranjem i odgovornošću za proizvod.",
     "areas": [
       {
         "title": "Web aplikacije",
-        "description": "Responzivni interfejsi, višekratno upotrebljive komponente i povezano korisničko iskustvo."
+        "description": "Gradim interfejse koji ljudima pomažu da obave konkretne zadatke. Povezujem dizajn, logiku aplikacije i podatke u dosledno iskustvo na različitim ekranima i jezicima.",
+        "highlights": [
+          "Prilagodljivi React i Next.js interfejsi",
+          "Komponente za ponovnu upotrebu i zajednički UI",
+          "Lokalizacija i povezani tokovi podataka"
+        ]
       },
       {
         "title": "Cloud i backend",
-        "description": "API-ji, serverless servisi i infrastruktura na kojoj proizvod radi."
+        "description": "Projektujem servise koji stoje iza korisničkog iskustva: API-je, modele podataka, dozvole i procese. Povezujem ih sa cloud infrastrukturom koja podržava pouzdan rad i dalji rast.",
+        "highlights": [
+          "REST i GraphQL API-ji i integracije",
+          "Serverless sistemi na AWS-u i Azure-u",
+          "Podaci, kontrola pristupa i orkestracija"
+        ]
       },
       {
         "title": "Razvoj proizvoda",
-        "description": "Povezivanje frontenda, backenda i isporuke, od ideje do produkcije."
+        "description": "Povezujem frontend, backend i isporuku oko ciljeva proizvoda. Ostajem uključen od tehničkog planiranja i arhitekture, preko implementacije i objavljivanja, do podrške u produkciji.",
+        "highlights": [
+          "Arhitektura i planiranje implementacije",
+          "Pretraga, plaćanja i AI integracije",
+          "Objavljivanje i kontinuirana podrška proizvodu"
+        ]
+      },
+      {
+        "title": "Zajedničke platforme i isporuka",
+        "description": "Razvijam funkcionalnosti koje timovi mogu ponovo da koriste i unapređujem put softvera do produkcije. Jasna dokumentacija, automatizovana isporuka i monitoring olakšavaju razumevanje i održavanje sistema.",
+        "highlights": [
+          "Zajednički paketi i infrastruktura kao kod",
+          "CI/CD, monitoring i upozorenja",
+          "Pregledi koda, mentorstvo i dokumentacija"
+        ]
       }
     ],
     "approachTitle": "Kako pristupam projektu",
@@ -193,6 +217,7 @@
       }
     ],
     "personalNoteTitle": "Dobro društvo. Vreme za rekreaciju.",
-    "personalNote": "Druženje sa najbližima, trening ili mirna šetnja — to su stvari za koje volim da odvojim vreme van posla."
+    "personalNote": "Druženje sa najbližima, trening ili mirna šetnja — to su stvari za koje volim da odvojim vreme van posla.",
+    "overviewDetail": "Radim na poslovnim aplikacijama, platformama za trgovinu, e-trgovini i rešenjima za ugostiteljstvo. Bilo da gradim novi proizvod ili unapređujem postojeću platformu, razmišljam o tome kako se delovi uklapaju, kako će ih tim održavati i kako sistem može da prati razvoj poslovanja."
   }
 }

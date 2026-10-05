@@ -1,0 +1,142 @@
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px;
+  margin-bottom: 48px;
+}
+
+.intro .label {
+  margin-bottom: 24px;
+  font-size: 0.9375rem;
+}
+
+.intro .heading {
+  max-width: 28ch;
+  text-wrap: balance;
+}
+
+.context {
+  display: grid;
+  gap: 24px;
+}
+
+.areas {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.area {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 28px;
+  padding: 36px;
+  border: 1px solid var(--mui-palette-divider);
+  border-radius: 24px;
+  background: var(--mui-palette-background-paper);
+}
+
+.area:first-child,
+.area:last-child {
+  background: var(--mui-palette-action-hover);
+  border-color: transparent;
+}
+
+.illustration {
+  color: var(--mui-palette-secondary-main);
+  padding-top: 4px;
+}
+
+.illustration svg {
+  width: 96px;
+  height: 78px;
+}
+
+.content {
+  min-width: 0;
+}
+
+.content .title {
+  font-size: clamp(1.5rem, 2vw, 1.875rem);
+  margin-bottom: 16px;
+  text-wrap: balance;
+}
+
+.description {
+  overflow-wrap: anywhere;
+}
+
+.highlights {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0 0;
+  padding: 24px 0 0;
+  list-style: none;
+  border-top: 1px solid var(--mui-palette-divider);
+}
+
+.highlights li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.highlights li::before {
+  content: "";
+  position: absolute;
+  top: 0.55em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border: 1px solid var(--mui-palette-secondary-main);
+  border-radius: 50%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.footerLine {
+  flex: 1;
+  height: 1px;
+  background: var(--mui-palette-divider);
+}
+
+@media (max-width: 1099px) {
+  .area {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+    padding: 28px;
+  }
+}
+
+@media (max-width: 699px) {
+  .intro,
+  .areas {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .intro {
+    gap: 28px;
+    margin-bottom: 32px;
+  }
+
+  .area {
+    padding: 24px;
+    border-radius: 20px;
+  }
+
+  .illustration svg {
+    width: 80px;
+    height: 65px;
+  }
+
+  .footerLine {
+    display: none;
+  }
+}

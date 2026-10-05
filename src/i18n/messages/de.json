@@ -120,19 +120,43 @@
   "homeContent": {
     "overviewLabel": "Ein wenig Hintergrund",
     "overviewTitle": "Von der Produktidee zum nutzbaren System.",
-    "overviewDescription": "Meine Arbeit verbindet Oberflächen, Backend-Dienste und Cloud-Infrastruktur. Ich verstehe gern das Gesamtbild und übersetze es in klare, praktische Lösungen.",
+    "overviewDescription": "Ich verbinde die Teile eines digitalen Produkts: das sichtbare Nutzererlebnis, die dahinterliegenden Dienste und Daten sowie die Infrastruktur für den laufenden Betrieb. Dabei kombiniere ich praktische Softwareentwicklung mit Architektur, technischer Planung und Produktverantwortung.",
     "areas": [
       {
         "title": "Webanwendungen",
-        "description": "Responsive Oberflächen, wiederverwendbare Komponenten und stimmige Nutzererlebnisse."
+        "description": "Ich entwickle Oberflächen, die Menschen bei konkreten Aufgaben unterstützen. Design, Anwendungslogik und Daten verbinde ich zu einem einheitlichen Erlebnis auf unterschiedlichen Geräten und in verschiedenen Sprachen.",
+        "highlights": [
+          "Responsive Oberflächen mit React und Next.js",
+          "Wiederverwendbare Komponenten und gemeinsame UI",
+          "Lokalisierung und vernetzte Datenflüsse"
+        ]
       },
       {
-        "title": "Cloud und Backend",
-        "description": "APIs, serverlose Dienste und die Infrastruktur hinter dem Produkt."
+        "title": "Cloud & Backend",
+        "description": "Ich entwerfe die Dienste hinter dem Nutzererlebnis: APIs, Datenmodelle, Berechtigungen und Abläufe. Ich verbinde sie mit Cloud-Infrastruktur, die einen zuverlässigen Betrieb und weiteres Wachstum unterstützt.",
+        "highlights": [
+          "REST- und GraphQL-APIs und Integrationen",
+          "Serverless-Systeme auf AWS und Azure",
+          "Daten, Zugriffskontrolle und Orchestrierung"
+        ]
       },
       {
         "title": "Produktentwicklung",
-        "description": "Frontend, Backend und Auslieferung zusammenbringen, von der Idee bis zum Betrieb."
+        "description": "Ich bringe Frontend, Backend und Bereitstellung rund um die Produktziele zusammen. Von technischer Planung und Architektur über Umsetzung und Veröffentlichung bis zum Produktionssupport bleibe ich beteiligt.",
+        "highlights": [
+          "Architektur und Umsetzungsplanung",
+          "Suche, Zahlungen und KI-Integrationen",
+          "Veröffentlichung und laufender Produktsupport"
+        ]
+      },
+      {
+        "title": "Gemeinsame Plattformen & Bereitstellung",
+        "description": "Ich entwickle wiederverwendbare Funktionen für Teams und verbessere den Weg der Software in die Produktion. Klare Dokumentation, automatisierte Bereitstellung und Monitoring unterstützen verständliche, wartbare Systeme.",
+        "highlights": [
+          "Gemeinsame Pakete und Infrastructure as Code",
+          "CI/CD, Monitoring und Alarmierung",
+          "Code-Reviews, Mentoring und Dokumentation"
+        ]
       }
     ],
     "approachTitle": "Mein Vorgehen im Projekt",
@@ -193,6 +217,7 @@
       }
     ],
     "personalNoteTitle": "Gute Gesellschaft. Zeit für Bewegung.",
-    "personalNote": "Zeit mit den Menschen, die mir nahestehen, ein Training oder ein ruhiger Spaziergang — dafür nehme ich mir außerhalb der Arbeit gerne Zeit."
+    "personalNote": "Zeit mit den Menschen, die mir nahestehen, ein Training oder ein ruhiger Spaziergang — dafür nehme ich mir außerhalb der Arbeit gerne Zeit.",
+    "overviewDetail": "Ich arbeite an Unternehmensanwendungen, Marktplätzen, E-Commerce und Lösungen für das Gastgewerbe. Bei neuen Produkten und bestehenden Plattformen achte ich darauf, wie die Teile zusammenpassen, wie Teams sie warten können und wie das System mit dem Unternehmen wachsen kann."
   }
 }

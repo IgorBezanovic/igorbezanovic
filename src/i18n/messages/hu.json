@@ -120,19 +120,43 @@
   "homeContent": {
     "overviewLabel": "Egy kis háttér",
     "overviewTitle": "A termékötlettől a használható rendszerig.",
-    "overviewDescription": "Munkám összeköti a felületeket, a backend-szolgáltatásokat és a felhőinfrastruktúrát. Szeretem megérteni a teljes képet, és világos, gyakorlatias megoldásokká alakítani.",
+    "overviewDescription": "Összekapcsolom a digitális termék működéséhez szükséges részeket: a felhasználói élményt, a mögötte álló szolgáltatásokat és adatokat, valamint az üzemeltetést biztosító infrastruktúrát. A gyakorlati fejlesztést architektúrával, műszaki tervezéssel és termékfelelősséggel ötvözöm.",
     "areas": [
       {
         "title": "Webalkalmazások",
-        "description": "Reszponzív felületek, újrafelhasználható komponensek és egységes felhasználói élmények."
+        "description": "Olyan felületeket építek, amelyek segítik a mindennapi feladatok elvégzését. A designt, az alkalmazáslogikát és az adatokat egységes élménnyé kapcsolom össze különböző képernyőkön és nyelveken.",
+        "highlights": [
+          "Reszponzív React- és Next.js-felületek",
+          "Újrafelhasználható komponensek és közös UI",
+          "Lokalizáció és összekapcsolt adatfolyamok"
+        ]
       },
       {
         "title": "Felhő és backend",
-        "description": "API-k, serverless szolgáltatások és a termék mögötti infrastruktúra."
+        "description": "Megtervezem a felhasználói élmény mögötti szolgáltatásokat: API-kat, adatmodelleket, jogosultságokat és munkafolyamatokat. Ezeket megbízható működést és növekedést támogató felhőinfrastruktúrával kapcsolom össze.",
+        "highlights": [
+          "REST- és GraphQL-API-k és integrációk",
+          "Serverless rendszerek AWS-en és Azure-on",
+          "Adatok, hozzáférés-kezelés és orkesztráció"
+        ]
       },
       {
         "title": "Termékfejlesztés",
-        "description": "A frontend, a backend és a kiadás összekapcsolása az ötlettől az éles működésig."
+        "description": "A termék céljai mentén összefogom a frontendet, a backendet és a kiadást. A műszaki tervezéstől és az architektúrától a megvalósításon át a kiadásig és az üzemi támogatásig részt veszek a munkában.",
+        "highlights": [
+          "Architektúra és megvalósítási terv",
+          "Keresés, fizetés és AI-integrációk",
+          "Kiadás és folyamatos terméktámogatás"
+        ]
+      },
+      {
+        "title": "Közös platformok és szállítás",
+        "description": "Csapatok által újrafelhasználható képességeket építek, és javítom a szoftver éles környezetbe jutását. A világos dokumentáció, az automatizált kiadás és a monitorozás segíti az érthető, karbantartható működést.",
+        "highlights": [
+          "Közös csomagok és infrastruktúra kódként",
+          "CI/CD, monitorozás és riasztások",
+          "Kódellenőrzés, mentorálás és dokumentáció"
+        ]
       }
     ],
     "approachTitle": "Így közelítek egy projekthez",
@@ -193,6 +217,7 @@
       }
     ],
     "personalNoteTitle": "Jó társaság. Idő a mozgásra.",
-    "personalNote": "Együttlét a szeretteimmel, egy edzés vagy egy nyugodt séta — ezekre szeretek időt szánni a munkán kívül."
+    "personalNote": "Együttlét a szeretteimmel, egy edzés vagy egy nyugodt séta — ezekre szeretek időt szánni a munkán kívül.",
+    "overviewDetail": "Vállalati alkalmazásokon, piactereken, e-kereskedelmi és vendéglátási megoldásokon dolgozom. Új termékeknél és meglévő platformoknál is arra figyelek, hogyan illeszkednek a részek egymáshoz, hogyan tarthatja karban őket a csapat, és hogyan fejlődhet a rendszer az üzlettel együtt."
   }
 }

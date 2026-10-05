@@ -120,19 +120,43 @@
   "homeContent": {
     "overviewLabel": "Un peu de contexte",
     "overviewTitle": "D’une idée de produit à un système utilisable.",
-    "overviewDescription": "Mon travail relie les interfaces, les services backend et l’infrastructure cloud. J’aime comprendre la vue d’ensemble et la transformer en solutions claires et pratiques.",
+    "overviewDescription": "Je relie les éléments qui font fonctionner un produit numérique : l’expérience visible par les utilisateurs, les services et les données qui la soutiennent, et l’infrastructure qui assure son fonctionnement. Je combine développement concret, architecture, planification technique et responsabilité produit.",
     "areas": [
       {
         "title": "Applications web",
-        "description": "Interfaces adaptatives, composants réutilisables et expériences utilisateur cohérentes."
+        "description": "Je crée des interfaces qui aident les personnes à accomplir des tâches concrètes, en reliant design, logique applicative et données dans une expérience cohérente sur différents écrans et dans plusieurs langues.",
+        "highlights": [
+          "Interfaces adaptatives avec React et Next.js",
+          "Composants réutilisables et UI partagée",
+          "Localisation et flux de données connectés"
+        ]
       },
       {
         "title": "Cloud et backend",
-        "description": "API, services serverless et infrastructure au service du produit."
+        "description": "Je conçois les services derrière l’expérience : API, modèles de données, permissions et processus. Je les relie à une infrastructure cloud qui favorise un fonctionnement fiable et la croissance future.",
+        "highlights": [
+          "API REST et GraphQL et intégrations",
+          "Systèmes serverless sur AWS et Azure",
+          "Données, contrôle d’accès et orchestration"
+        ]
       },
       {
         "title": "Développement produit",
-        "description": "Réunir frontend, backend et livraison, de l’idée à la production."
+        "description": "Je réunis frontend, backend et livraison autour des objectifs du produit. Je reste impliqué de la planification technique et de l’architecture jusqu’à la réalisation, au lancement et au support en production.",
+        "highlights": [
+          "Architecture et planification technique",
+          "Recherche, paiements et intégrations IA",
+          "Lancement et support continu du produit"
+        ]
+      },
+      {
+        "title": "Plateformes partagées et livraison",
+        "description": "Je développe des capacités réutilisables par les équipes et améliore le passage du logiciel en production. Une documentation claire, une livraison automatisée et le suivi du système facilitent sa compréhension et sa maintenance.",
+        "highlights": [
+          "Packages partagés et infrastructure as code",
+          "CI/CD, supervision et alertes",
+          "Revues de code, mentorat et documentation"
+        ]
       }
     ],
     "approachTitle": "Mon approche d’un projet",
@@ -193,6 +217,7 @@
       }
     ],
     "personalNoteTitle": "Bien entouré. Du temps pour bouger.",
-    "personalNote": "Un moment avec mes proches, un entraînement ou une promenade au calme : voilà ce à quoi j’aime consacrer du temps en dehors du travail."
+    "personalNote": "Un moment avec mes proches, un entraînement ou une promenade au calme : voilà ce à quoi j’aime consacrer du temps en dehors du travail.",
+    "overviewDetail": "Je travaille sur des applications d’entreprise, des places de marché, le commerce en ligne et des solutions pour la restauration. Pour un nouveau produit comme pour une plateforme existante, je réfléchis à la cohérence des éléments, à leur maintenance par les équipes et à leur évolution avec l’activité."
   }
 }

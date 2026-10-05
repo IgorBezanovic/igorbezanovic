@@ -120,19 +120,43 @@
   "homeContent": {
     "overviewLabel": "A little context",
     "overviewTitle": "From a product idea to a system people can use.",
-    "overviewDescription": "My work connects interfaces, backend services and cloud infrastructure. I enjoy understanding the whole picture and turning it into clear, practical solutions.",
+    "overviewDescription": "I connect the parts that make a digital product work: the experience people see, the services and data behind it, and the infrastructure that keeps it running. My work combines hands-on engineering with architecture, technical planning and product ownership.",
     "areas": [
       {
         "title": "Web applications",
-        "description": "Responsive interfaces, reusable components and connected user experiences."
+        "description": "I build interfaces that help people complete real tasks, connecting design, application logic and data into a consistent experience across screens and languages.",
+        "highlights": [
+          "Responsive React & Next.js interfaces",
+          "Reusable components and shared UI",
+          "Localization and connected data flows"
+        ]
       },
       {
         "title": "Cloud & backend",
-        "description": "APIs, serverless services and the infrastructure behind the product."
+        "description": "I design the services behind the experience: APIs, data models, permissions and workflows. I connect them with cloud infrastructure that supports reliable operation and room to grow.",
+        "highlights": [
+          "REST & GraphQL APIs and integrations",
+          "AWS & Azure serverless systems",
+          "Data, access control and orchestration"
+        ]
       },
       {
         "title": "Product development",
-        "description": "Bringing frontend, backend and delivery together, from idea to production."
+        "description": "I bring frontend, backend and delivery together around the product’s goals. I stay involved from technical planning and architecture through implementation, release and production support.",
+        "highlights": [
+          "Architecture and implementation planning",
+          "Search, payments and AI integrations",
+          "Release and ongoing product support"
+        ]
+      },
+      {
+        "title": "Shared platforms & delivery",
+        "description": "I build capabilities that teams can reuse and improve the way software reaches production. Clear documentation, automated delivery and monitoring help keep the system understandable and maintainable.",
+        "highlights": [
+          "Shared packages and infrastructure as code",
+          "CI/CD, monitoring and alerting",
+          "Code reviews, mentoring and documentation"
+        ]
       }
     ],
     "approachTitle": "How I approach a project",
@@ -193,6 +217,7 @@
       }
     ],
     "personalNoteTitle": "Good company. Time to stay active.",
-    "personalNote": "Time with the people closest to me, a workout or a quiet walk — these are the things I like to make room for outside of work."
+    "personalNote": "Time with the people closest to me, a workout or a quiet walk — these are the things I like to make room for outside of work.",
+    "overviewDetail": "I work across enterprise applications, marketplaces, commerce and hospitality. Whether I am building a new product or improving an existing platform, I focus on how the pieces fit together, how teams can maintain them and how the system can evolve with the business."
   }
 }
