@@ -1,76 +1,87 @@
-# Igor Bezanovic — portfolio
+# Igor Bezanovic
 
-Next.js App Router, TypeScript and MUI with server-rendered pages and Emotion SSR integration.
+**Senior Full-Stack Software Engineer · Backend & Cloud Engineering**
 
-## Development
+I’m Igor, a software engineer based in Novi Sad, Serbia. I build web applications, cloud systems and digital products, connecting interfaces, backend services and infrastructure into software people can use.
 
-```sh
-npm ci
-npm run dev
-```
+My work spans enterprise applications, digital media, marketplaces, international e-commerce and hospitality. I combine hands-on development with technical leadership and product ownership, from understanding the problem and choosing an architecture to releasing and supporting a system in production.
 
-Open http://localhost:3000 (redirects to `/en`).
+## What I work on
 
-```sh
-npm run lint
-npm run typecheck
-npm test
-npm run format:check
-npm run build
-npm start
-```
+- **Web applications:** responsive React and Next.js interfaces, reusable Material UI components, localization and practical data-fetching patterns.
+- **Backend and cloud systems:** TypeScript and Node.js services, REST and GraphQL APIs, event-driven architecture, and serverless platforms on AWS and Microsoft Azure.
+- **Digital products:** frontend, backend, data, AI integrations and deployment, brought together around the product’s goals.
+- **Shared platforms and delivery:** reusable packages, infrastructure as code, CI/CD, monitoring and improvements to production reliability.
 
-Regression tests use Node.js 22.13+ and the built-in Node test runner. To check a running production server, run `npm run test:routes -- http://127.0.0.1:3100`; add the configured HTTPS origin as the second argument for an indexed build. The checks cover all 24 pages, headings, redirects, unsupported-route 404s, robots, sitemap and the Open Graph image. Preview builds should pass the noindex variant even with `SITE_URL` set.
+## Selected engineering experience
 
-## Structure
+### Enterprise applications and shared platforms
 
-- `src/app/[locale]`: layouts and route composition; four pages per locale.
-- `src/components/ui`: reusable presentation primitives, including the theme-aware `BrandLogo` wordmark.
-- `public/images/brand`: reusable transparent WebP logos for light and dark themes; asset details and usage are in the directory README.
-- `src/components/layout`: shared header, footer and language selector.
-- `src/components/sections`: reusable content sections.
-- `src/components/forms`: interactive project inquiry form.
-- `src/components/providers`: centralized MUI theme and SSR cache provider.
-- `src/i18n/messages`: typed dictionary shape, separate translations for en, sr (Latin), de, it, hu and fr.
-- `src/lib/site.ts`: profile, route names and public origin.
-- `src/lib/seo.ts`: localized metadata, canonical and alternate links.
+I have developed full-stack capabilities for a remote device management and maintenance platform serving approximately 15,000 users. This work includes granular role-based access control, shared React/MUI components and reusable backend packages consumed across applications.
 
-Routes: `/{locale}`, `/{locale}/experience`, `/{locale}/ask-for-project`, `/{locale}/contact-me`. The language selector preserves the page. Unsupported locales/pages return 404.
+I have reduced redundant API calls, improved client data flows, introduced parallel execution for independent backend operations and optimized Azure Redis scans. I have also designed Azure Durable Functions orchestrations for maintenance and deployment workflows across environments.
 
-## Site icons
+### Serverless systems and cloud modernization
 
-The shared IB monogram is defined in `src/app/icon.svg`. Next.js automatically links it, the 96px PNG, the multi-resolution `/favicon.ico` (16, 32, 48, 96 and 256px), Apple touch icons (152, 167 and 180px), and `/manifest.webmanifest` on every localized page. `/apple-touch-icon.png` also supports devices that request the conventional root URL.
+I led and automated a JavaScript-to-TypeScript migration across **36 repositories and more than 150 AWS Lambda functions**, alongside modernization to AWS SDK v3.
 
-The manifest supplies opaque Android and desktop icons from 192 to 512px, separate maskable icons with the lettering inside the safe circle, and Windows app/tile sizes. It keeps `display: browser`; these assets do not add offline behavior or a service worker. Regenerate raster assets with `node scripts/generate-icons.mjs` using the existing Sharp installation. Tests check dimensions, ICO entries and maskable safe areas.
+My work includes AppSync GraphQL services, VTL resolvers, infrastructure defined with AWS CDK and Serverless Framework, and shared packages for content models, mapping logic and DynamoDB persistence. I have owned cloud-resource monitoring and alerting, supported CI/CD workflows and worked with solution architects on systems used by multiple product teams.
 
-Search engines can discover the same stable favicon URL; each engine controls whether and when it displays the icon. Production must use the final HTTPS `SITE_URL` and allow indexing. Googlebot and Googlebot-Image must be able to access the home page and favicon. Preview and unconfigured builds intentionally remain blocked from indexing. Deployment and recrawling are required before search results can update.
+### AI-assisted marketplace and product ownership
 
-## Vercel deployment and monitoring
+As a CTO and co-founder, I have led a four-developer team and owned delivery across frontend, backend, database, cloud deployment and production support.
 
-Use the Next.js framework preset with the default build/output settings and the committed npm lockfile. All 24 localized pages are prerendered at build time for CDN delivery. Unknown locales/pages return 404 without generating additional pages on demand. The permanent `/` to `/en` redirect is configured in `next.config.ts`, so it does not require a Proxy function. Next.js handles compression, asset caching and responsive image optimization automatically.
+I led a migration to Next.js for server-side rendering and technical SEO, built marketplace services with Node.js, Express.js and MongoDB, and integrated OpenAI-powered product descriptions and content validation. The product also includes unified search across products, events and users, with staging and production deployments on Vercel and Railway.
 
-`@vercel/analytics` and `@vercel/speed-insights` are integrated once in the locale root layout using their Next.js components, covering all pages and client-side navigation. In the Vercel project dashboard, enable **Web Analytics** and **Speed Insights**, then redeploy. Visits and Core Web Vitals will appear after traffic reaches the deployed site. No analytics API key or custom environment variable is required. Speed Insights usage follows the project's Vercel plan.
+### Commerce and hospitality
 
-Set `SITE_URL` to the final public origin in the **Production** environment only; leave it unset in **Preview** to preserve the existing noindex behavior. Changing it requires a new build. `SITE_URL` must be an HTTPS origin without credentials, a path, query or hash. Vercel environments other than Production remain noindex even if they inherit this variable; keep system environment variables enabled for this guard.
+I have maintained Magento Enterprise storefronts across **22 countries**, building responsive templates, mobile navigation and shared storefront functionality.
 
-Setup references: [Web Analytics](https://vercel.com/docs/analytics/quickstart) and [Speed Insights](https://vercel.com/docs/speed-insights/quickstart).
+In hospitality, I developed React and Material UI applications for customer-facing, kitchen and back-office workflows, including localization in English, German, French and Italian and Stripe payment integration.
 
-## Content and publication
+## Technology toolkit
 
-The experience page is based on the owner's supplied CVs and organized by engineering domain. All six locales omit employers, clients, named commercial products, employment dates and tenure. Do not add source PDFs to public assets or restore identifying employment details in visible content, metadata or structured data. Public copy lives in `src/i18n/messages`; technology lists live in `src/content/experience.ts`.
+| Area                     | Technologies                                                                                                                  |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Frontend                 | React, Next.js, TypeScript, JavaScript, Material UI, Vite, Redux Toolkit, RTK Query, React Query, HTML, CSS                   |
+| Backend                  | Node.js, Express.js, REST, GraphQL, AWS AppSync, VTL resolvers, webhooks, role-based access control                           |
+| AWS                      | Lambda, CDK, Serverless Framework, API Gateway, DynamoDB, S3, EventBridge, SQS, SNS, Step Functions, IAM, Cognito, CloudWatch |
+| Azure and data           | Azure Functions, Durable Functions, Redis, SQL Server, MongoDB                                                                |
+| Delivery and quality     | GitHub Actions, GitLab CI/CD, Jest, infrastructure as code, monitoring, alerting, Vercel, Railway                             |
+| Content and integrations | Contentful, Strapi, OpenAI API, Stripe                                                                                        |
 
-Copy `.env.example` to `.env.local` and set `SITE_URL` to the real HTTPS public origin before building for production. Without it, pages are noindex, robots blocks indexing and the sitemap is empty. With it, metadata includes canonical URLs, six language alternates and x-default, Open Graph/Twitter images, a 24-URL sitemap, and Person JSON-LD on home pages. Keep preview deployments without SITE_URL. Metadata changes require rebuilding.
+## How I work
 
-The project form opens a local email draft using mailto; it does not send or store submissions. Direct delivery requires an email provider and server-side validation/abuse protection. The public contact email is configured in `src/lib/site.ts`.
+I start with the people, goals and constraints behind a project. I aim to make technical decisions clear, surface risks early and build in manageable steps.
 
-Still needed: final domain, target clients/markets and optional professional profile links. Search rankings depend on content and other factors beyond technical SEO.
+I work independently and within small product teams, larger engineering organizations and environments where several teams depend on the same platform. My responsibilities have included technical planning, estimation, code reviews, mentoring, onboarding and documentation. I stay involved through release and production support, using feedback to improve both the product and the way it is delivered.
 
-## Home content draft
+## Public contributions
 
-The Home layout contains an introduction, work overview, working approach, public contributions, personal interests and a project CTA. Editorial copy in `homeContent`, `heroTitle` and `intro` is an initial proposal for the owner to refine. Activities (running, cycling, swimming, weight training, walking and nature) were supplied by the owner. Public contribution details reuse the Experience content. No placeholder employers, testimonials, achievements or photographs are included.
+### MUI Icon Preview
 
-## AI agent skills
+I created a VS Code extension that previews Material UI icons on hover and in completions. It lets developers search the installed icon catalog and insert imports and JSX usage directly in the editor. It runs locally using the workspace’s `@mui/icons-material` package.
 
-Shared project instructions are in `AGENTS.md`; `CLAUDE.md` points to that file. Project skills and their supporting files live in `.agents/skills/`. This catalog includes the existing Vercel skills, official Next.js workflows from `vercel/next.js`, `frontend-design` from `anthropics/skills`, and `web-design-guidelines` from `vercel-labs/agent-skills`.
+[VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=igorbezanovic.mui-icon-preview) · [Source code](https://github.com/IgorBezanovic/mui-icon-preview)
 
-Agents must discover the current catalog, read all task-relevant skills and apply them within the project rules. Installing a skill does not install its browser/CLI tools or enable the feature it describes. Keep the skill directories in the repository so other checkouts can use them without global installations.
+### http-headers-validation
+
+I contributed TypeScript support to this public Node.js utility for validating HTTP header names and values.
+
+[npm package](https://www.npmjs.com/package/http-headers-validation) · [Source code](https://github.com/SVasilev/http-headers-validation)
+
+## Education and learning
+
+I hold bachelor’s and master’s degrees in Sport Science from the University of Novi Sad, Faculty of Sport and Physical Education.
+
+My professional learning includes AWS Partner: Generative AI Essentials (Business), an AWS Cloud Practitioner course, Front-End Web Development and Fundamentals of Programming.
+
+## Beyond the code
+
+Outside work, time with family and friends comes first. I also enjoy running, cycling, swimming, weight training, walks and time in nature.
+
+## Get in touch
+
+Have a product idea, a cloud modernization challenge or a web application to build? Let’s talk about your goals and the next steps.
+
+[Email](mailto:igorbezanovic@gmail.com) · [LinkedIn](https://www.linkedin.com/in/igor-bezanovic/) · [GitHub](https://github.com/IgorBezanovic)
