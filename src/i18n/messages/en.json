@@ -138,16 +138,28 @@
     "approachTitle": "How I approach a project",
     "steps": [
       {
-        "title": "Understand the problem",
-        "description": "Start with the people, the goals and the constraints. Make sure we are solving the right problem."
+        "title": "Start with a conversation",
+        "description": "We talk through your idea, the problem behind it and what success would look like. I listen, ask questions and align expectations around budget, timing and how we will work together."
       },
       {
-        "title": "Build with intention",
-        "description": "Choose a practical direction, keep communication clear and build in manageable steps."
+        "title": "Understand the people and context",
+        "description": "Who will use the product, and what do they need? Together, we explore their everyday challenges, your business goals and the market to give the project a clear purpose."
       },
       {
-        "title": "Keep improving",
-        "description": "Listen to feedback, refine the experience and stay involved after the release."
+        "title": "Turn ideas into a clear plan",
+        "description": "I organize requirements, dependencies and risks into priorities and manageable milestones. We agree on what the first release needs and map out future features, leaving room to learn and adapt."
+      },
+      {
+        "title": "Choose the right technical direction",
+        "description": "I shape the architecture and choose technologies that fit the product, the team and the budget. We consider growth, integrations, security and maintenance so the system can scale as demand grows."
+      },
+      {
+        "title": "Build together, step by step",
+        "description": "I connect technical decisions with delivery, keeping progress and tradeoffs clear. Through regular demos, testing and honest conversations, we review what is working and adjust the plan together."
+      },
+      {
+        "title": "Keep evolving after launch",
+        "description": "Release is the start of the next phase. I stay involved, listen to users and the client, and use feedback and production insights to guide ongoing improvements as market and business needs change."
       }
     ],
     "togetherLabel": "Time together",

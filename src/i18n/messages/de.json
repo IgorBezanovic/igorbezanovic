@@ -138,16 +138,28 @@
     "approachTitle": "Mein Vorgehen im Projekt",
     "steps": [
       {
-        "title": "Das Problem verstehen",
-        "description": "Mit Menschen, Zielen und Rahmenbedingungen beginnen. Sicherstellen, dass wir das richtige Problem lösen."
+        "title": "Mit einem Gespräch beginnen",
+        "description": "Wir sprechen über Ihre Idee, das dahinterliegende Problem und darüber, wie Erfolg aussehen soll. Ich höre zu, stelle Fragen und stimme mit Ihnen Budget, Zeitrahmen und die Zusammenarbeit ab."
       },
       {
-        "title": "Mit klarem Ziel entwickeln",
-        "description": "Eine praktikable Richtung wählen, klar kommunizieren und in überschaubaren Schritten entwickeln."
+        "title": "Menschen und Umfeld verstehen",
+        "description": "Wer wird das Produkt nutzen, und was brauchen diese Menschen? Gemeinsam betrachten wir ihre alltäglichen Herausforderungen, Ihre Geschäftsziele und den Markt, damit das Projekt einen klaren Zweck hat."
       },
       {
-        "title": "Kontinuierlich verbessern",
-        "description": "Feedback aufnehmen, das Erlebnis verfeinern und nach der Veröffentlichung eingebunden bleiben."
+        "title": "Ideen in einen klaren Plan übersetzen",
+        "description": "Ich strukturiere Anforderungen, Abhängigkeiten und Risiken zu Prioritäten und überschaubaren Etappen. Wir legen fest, was die erste Version braucht, und planen künftige Funktionen mit Raum für neue Erkenntnisse und Anpassungen."
+      },
+      {
+        "title": "Die passende technische Richtung wählen",
+        "description": "Ich entwerfe die Architektur und wähle Technologien, die zu Produkt, Team und Budget passen. Wir berücksichtigen Wachstum, Integrationen, Sicherheit und Wartung, damit das System mit der Nachfrage skalieren kann."
+      },
+      {
+        "title": "Gemeinsam Schritt für Schritt entwickeln",
+        "description": "Ich verbinde technische Entscheidungen mit der Umsetzung und mache Fortschritte und Abwägungen transparent. Durch regelmäßige Demos, Tests und offene Gespräche prüfen wir die Ergebnisse und passen den Plan gemeinsam an."
+      },
+      {
+        "title": "Nach dem Start weiterentwickeln",
+        "description": "Die Veröffentlichung ist der Beginn der nächsten Phase. Ich bleibe beteiligt, höre Nutzern und Auftraggebern zu und nutze Feedback sowie Erkenntnisse aus dem Betrieb für laufende Verbesserungen angesichts neuer Markt- und Geschäftsanforderungen."
       }
     ],
     "togetherLabel": "Gemeinsame Zeit",

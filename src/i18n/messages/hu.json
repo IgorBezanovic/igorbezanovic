@@ -138,16 +138,28 @@
     "approachTitle": "Így közelítek egy projekthez",
     "steps": [
       {
-        "title": "A probléma megértése",
-        "description": "Az emberekből, célokból és korlátokból indulok ki. Fontos, hogy a megfelelő problémát oldjuk meg."
+        "title": "Beszélgetéssel kezdünk",
+        "description": "Átbeszéljük az ötletét, a mögötte álló problémát és azt, mit jelent a siker. Figyelek, kérdezek, és egyeztetjük az elvárásokat, a költségkeretet, a határidőket és az együttműködés módját."
       },
       {
-        "title": "Tudatos fejlesztés",
-        "description": "Gyakorlatias irány, egyértelmű kommunikáció és kezelhető fejlesztési lépések."
+        "title": "Megismerjük az embereket és a környezetet",
+        "description": "Ki használja majd a terméket, és mire van szüksége? Együtt feltárjuk a felhasználók mindennapi nehézségeit, az üzleti célokat és a piacot, hogy a projektnek világos rendeltetése legyen."
       },
       {
-        "title": "Folyamatos javítás",
-        "description": "Visszajelzések meghallgatása, az élmény finomítása és részvétel a kiadás után is."
+        "title": "Az ötletekből világos terv készül",
+        "description": "A követelményeket, függőségeket és kockázatokat prioritásokba és megvalósítható szakaszokba rendezem. Megállapodunk az első verzió tartalmában, és megtervezzük a későbbi funkciókat, teret hagyva a tanulásnak és a változtatásoknak."
+      },
+      {
+        "title": "Kiválasztjuk a megfelelő műszaki irányt",
+        "description": "Olyan architektúrát és technológiákat választok, amelyek illenek a termékhez, a csapathoz és a költségkerethez. Figyelembe vesszük a növekedést, az integrációkat, a biztonságot és a karbantartást, hogy a rendszer követni tudja az igények bővülését."
+      },
+      {
+        "title": "Együtt építünk, lépésről lépésre",
+        "description": "Összekapcsolom a műszaki döntéseket a megvalósítással, és világosan bemutatom az előrehaladást és a kompromisszumokat. Rendszeres bemutatókkal, teszteléssel és nyílt beszélgetésekkel értékeljük az eredményeket, és közösen módosítjuk a tervet."
+      },
+      {
+        "title": "Az indulás után is továbbfejlesztünk",
+        "description": "A kiadás a következő szakasz kezdete. Továbbra is részt veszek a munkában, figyelek a felhasználókra és az ügyfélre, és a visszajelzések, valamint az üzemeltetési tapasztalatok alapján igazítom a fejlesztéseket a változó piaci és üzleti igényekhez."
       }
     ],
     "togetherLabel": "Együtt töltött idő",

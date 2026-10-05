@@ -138,16 +138,28 @@
     "approachTitle": "Come affronto un progetto",
     "steps": [
       {
-        "title": "Capire il problema",
-        "description": "Partire dalle persone, dagli obiettivi e dai vincoli. Assicurarsi di risolvere il problema giusto."
+        "title": "Partire da una conversazione",
+        "description": "Parliamo della vostra idea, del problema da risolvere e di cosa significa avere successo. Ascolto, faccio domande e concordiamo aspettative, budget, tempi e modalità di collaborazione."
       },
       {
-        "title": "Sviluppare con uno scopo",
-        "description": "Scegliere una direzione pratica, comunicare con chiarezza e procedere per passi gestibili."
+        "title": "Capire le persone e il contesto",
+        "description": "Chi userà il prodotto e di cosa ha bisogno? Insieme esploriamo le difficoltà quotidiane degli utenti, i vostri obiettivi aziendali e il mercato, per dare al progetto uno scopo chiaro."
       },
       {
-        "title": "Continuare a migliorare",
-        "description": "Ascoltare i feedback, affinare l’esperienza e restare coinvolti dopo il rilascio."
+        "title": "Trasformare le idee in un piano chiaro",
+        "description": "Organizzo requisiti, dipendenze e rischi in priorità e tappe gestibili. Concordiamo cosa serve per la prima versione e pianifichiamo le funzionalità future, lasciando spazio a nuove conoscenze e cambiamenti."
+      },
+      {
+        "title": "Scegliere la direzione tecnica adatta",
+        "description": "Definisco l’architettura e scelgo tecnologie adatte al prodotto, al team e al budget. Consideriamo crescita, integrazioni, sicurezza e manutenzione, affinché il sistema possa scalare con la domanda."
+      },
+      {
+        "title": "Costruire insieme, passo dopo passo",
+        "description": "Collego le decisioni tecniche alla realizzazione, comunicando con chiarezza progressi e compromessi. Con demo regolari, test e conversazioni aperte, valutiamo i risultati e adattiamo insieme il piano."
+      },
+      {
+        "title": "Continuare a evolvere dopo il lancio",
+        "description": "Il rilascio è l’inizio della fase successiva. Rimango coinvolto, ascolto utenti e cliente e uso i loro riscontri e i dati sul funzionamento del sistema per guidare miglioramenti continui al cambiare del mercato e delle esigenze aziendali."
       }
     ],
     "togetherLabel": "Tempo insieme",

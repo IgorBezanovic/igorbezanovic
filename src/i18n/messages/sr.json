@@ -138,16 +138,28 @@
     "approachTitle": "Kako pristupam projektu",
     "steps": [
       {
-        "title": "Razumeti problem",
-        "description": "Poći od ljudi, ciljeva i ograničenja. Proveriti da rešavamo pravi problem."
+        "title": "Počinjemo razgovorom",
+        "description": "Razgovaramo o vašoj ideji, problemu koji stoji iza nje i tome kako izgleda uspeh. Slušam, postavljam pitanja i usklađujemo očekivanja o budžetu, rokovima i načinu saradnje."
       },
       {
-        "title": "Razvijati sa jasnim ciljem",
-        "description": "Izabrati praktičan pravac, jasno komunicirati i razvijati kroz ostvarive korake."
+        "title": "Upoznajemo ljude i kontekst",
+        "description": "Ko će koristiti proizvod i šta je tim ljudima potrebno? Zajedno sagledavamo njihove svakodnevne izazove, vaše poslovne ciljeve i tržište, kako bi projekat imao jasnu svrhu."
       },
       {
-        "title": "Nastaviti unapređivanje",
-        "description": "Slušati povratne informacije, unapređivati iskustvo i ostati uključen nakon puštanja u rad."
+        "title": "Pretvaramo ideje u jasan plan",
+        "description": "Sistematizujem zahteve, zavisnosti i rizike u prioritete i ostvarive faze. Dogovaramo šta je potrebno za prvu verziju i planiramo buduće funkcionalnosti, uz prostor za učenje i promene."
+      },
+      {
+        "title": "Biramo tehnički pravac",
+        "description": "Oblikujem arhitekturu i biram tehnologije koje odgovaraju proizvodu, timu i budžetu. Razmatramo rast, integracije, bezbednost i održavanje, kako bi sistem mogao da prati rast broja korisnika i obima poslovanja."
+      },
+      {
+        "title": "Gradimo zajedno, korak po korak",
+        "description": "Povezujem tehničke odluke sa realizacijom i jasno komuniciram napredak i kompromise. Kroz redovne demonstracije, testiranje i otvorene razgovore proveravamo šta funkcioniše i zajedno prilagođavamo plan."
+      },
+      {
+        "title": "Nastavljamo razvoj nakon lansiranja",
+        "description": "Objavljivanje proizvoda je početak sledeće faze. Ostajem uključen, slušam korisnike i klijenta i kroz povratne informacije i praćenje rada sistema usmeravam nadogradnje prema promenama na tržištu i potrebama poslovanja."
       }
     ],
     "togetherLabel": "Vreme zajedno",

@@ -138,16 +138,28 @@
     "approachTitle": "Mon approche d’un projet",
     "steps": [
       {
-        "title": "Comprendre le problème",
-        "description": "Partir des personnes, des objectifs et des contraintes. Vérifier que nous résolvons le bon problème."
+        "title": "Commencer par une conversation",
+        "description": "Nous échangeons sur votre idée, le problème à résoudre et ce que signifie la réussite du projet. J’écoute, je pose des questions et nous nous accordons sur le budget, les délais et notre façon de travailler ensemble."
       },
       {
-        "title": "Développer avec intention",
-        "description": "Choisir une direction pratique, communiquer clairement et avancer par étapes maîtrisables."
+        "title": "Comprendre les personnes et le contexte",
+        "description": "Qui utilisera le produit et quels sont ses besoins ? Ensemble, nous explorons les difficultés quotidiennes des utilisateurs, vos objectifs et le marché pour donner au projet une finalité claire."
       },
       {
-        "title": "Continuer à améliorer",
-        "description": "Écouter les retours, affiner l’expérience et rester impliqué après la mise en production."
+        "title": "Transformer les idées en un plan clair",
+        "description": "Je structure les besoins, les dépendances et les risques en priorités et en étapes réalisables. Nous définissons la première version et préparons les fonctionnalités futures, en gardant de la place pour apprendre et ajuster le plan."
+      },
+      {
+        "title": "Choisir la bonne direction technique",
+        "description": "Je conçois l’architecture et choisis les technologies adaptées au produit, à l’équipe et au budget. Nous prenons en compte la croissance, les intégrations, la sécurité et la maintenance pour que le système puisse évoluer avec la demande."
+      },
+      {
+        "title": "Construire ensemble, étape par étape",
+        "description": "Je relie les décisions techniques à la réalisation et communique clairement les progrès et les compromis. Des démonstrations régulières, des tests et des échanges ouverts nous permettent d’évaluer les résultats et d’ajuster le plan ensemble."
+      },
+      {
+        "title": "Continuer à évoluer après le lancement",
+        "description": "La mise en ligne marque le début de la phase suivante. Je reste impliqué, à l’écoute des utilisateurs et du client, et m’appuie sur leurs retours et les observations en production pour faire évoluer le produit avec le marché et les besoins de l’entreprise."
       }
     ],
     "togetherLabel": "Moments ensemble",
