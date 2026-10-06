@@ -7,7 +7,18 @@ export const siteUrl = resolveSiteUrl(
   process.env.SITE_URL,
   process.env.VERCEL_ENV,
 );
-export const pages = ["experience", "ask-for-project", "contact-me"] as const;
+export const servicePages = [
+  "consulting",
+  "project-delivery",
+  "maintenance",
+  "join-team",
+] as const;
+export const pages = [
+  "experience",
+  "ask-for-project",
+  "contact-me",
+  ...servicePages,
+] as const;
 export type Page = "home" | (typeof pages)[number];
 export function pagePath(locale: string, page: Page = "home") {
   return `/${locale}${page === "home" ? "" : `/${page}`}`;

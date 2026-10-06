@@ -9,7 +9,7 @@
   "intro": "Ingénieur logiciel spécialisé dans les applications web, les systèmes cloud et les produits numériques. De la première idée aux détails qui font fonctionner l’ensemble.",
   "home": "Accueil",
   "experience": "Expérience",
-  "project": "Proposer un projet",
+  "project": "Collaboration",
   "contact": "Contact",
   "servicesTitle": "Ce que je peux développer pour vous",
   "webTitle": "Applications web",
@@ -20,8 +20,8 @@
   "ctaDescription": "Présentez-moi votre idée et explorons les prochaines étapes.",
   "experienceTitle": "Expérience et projets",
   "experienceDescription": "Développement full-stack, systèmes serverless AWS et Azure, intégrations IA et leadership technique.",
-  "projectTitle": "Lancer un projet",
-  "projectDescription": "Décrivez votre idée, vos objectifs et le calendrier envisagé.",
+  "projectTitle": "Collaboration",
+  "projectDescription": "Trouvons la bonne façon de travailler ensemble, du conseil au développement continu de votre produit.",
   "contactTitle": "Contactez-moi",
   "contactDescription": "Une question ou une idée de projet ? Envoyez-moi un email.",
   "nameLabel": "Votre nom",
@@ -219,5 +219,178 @@
     "personalNoteTitle": "Bien entouré. Du temps pour bouger.",
     "personalNote": "Un moment avec mes proches, un entraînement ou une promenade au calme : voilà ce à quoi j’aime consacrer du temps en dehors du travail.",
     "overviewDetail": "Je travaille sur des applications d’entreprise, des places de marché, le commerce en ligne et des solutions pour la restauration. Pour un nouveau produit comme pour une plateforme existante, je réfléchis à la cohérence des éléments, à leur maintenance par les équipes et à leur évolution avec l’activité."
+  },
+  "collaboration": {
+    "services": [
+      {
+        "id": "consulting",
+        "title": "Conseil",
+        "description": "Conseils techniques, revue d’architecture et plan clair pour les prochaines étapes.",
+        "page": "consulting"
+      },
+      {
+        "id": "delivery",
+        "title": "Pilotage du projet de l’idée au lancement et au-delà",
+        "description": "Planification, architecture et développement de zéro au lancement, puis poursuite de la collaboration.",
+        "page": "project-delivery"
+      },
+      {
+        "id": "maintenance",
+        "title": "Maintenance et améliorations",
+        "description": "Support des applications existantes : corrections, fiabilité et mises à jour.",
+        "page": "maintenance"
+      },
+      {
+        "id": "team",
+        "title": "Rejoindre votre équipe existante",
+        "description": "Développement aux côtés de votre équipe, responsabilité partagée, revues de code et partage de connaissances.",
+        "page": "join-team"
+      }
+    ],
+    "contactLabel": "Discutons de la collaboration",
+    "formTitle": "Décrivez votre idée de projet",
+    "formDescription": "Une première idée suffit ; nous pouvons préciser les détails ensemble.",
+    "directEmail": "Écrire directement par email",
+    "forms": {
+      "consulting": {
+        "title": "Conseil",
+        "description": "Conseils techniques, revue d’architecture et plan clair pour les prochaines étapes.",
+        "fields": [
+          {
+            "id": "topic",
+            "label": "Sur quel sujet souhaitez-vous des conseils ?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "context",
+            "label": "Quelle est la situation actuelle ?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "outcome",
+            "label": "Quel résultat attendez-vous ?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "timing",
+            "label": "Calendrier et format souhaité",
+            "hint": "",
+            "required": false
+          }
+        ]
+      },
+      "project-delivery": {
+        "title": "Pilotage du projet de l’idée au lancement et au-delà",
+        "description": "Planification, architecture et développement de zéro au lancement, puis poursuite de la collaboration.",
+        "fields": [
+          {
+            "id": "goals",
+            "label": "Quel problème le projet doit-il résoudre ?",
+            "hint": "Décrivez le problème et le résultat souhaité.",
+            "required": true
+          },
+          {
+            "id": "audience",
+            "label": "Qui utilisera le produit ?",
+            "hint": "Décrivez les utilisateurs et leurs besoins.",
+            "required": true
+          },
+          {
+            "id": "scope",
+            "label": "Que doit inclure la première version ?",
+            "hint": "Indiquez les fonctionnalités ou parcours essentiels.",
+            "required": true
+          },
+          {
+            "id": "existing",
+            "label": "De quoi disposez-vous déjà ?",
+            "hint": "Maquettes, recherches, code, équipe ou liens existants.",
+            "required": false
+          },
+          {
+            "id": "timeline",
+            "label": "Calendrier et budget",
+            "hint": "Précisez les échéances et le budget envisagés, si vous les connaissez.",
+            "required": false
+          },
+          {
+            "id": "details",
+            "label": "Que faut-il aussi prendre en compte ?",
+            "hint": "Intégrations, contraintes ou questions.",
+            "required": false
+          }
+        ]
+      },
+      "maintenance": {
+        "title": "Maintenance et améliorations",
+        "description": "Support des applications existantes : corrections, fiabilité et mises à jour.",
+        "fields": [
+          {
+            "id": "application",
+            "label": "Quelle application nécessite une maintenance ?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "priorities",
+            "label": "Quels problèmes ou améliorations sont prioritaires ?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "stack",
+            "label": "Quelles technologies et documentations sont disponibles ?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "support",
+            "label": "Support attendu et budget",
+            "hint": "",
+            "required": false
+          }
+        ]
+      },
+      "join-team": {
+        "title": "Rejoindre votre équipe existante",
+        "description": "Développement aux côtés de votre équipe, responsabilité partagée, revues de code et partage de connaissances.",
+        "fields": [
+          {
+            "id": "product",
+            "label": "Sur quoi travaille votre équipe ?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "team",
+            "label": "Composition de l’équipe et technologies",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "responsibilities",
+            "label": "Quelles responsabilités devrais-je assumer ?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "arrangements",
+            "label": "Disponibilité, durée et modalités de travail",
+            "hint": "",
+            "required": false
+          }
+        ]
+      }
+    }
+  },
+  "footer": {
+    "explore": "Explorer",
+    "connect": "Restons en contact",
+    "location": "Novi Sad, Serbie",
+    "email": "Email",
+    "backToTop": "Retour en haut"
   }
 }

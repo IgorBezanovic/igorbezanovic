@@ -31,7 +31,15 @@ export default async function LocaleLayout({
           <main id="main" tabIndex={-1}>
             {children}
           </main>
-          <Footer role={t.role} />
+          <Footer
+            locale={locale}
+            t={{
+              role: t.role,
+              experience: t.experience,
+              project: t.project,
+              footer: t.footer,
+            }}
+          />
         </AppProvider>
         <Analytics />
         <SpeedInsights />

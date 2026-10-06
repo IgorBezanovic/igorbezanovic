@@ -85,3 +85,5 @@ Outside work, time with family and friends comes first. I also enjoy running, cy
 Have a product idea, a cloud modernization challenge or a web application to build? Let’s talk about your goals and the next steps.
 
 [Email](mailto:igorbezanovic@gmail.com) · [LinkedIn](https://www.linkedin.com/in/igor-bezanovic/) · [GitHub](https://github.com/IgorBezanovic)
+
+The Collaboration page presents four ways to work together and an overview of my approach and ownership. Each service links to a dedicated, localized inquiry page: `/[locale]/consulting`, `/[locale]/project-delivery`, `/[locale]/maintenance`, and `/[locale]/join-team`. Each form asks questions specific to that service and opens a prefilled email draft; it does not send or store inquiries. A direct email link is also available. The finite route set now contains 48 prerendered content pages (six locales × eight pages).

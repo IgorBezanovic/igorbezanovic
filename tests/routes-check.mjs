@@ -6,12 +6,68 @@ const root = await fetch(base, { redirect: "manual" });
 assert.equal(root.status, 308);
 assert.equal(root.headers.get("location"), "/en");
 for (const locale of ["en", "sr", "de", "it", "hu", "fr"]) {
-  for (const page of ["", "/experience", "/ask-for-project", "/contact-me"]) {
+  for (const page of [
+    "",
+    "/experience",
+    "/ask-for-project",
+    "/contact-me",
+    "/consulting",
+    "/project-delivery",
+    "/maintenance",
+    "/join-team",
+  ]) {
     const path = `/${locale}${page}`;
     const response = await fetch(base + path);
     assert.equal(response.status, 200, path);
     const html = await response.text();
     assert.equal((html.match(/<h1\b/g) || []).length, 1, path);
+    if (page === "/ask-for-project") {
+      assert.ok(!html.includes("<form"), `${path}: overview has no form`);
+      assert.ok(
+        !html.includes('href="#project-idea"'),
+        `${path}: no obsolete form anchor`,
+      );
+      assert.ok(
+        !html.includes('href="mailto:igorbezanovic@gmail.com?subject='),
+        `${path}: cards open inquiry pages`,
+      );
+      for (const service of [
+        "consulting",
+        "project-delivery",
+        "maintenance",
+        "join-team",
+      ])
+        assert.ok(
+          html.includes(`href="/${locale}/${service}"`),
+          `${path}: ${service} link`,
+        );
+    }
+    const fields = {
+      "/consulting": ["topic", "context", "outcome", "timing"],
+      "/project-delivery": [
+        "goals",
+        "audience",
+        "scope",
+        "existing",
+        "timeline",
+        "details",
+      ],
+      "/maintenance": ["application", "priorities", "stack", "support"],
+      "/join-team": ["product", "team", "responsibilities", "arrangements"],
+    }[page];
+    if (fields) {
+      assert.ok(html.includes("<form"), `${path}: inquiry form`);
+      for (const field of ["name", "email", ...fields])
+        assert.ok(html.includes(`name="${field}"`), `${path}: ${field} input`);
+      assert.ok(
+        html.includes(`href="/${locale}/ask-for-project"`),
+        `${path}: back to collaboration`,
+      );
+      assert.ok(
+        html.includes("mailto:igorbezanovic@gmail.com"),
+        `${path}: email alternative`,
+      );
+    }
     for (const asset of [
       "/favicon.ico",
       "/icon.svg",
@@ -52,12 +108,14 @@ for (const path of [
   "/sr/missing",
   "/es/experience",
   "/en/experience/extra",
+  "/es/consulting",
+  "/en/consulting/extra",
 ])
   assert.equal((await fetch(base + path)).status, 404, path);
 const robots = await (await fetch(base + "/robots.txt")).text();
 assert.ok(robots.includes(indexed ? "Allow: /" : "Disallow: /"));
 const sitemap = await (await fetch(base + "/sitemap.xml")).text();
-assert.equal((sitemap.match(/<url>/g) || []).length, indexed ? 24 : 0);
+assert.equal((sitemap.match(/<url>/g) || []).length, indexed ? 48 : 0);
 if (indexed) assert.ok(sitemap.includes(origin));
 const image = await fetch(base + "/opengraph-image");
 assert.equal(image.status, 200);
@@ -91,5 +149,5 @@ for (const asset of [
   assert.equal((await fetch(base + asset)).status, 200, asset);
 }
 console.log(
-  `PASS: 24 pages, headings, redirect, 404s, robots, sitemap, OG image, icon links and manifest assets (${indexed ? "production origin" : "noindex"}).`,
+  `PASS: 48 pages, headings, redirect, 404s, robots, sitemap, OG image, icon links and manifest assets (${indexed ? "production origin" : "noindex"}).`,
 );

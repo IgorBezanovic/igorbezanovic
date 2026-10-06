@@ -9,7 +9,7 @@ import { ThemeSwitcher } from "./theme-switcher";
 import { LanguageSwitcher } from "./language-switcher";
 export function Header({ locale, t }: { locale: Locale; t: Dictionary }) {
   return (
-    <header className="site-header">
+    <header className="site-header" id="top" tabIndex={-1}>
       <a href="#main" className="skip-link">
         {t.skip}
       </a>

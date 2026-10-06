@@ -9,7 +9,7 @@
   "intro": "Softverski inženjer koji razvija web aplikacije, cloud sisteme i digitalne proizvode. Od prve ideje do detalja koji čine da sve radi.",
   "home": "Početna",
   "experience": "Iskustvo",
-  "project": "Zatraži projekat",
+  "project": "Saradnja",
   "contact": "Kontakt",
   "servicesTitle": "Šta mogu da razvijem za vas",
   "webTitle": "Web aplikacije",
@@ -20,8 +20,8 @@
   "ctaDescription": "Podelite svoju ideju i zajedno ćemo razmotriti naredne korake.",
   "experienceTitle": "Iskustvo i projekti",
   "experienceDescription": "Full-stack razvoj, AWS i Azure serverless sistemi, AI integracije i tehničko vođstvo.",
-  "projectTitle": "Pokrenimo projekat",
-  "projectDescription": "Opišite ideju, ciljeve i očekivani rok.",
+  "projectTitle": "Saradnja",
+  "projectDescription": "Pronađimo način saradnje koji vam odgovara — od savetovanja do razvoja i dugoročne podrške proizvodu.",
   "contactTitle": "Stupimo u kontakt",
   "contactDescription": "Imate pitanje ili ideju za projekat? Pošaljite mi email.",
   "nameLabel": "Vaše ime",
@@ -219,5 +219,178 @@
     "personalNoteTitle": "Dobro društvo. Vreme za rekreaciju.",
     "personalNote": "Druženje sa najbližima, trening ili mirna šetnja — to su stvari za koje volim da odvojim vreme van posla.",
     "overviewDetail": "Radim na poslovnim aplikacijama, platformama za trgovinu, e-trgovini i rešenjima za ugostiteljstvo. Bilo da gradim novi proizvod ili unapređujem postojeću platformu, razmišljam o tome kako se delovi uklapaju, kako će ih tim održavati i kako sistem može da prati razvoj poslovanja."
+  },
+  "collaboration": {
+    "services": [
+      {
+        "id": "consulting",
+        "title": "Savetovanje",
+        "description": "Tehnički saveti, pregled arhitekture i jasan plan narednih koraka.",
+        "page": "consulting"
+      },
+      {
+        "id": "delivery",
+        "title": "Vođenje projekta od ideje do release-a i nastavak saradnje",
+        "description": "Planiranje, arhitektura i razvoj od nule do objavljivanja, uz nastavak saradnje kako proizvod raste.",
+        "page": "project-delivery"
+      },
+      {
+        "id": "maintenance",
+        "title": "Održavanje i unapređenje",
+        "description": "Podrška postojećoj aplikaciji: rešavanje problema, unapređenje pouzdanosti i redovno ažuriranje.",
+        "page": "maintenance"
+      },
+      {
+        "id": "team",
+        "title": "Priključivanje postojećem timu",
+        "description": "Razvoj zajedno sa vašim timom, uz zajedničku odgovornost, pregled koda i razmenu znanja.",
+        "page": "join-team"
+      }
+    ],
+    "contactLabel": "Razgovarajmo o saradnji",
+    "formTitle": "Opišite svoju ideju za projekat",
+    "formDescription": "Recite mi šta želite da napravite. Dovoljna je i početna ideja; detalje možemo razraditi zajedno.",
+    "directEmail": "Pišite direktno emailom",
+    "forms": {
+      "consulting": {
+        "title": "Savetovanje",
+        "description": "Tehnički saveti, pregled arhitekture i jasan plan narednih koraka.",
+        "fields": [
+          {
+            "id": "topic",
+            "label": "O čemu želite savetovanje?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "context",
+            "label": "Kakva je trenutna situacija?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "outcome",
+            "label": "Koji ishod očekujete?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "timing",
+            "label": "Termin i željeni format savetovanja",
+            "hint": "",
+            "required": false
+          }
+        ]
+      },
+      "project-delivery": {
+        "title": "Vođenje projekta od ideje do release-a i nastavak saradnje",
+        "description": "Planiranje, arhitektura i razvoj od nule do objavljivanja, uz nastavak saradnje kako proizvod raste.",
+        "fields": [
+          {
+            "id": "goals",
+            "label": "Koji problem projekat treba da reši?",
+            "hint": "Opišite problem i rezultat koji želite da postignete.",
+            "required": true
+          },
+          {
+            "id": "audience",
+            "label": "Ko će koristiti proizvod?",
+            "hint": "Opišite buduće korisnike i njihove potrebe.",
+            "required": true
+          },
+          {
+            "id": "scope",
+            "label": "Šta treba da obuhvati prva verzija?",
+            "hint": "Navedite najvažnije funkcionalnosti ili korisničke tokove.",
+            "required": true
+          },
+          {
+            "id": "existing",
+            "label": "Šta već imate?",
+            "hint": "Postojeći dizajn, istraživanje, kod, tim ili korisni linkovi.",
+            "required": false
+          },
+          {
+            "id": "timeline",
+            "label": "Rokovi i budžet",
+            "hint": "Navedite željene rokove i okvirni budžet, ako ih znate.",
+            "required": false
+          },
+          {
+            "id": "details",
+            "label": "Šta još treba da uzmemo u obzir?",
+            "hint": "Integracije, ograničenja ili pitanja.",
+            "required": false
+          }
+        ]
+      },
+      "maintenance": {
+        "title": "Održavanje i unapređenje",
+        "description": "Podrška postojećoj aplikaciji: rešavanje problema, unapređenje pouzdanosti i redovno ažuriranje.",
+        "fields": [
+          {
+            "id": "application",
+            "label": "Kojoj aplikaciji je potrebno održavanje?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "priorities",
+            "label": "Koji problemi ili unapređenja su prioritet?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "stack",
+            "label": "Koje tehnologije i dokumentacija su dostupni?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "support",
+            "label": "Očekivana podrška i budžet",
+            "hint": "",
+            "required": false
+          }
+        ]
+      },
+      "join-team": {
+        "title": "Priključivanje postojećem timu",
+        "description": "Razvoj zajedno sa vašim timom, uz zajedničku odgovornost, pregled koda i razmenu znanja.",
+        "fields": [
+          {
+            "id": "product",
+            "label": "Na čemu vaš tim radi?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "team",
+            "label": "Sastav tima i tehnologije",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "responsibilities",
+            "label": "Koje odgovornosti bih preuzeo?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "arrangements",
+            "label": "Dostupnost, trajanje i način saradnje",
+            "hint": "",
+            "required": false
+          }
+        ]
+      }
+    }
+  },
+  "footer": {
+    "explore": "Istražite",
+    "connect": "Povežimo se",
+    "location": "Novi Sad, Srbija",
+    "email": "Email",
+    "backToTop": "Nazad na vrh"
   }
 }

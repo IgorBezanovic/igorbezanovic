@@ -9,7 +9,7 @@
   "intro": "Software Engineer working across web applications, cloud systems and digital products. From the first idea to the details that make it work.",
   "home": "Home",
   "experience": "Experience",
-  "project": "Ask for a project",
+  "project": "Collaboration",
   "contact": "Contact me",
   "servicesTitle": "What I can help you build",
   "webTitle": "Web applications",
@@ -20,8 +20,8 @@
   "ctaDescription": "Tell me what you have in mind and we can explore the next steps.",
   "experienceTitle": "Experience and projects",
   "experienceDescription": "Full-stack engineering, AWS and Azure serverless systems, AI integrations and technical leadership.",
-  "projectTitle": "Start a project",
-  "projectDescription": "Describe your idea, goals and expected timeline.",
+  "projectTitle": "Collaboration",
+  "projectDescription": "Let’s find the right way to work together, from a focused conversation to ongoing product development.",
   "contactTitle": "Get in touch",
   "contactDescription": "Have a question or a project in mind? Send me an email.",
   "nameLabel": "Your name",
@@ -219,5 +219,178 @@
     "personalNoteTitle": "Good company. Time to stay active.",
     "personalNote": "Time with the people closest to me, a workout or a quiet walk — these are the things I like to make room for outside of work.",
     "overviewDetail": "I work across enterprise applications, marketplaces, commerce and hospitality. Whether I am building a new product or improving an existing platform, I focus on how the pieces fit together, how teams can maintain them and how the system can evolve with the business."
+  },
+  "collaboration": {
+    "services": [
+      {
+        "id": "consulting",
+        "title": "Consulting",
+        "description": "Technical advice, architecture reviews and a clear plan for your next steps.",
+        "page": "consulting"
+      },
+      {
+        "id": "delivery",
+        "title": "Project delivery, from idea to release and beyond",
+        "description": "Planning, architecture and development from scratch, through launch and continued collaboration as your product evolves.",
+        "page": "project-delivery"
+      },
+      {
+        "id": "maintenance",
+        "title": "Maintenance and improvements",
+        "description": "Support for an existing application: fixing issues, improving reliability and keeping it up to date.",
+        "page": "maintenance"
+      },
+      {
+        "id": "team",
+        "title": "Joining your existing team",
+        "description": "Hands-on engineering alongside your developers, with shared ownership, code reviews and knowledge exchange.",
+        "page": "join-team"
+      }
+    ],
+    "contactLabel": "Discuss this collaboration",
+    "formTitle": "Describe your project idea",
+    "formDescription": "Tell me what you want to build. A rough idea is enough; we can clarify the details together.",
+    "directEmail": "Write directly by email",
+    "forms": {
+      "consulting": {
+        "title": "Consulting",
+        "description": "Technical advice, architecture reviews and a clear plan for your next steps.",
+        "fields": [
+          {
+            "id": "topic",
+            "label": "What would you like advice on?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "context",
+            "label": "What is your current situation?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "outcome",
+            "label": "What outcome do you need?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "timing",
+            "label": "Timing and preferred format",
+            "hint": "",
+            "required": false
+          }
+        ]
+      },
+      "project-delivery": {
+        "title": "Project delivery, from idea to release and beyond",
+        "description": "Planning, architecture and development from scratch, through launch and continued collaboration as your product evolves.",
+        "fields": [
+          {
+            "id": "goals",
+            "label": "What problem should the project solve?",
+            "hint": "Describe the problem and the outcome you want.",
+            "required": true
+          },
+          {
+            "id": "audience",
+            "label": "Who will use the product?",
+            "hint": "Describe your intended users and their needs.",
+            "required": true
+          },
+          {
+            "id": "scope",
+            "label": "What should the first release include?",
+            "hint": "List the most important features or user journeys.",
+            "required": true
+          },
+          {
+            "id": "existing",
+            "label": "What do you already have?",
+            "hint": "Existing designs, research, code, a team or relevant links.",
+            "required": false
+          },
+          {
+            "id": "timeline",
+            "label": "Timeline and budget",
+            "hint": "Share your target dates and budget range, if known.",
+            "required": false
+          },
+          {
+            "id": "details",
+            "label": "Anything else to consider?",
+            "hint": "Integrations, constraints or questions.",
+            "required": false
+          }
+        ]
+      },
+      "maintenance": {
+        "title": "Maintenance and improvements",
+        "description": "Support for an existing application: fixing issues, improving reliability and keeping it up to date.",
+        "fields": [
+          {
+            "id": "application",
+            "label": "Which application needs maintenance?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "priorities",
+            "label": "What issues or improvements matter most?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "stack",
+            "label": "What technologies and documentation are available?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "support",
+            "label": "Support expectations and budget",
+            "hint": "",
+            "required": false
+          }
+        ]
+      },
+      "join-team": {
+        "title": "Joining your existing team",
+        "description": "Hands-on engineering alongside your developers, with shared ownership, code reviews and knowledge exchange.",
+        "fields": [
+          {
+            "id": "product",
+            "label": "What does your team work on?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "team",
+            "label": "Team structure and technology stack",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "responsibilities",
+            "label": "What responsibilities would I take on?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "arrangements",
+            "label": "Availability, duration and working arrangements",
+            "hint": "",
+            "required": false
+          }
+        ]
+      }
+    }
+  },
+  "footer": {
+    "explore": "Explore",
+    "connect": "Let’s connect",
+    "location": "Novi Sad, Serbia",
+    "email": "Email",
+    "backToTop": "Back to top"
   }
 }

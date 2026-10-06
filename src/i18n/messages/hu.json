@@ -9,7 +9,7 @@
   "intro": "Webalkalmazásokkal, felhőrendszerekkel és digitális termékekkel foglalkozó szoftvermérnök. Az első ötlettől a működést biztosító részletekig.",
   "home": "Kezdőlap",
   "experience": "Tapasztalat",
-  "project": "Projektajánlat kérése",
+  "project": "Együttműködés",
   "contact": "Kapcsolat",
   "servicesTitle": "Amiben segíthetek",
   "webTitle": "Webalkalmazások",
@@ -20,8 +20,8 @@
   "ctaDescription": "Oszd meg az ötletedet, és tekintsük át a következő lépéseket.",
   "experienceTitle": "Tapasztalat és projektek",
   "experienceDescription": "Full-stack fejlesztés, AWS és Azure serverless rendszerek, AI-integrációk és műszaki vezetés.",
-  "projectTitle": "Indítsunk egy projektet",
-  "projectDescription": "Írd le az ötletedet, céljaidat és a tervezett határidőt.",
+  "projectTitle": "Együttműködés",
+  "projectDescription": "Találjuk meg az együttműködés megfelelő módját, a tanácsadástól a folyamatos termékfejlesztésig.",
   "contactTitle": "Lépj kapcsolatba velem",
   "contactDescription": "Kérdésed vagy projektötleted van? Küldj emailt.",
   "nameLabel": "Neved",
@@ -219,5 +219,178 @@
     "personalNoteTitle": "Jó társaság. Idő a mozgásra.",
     "personalNote": "Együttlét a szeretteimmel, egy edzés vagy egy nyugodt séta — ezekre szeretek időt szánni a munkán kívül.",
     "overviewDetail": "Vállalati alkalmazásokon, piactereken, e-kereskedelmi és vendéglátási megoldásokon dolgozom. Új termékeknél és meglévő platformoknál is arra figyelek, hogyan illeszkednek a részek egymáshoz, hogyan tarthatja karban őket a csapat, és hogyan fejlődhet a rendszer az üzlettel együtt."
+  },
+  "collaboration": {
+    "services": [
+      {
+        "id": "consulting",
+        "title": "Tanácsadás",
+        "description": "Technikai tanácsok, architektúra-áttekintés és világos terv a következő lépésekhez.",
+        "page": "consulting"
+      },
+      {
+        "id": "delivery",
+        "title": "Projektvezetés az ötlettől a kiadásig és azon túl",
+        "description": "Tervezés, architektúra és fejlesztés a nulláról a kiadásig, majd folyamatos együttműködés.",
+        "page": "project-delivery"
+      },
+      {
+        "id": "maintenance",
+        "title": "Karbantartás és fejlesztés",
+        "description": "Meglévő alkalmazások támogatása: hibajavítás, megbízhatóság és frissítések.",
+        "page": "maintenance"
+      },
+      {
+        "id": "team",
+        "title": "Csatlakozás a meglévő csapathoz",
+        "description": "Fejlesztés a csapattal közösen, megosztott felelősség, kódellenőrzés és tudásmegosztás.",
+        "page": "join-team"
+      }
+    ],
+    "contactLabel": "Beszéljünk az együttműködésről",
+    "formTitle": "Írja le a projektötletét",
+    "formDescription": "Egy kezdeti ötlet is elég; a részleteket közösen tisztázhatjuk.",
+    "directEmail": "Írjon közvetlenül e-mailt",
+    "forms": {
+      "consulting": {
+        "title": "Tanácsadás",
+        "description": "Technikai tanácsok, architektúra-áttekintés és világos terv a következő lépésekhez.",
+        "fields": [
+          {
+            "id": "topic",
+            "label": "Miben kér tanácsot?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "context",
+            "label": "Mi a jelenlegi helyzet?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "outcome",
+            "label": "Milyen eredményt vár?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "timing",
+            "label": "Időzítés és kívánt forma",
+            "hint": "",
+            "required": false
+          }
+        ]
+      },
+      "project-delivery": {
+        "title": "Projektvezetés az ötlettől a kiadásig és azon túl",
+        "description": "Tervezés, architektúra és fejlesztés a nulláról a kiadásig, majd folyamatos együttműködés.",
+        "fields": [
+          {
+            "id": "goals",
+            "label": "Milyen problémát oldjon meg a projekt?",
+            "hint": "Írja le a problémát és a kívánt eredményt.",
+            "required": true
+          },
+          {
+            "id": "audience",
+            "label": "Ki fogja használni a terméket?",
+            "hint": "Mutassa be a felhasználókat és igényeiket.",
+            "required": true
+          },
+          {
+            "id": "scope",
+            "label": "Mit tartalmazzon az első verzió?",
+            "hint": "Sorolja fel a legfontosabb funkciókat vagy felhasználói folyamatokat.",
+            "required": true
+          },
+          {
+            "id": "existing",
+            "label": "Mi áll már rendelkezésre?",
+            "hint": "Meglévő tervek, kutatás, kód, csapat vagy hivatkozások.",
+            "required": false
+          },
+          {
+            "id": "timeline",
+            "label": "Ütemezés és költségkeret",
+            "hint": "Adja meg a tervezett határidőket és költségkeretet, ha ismeri őket.",
+            "required": false
+          },
+          {
+            "id": "details",
+            "label": "Mit vegyünk még figyelembe?",
+            "hint": "Integrációk, korlátok vagy kérdések.",
+            "required": false
+          }
+        ]
+      },
+      "maintenance": {
+        "title": "Karbantartás és fejlesztés",
+        "description": "Meglévő alkalmazások támogatása: hibajavítás, megbízhatóság és frissítések.",
+        "fields": [
+          {
+            "id": "application",
+            "label": "Melyik alkalmazás igényel karbantartást?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "priorities",
+            "label": "Mely problémák vagy fejlesztések a legfontosabbak?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "stack",
+            "label": "Milyen technológiák és dokumentáció áll rendelkezésre?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "support",
+            "label": "Elvárt támogatás és költségkeret",
+            "hint": "",
+            "required": false
+          }
+        ]
+      },
+      "join-team": {
+        "title": "Csatlakozás a meglévő csapathoz",
+        "description": "Fejlesztés a csapattal közösen, megosztott felelősség, kódellenőrzés és tudásmegosztás.",
+        "fields": [
+          {
+            "id": "product",
+            "label": "Min dolgozik a csapat?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "team",
+            "label": "Csapatfelépítés és technológiák",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "responsibilities",
+            "label": "Milyen feladatokat vállaljak?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "arrangements",
+            "label": "Elérhetőség, időtartam és munkarend",
+            "hint": "",
+            "required": false
+          }
+        ]
+      }
+    }
+  },
+  "footer": {
+    "explore": "Fedezze fel",
+    "connect": "Kapcsolódjunk",
+    "location": "Újvidék, Szerbia",
+    "email": "E-mail",
+    "backToTop": "Vissza a tetejére"
   }
 }

@@ -9,7 +9,7 @@
   "intro": "Softwareentwickler für Webanwendungen, Cloud-Systeme und digitale Produkte. Von der ersten Idee bis zu den Details, die alles zum Laufen bringen.",
   "home": "Startseite",
   "experience": "Erfahrung",
-  "project": "Projekt anfragen",
+  "project": "Zusammenarbeit",
   "contact": "Kontakt",
   "servicesTitle": "Was ich für Sie entwickeln kann",
   "webTitle": "Webanwendungen",
@@ -20,8 +20,8 @@
   "ctaDescription": "Erzählen Sie mir von Ihrer Idee, und wir besprechen die nächsten Schritte.",
   "experienceTitle": "Erfahrung und Projekte",
   "experienceDescription": "Full-Stack-Entwicklung, serverlose Systeme mit AWS und Azure, KI-Integrationen und technische Führung.",
-  "projectTitle": "Ein Projekt starten",
-  "projectDescription": "Beschreiben Sie Ihre Idee, Ziele und den gewünschten Zeitrahmen.",
+  "projectTitle": "Zusammenarbeit",
+  "projectDescription": "Finden wir die passende Zusammenarbeit — von einer Beratung bis zur langfristigen Produktentwicklung.",
   "contactTitle": "Kontakt aufnehmen",
   "contactDescription": "Eine Frage oder eine Projektidee? Schreiben Sie mir eine E-Mail.",
   "nameLabel": "Ihr Name",
@@ -219,5 +219,178 @@
     "personalNoteTitle": "Gute Gesellschaft. Zeit für Bewegung.",
     "personalNote": "Zeit mit den Menschen, die mir nahestehen, ein Training oder ein ruhiger Spaziergang — dafür nehme ich mir außerhalb der Arbeit gerne Zeit.",
     "overviewDetail": "Ich arbeite an Unternehmensanwendungen, Marktplätzen, E-Commerce und Lösungen für das Gastgewerbe. Bei neuen Produkten und bestehenden Plattformen achte ich darauf, wie die Teile zusammenpassen, wie Teams sie warten können und wie das System mit dem Unternehmen wachsen kann."
+  },
+  "collaboration": {
+    "services": [
+      {
+        "id": "consulting",
+        "title": "Beratung",
+        "description": "Technische Beratung, Architekturprüfungen und ein klarer Plan für die nächsten Schritte.",
+        "page": "consulting"
+      },
+      {
+        "id": "delivery",
+        "title": "Projektentwicklung von der Idee bis zum Release und darüber hinaus",
+        "description": "Planung, Architektur und Entwicklung von Grund auf bis zum Release, mit anschließender Zusammenarbeit.",
+        "page": "project-delivery"
+      },
+      {
+        "id": "maintenance",
+        "title": "Wartung und Weiterentwicklung",
+        "description": "Unterstützung bestehender Anwendungen: Fehlerbehebung, bessere Zuverlässigkeit und Aktualisierungen.",
+        "page": "maintenance"
+      },
+      {
+        "id": "team",
+        "title": "Mitarbeit in Ihrem bestehenden Team",
+        "description": "Entwicklung mit Ihrem Team, gemeinsame Verantwortung, Code-Reviews und Wissensaustausch.",
+        "page": "join-team"
+      }
+    ],
+    "contactLabel": "Zusammenarbeit besprechen",
+    "formTitle": "Beschreiben Sie Ihre Projektidee",
+    "formDescription": "Eine erste Idee genügt. Die Details können wir gemeinsam klären.",
+    "directEmail": "Direkt per E-Mail schreiben",
+    "forms": {
+      "consulting": {
+        "title": "Beratung",
+        "description": "Technische Beratung, Architekturprüfungen und ein klarer Plan für die nächsten Schritte.",
+        "fields": [
+          {
+            "id": "topic",
+            "label": "Zu welchem Thema benötigen Sie Beratung?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "context",
+            "label": "Wie ist die aktuelle Situation?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "outcome",
+            "label": "Welches Ergebnis wünschen Sie?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "timing",
+            "label": "Zeitplan und bevorzugtes Format",
+            "hint": "",
+            "required": false
+          }
+        ]
+      },
+      "project-delivery": {
+        "title": "Projektentwicklung von der Idee bis zum Release und darüber hinaus",
+        "description": "Planung, Architektur und Entwicklung von Grund auf bis zum Release, mit anschließender Zusammenarbeit.",
+        "fields": [
+          {
+            "id": "goals",
+            "label": "Welches Problem soll das Projekt lösen?",
+            "hint": "Beschreiben Sie das Problem und das gewünschte Ergebnis.",
+            "required": true
+          },
+          {
+            "id": "audience",
+            "label": "Wer wird das Produkt nutzen?",
+            "hint": "Beschreiben Sie die Nutzer und ihre Bedürfnisse.",
+            "required": true
+          },
+          {
+            "id": "scope",
+            "label": "Was soll die erste Version enthalten?",
+            "hint": "Nennen Sie die wichtigsten Funktionen oder Nutzerabläufe.",
+            "required": true
+          },
+          {
+            "id": "existing",
+            "label": "Was ist bereits vorhanden?",
+            "hint": "Vorhandene Entwürfe, Forschung, Code, Team oder Links.",
+            "required": false
+          },
+          {
+            "id": "timeline",
+            "label": "Zeitplan und Budget",
+            "hint": "Gewünschte Termine und Budgetrahmen, soweit bekannt.",
+            "required": false
+          },
+          {
+            "id": "details",
+            "label": "Was sollten wir außerdem beachten?",
+            "hint": "Integrationen, Einschränkungen oder Fragen.",
+            "required": false
+          }
+        ]
+      },
+      "maintenance": {
+        "title": "Wartung und Weiterentwicklung",
+        "description": "Unterstützung bestehender Anwendungen: Fehlerbehebung, bessere Zuverlässigkeit und Aktualisierungen.",
+        "fields": [
+          {
+            "id": "application",
+            "label": "Welche Anwendung benötigt Wartung?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "priorities",
+            "label": "Welche Probleme oder Verbesserungen haben Priorität?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "stack",
+            "label": "Welche Technologien und Dokumentation sind vorhanden?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "support",
+            "label": "Gewünschte Unterstützung und Budget",
+            "hint": "",
+            "required": false
+          }
+        ]
+      },
+      "join-team": {
+        "title": "Mitarbeit in Ihrem bestehenden Team",
+        "description": "Entwicklung mit Ihrem Team, gemeinsame Verantwortung, Code-Reviews und Wissensaustausch.",
+        "fields": [
+          {
+            "id": "product",
+            "label": "Woran arbeitet Ihr Team?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "team",
+            "label": "Teamstruktur und Technologien",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "responsibilities",
+            "label": "Welche Aufgaben soll ich übernehmen?",
+            "hint": "",
+            "required": true
+          },
+          {
+            "id": "arrangements",
+            "label": "Verfügbarkeit, Dauer und Arbeitsmodell",
+            "hint": "",
+            "required": false
+          }
+        ]
+      }
+    }
+  },
+  "footer": {
+    "explore": "Entdecken",
+    "connect": "Kontakt",
+    "location": "Novi Sad, Serbien",
+    "email": "E-Mail",
+    "backToTop": "Nach oben"
   }
 }
