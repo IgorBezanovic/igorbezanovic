@@ -26,7 +26,11 @@ export function ExperienceCard({
           <Typography variant="overline" color="secondary">
             {focus}
           </Typography>
-          <Typography variant="h3" sx={{ mt: 1, lineHeight: 1.25 }}>
+          <Typography
+            variant="h3"
+            component="h3"
+            sx={{ mt: 1, lineHeight: 1.25 }}
+          >
             {title}
           </Typography>
         </Box>

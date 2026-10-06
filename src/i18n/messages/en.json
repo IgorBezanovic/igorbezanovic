@@ -1,12 +1,12 @@
 {
   "theme": {
-    "light": "Light theme",
-    "dark": "Dark theme",
-    "system": "Use system theme"
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
   },
-  "role": "Software Engineer",
-  "heroTitle": "Hi, I’m Igor. I build software that connects the dots.",
-  "intro": "Software Engineer working across web applications, cloud systems and digital products. From the first idea to the details that make it work.",
+  "role": "Senior Software Engineer",
+  "heroTitle": "I’m Igor, a senior engineer building across frontend, backend and cloud.",
+  "intro": "I help teams ship reliable systems, from customer workflows to the APIs and infrastructure behind them.",
   "home": "Home",
   "experience": "Experience",
   "project": "Collaboration",
@@ -32,7 +32,7 @@
   "languageLabel": "Choose language",
   "skip": "Skip to content",
   "explore": "Explore my experience",
-  "seoDescription": "Software engineer developing web applications and digital products.",
+  "seoDescription": "I help teams ship reliable systems, from customer workflows to the APIs and infrastructure behind them.",
   "draftReady": "Email draft prepared. Complete and send it in your email app.",
   "experienceContent": {
     "role": "Software Engineer",
@@ -392,5 +392,103 @@
     "location": "Novi Sad, Serbia",
     "email": "Email",
     "backToTop": "Back to top"
+  },
+  "work": {
+    "nav": "Engineering work",
+    "viewWork": "View engineering work",
+    "discussProject": "Discuss a project",
+    "selected": "Selected engineering work",
+    "read": "Read case study",
+    "context": "Context",
+    "role": "My role",
+    "scale": "Constraints and scale",
+    "decisions": "Decisions and rationale",
+    "implementation": "Implementation and collaboration",
+    "outcome": "Outcome and engineering takeaway",
+    "diagram": "Engineering focus",
+    "diagramCaption": "Documented areas of engineering work.",
+    "back": "Back to engineering work",
+    "leadershipTitle": "Technical leadership in practice",
+    "leadershipDescription": "Across product teams and production systems, I combine hands-on development with architecture, planning and delivery ownership.",
+    "strengths": "Technical strengths",
+    "approachTitle": "How we work together",
+    "approachDescription": "Understand the problem. Agree on priorities. Build in manageable steps and stay involved after release.",
+    "choose": "Choose a collaboration",
+    "themeLabel": "Theme",
+    "description": "Across product teams and production systems, I combine hands-on development with architecture, planning and delivery ownership.",
+    "cases": {
+      "enterprise-device-management": {
+        "title": "Enterprise remote device management",
+        "role": "Full-stack engineer · Enterprise systems",
+        "scale": "Approximately 15,000 users",
+        "summary": "More reusable capabilities, fewer redundant requests and improved operational workflows.",
+        "technologies": [
+          "React",
+          "Material UI",
+          "Azure Redis",
+          "Azure Durable Functions"
+        ],
+        "sections": {
+          "context": "A remote device management and maintenance platform served approximately 15,000 users. The work connected customer-facing workflows with permissions, shared interfaces and the services supporting operational tasks.",
+          "role": "I developed full-stack functionality, granular role-based access control and shared React/MUI components. My responsibilities also covered client data flows, backend improvements and Azure workflows for maintenance and deployment.",
+          "scale": "The platform combined user-facing applications with operational workflows and components reused across applications. Changes needed to account for permissions, pagination and the effect of repeated requests on shared services.",
+          "decisions": "I built reusable UI and backend capabilities to support consistency across applications. Reducing redundant requests and running independent backend operations in parallel addressed unnecessary work; Redis scan optimization targeted data-access overhead.",
+          "implementation": "I worked on API and pagination improvements, shared packages and Azure Durable Functions orchestration. Collaboration with engineers and solution architects connected implementation choices with the needs of systems used across teams.",
+          "outcome": "The delivered work reduced redundant API calls and added reusable capabilities and operational workflows. The engineering takeaway: reliability depends on the boundaries between permissions, UI data flows and backend execution, as well as individual features."
+        },
+        "diagramNodes": [
+          "Role-based access",
+          "Shared React/MUI interfaces",
+          "API data flows and pagination",
+          "Redis scan optimization",
+          "Durable Functions workflows"
+        ]
+      },
+      "serverless-modernization": {
+        "title": "AWS serverless modernization",
+        "role": "Backend & cloud engineer · Media platform",
+        "scale": "36 repositories · More than 150 Lambda functions",
+        "summary": "A TypeScript codebase and AWS SDK v3 modernization across a broad serverless estate.",
+        "technologies": [
+          "TypeScript",
+          "AWS Lambda",
+          "AWS SDK v3",
+          "AppSync",
+          "DynamoDB",
+          "AWS CDK"
+        ],
+        "sections": {
+          "context": "A media platform used serverless services and shared packages across multiple product teams. The modernization covered JavaScript-to-TypeScript migration and adoption of AWS SDK v3 across an existing AWS estate.",
+          "role": "I led and automated the migration across 36 repositories and more than 150 Lambda functions. I also worked on GraphQL services, infrastructure as code, shared models and persistence packages, monitoring and CI/CD.",
+          "scale": "The scale made consistency and coordination important: changes crossed repository, package and product-team boundaries. Existing services included AppSync, DynamoDB and infrastructure defined with AWS CDK and Serverless Framework.",
+          "decisions": "TypeScript made contracts explicit across service and package boundaries. Shared packages standardized content models, mapping and persistence; infrastructure as code kept cloud definitions reviewable alongside application changes.",
+          "implementation": "I automated migration work and collaborated with solution architects and product teams. My responsibilities included AppSync GraphQL services and VTL resolvers, reusable npm packages, monitoring, alerting and support for delivery pipelines.",
+          "outcome": "The migration moved the stated estate to TypeScript alongside AWS SDK v3 modernization. Shared models and persistence supported consistency. The engineering takeaway: cross-repository modernization is also a coordination problem, not only a syntax change."
+        },
+        "diagramNodes": ["JavaScript", "TypeScript", "AWS SDK v3"]
+      },
+      "marketplace-product": {
+        "title": "Marketplace product development",
+        "role": "CTO & co-founder · Marketplace",
+        "scale": "A team of four developers",
+        "summary": "Connected product delivery, AI content features, unified search and ongoing production support.",
+        "technologies": ["Next.js", "Node.js", "Express", "MongoDB", "OpenAI"],
+        "sections": {
+          "context": "A marketplace brought products, events and users together. Product development required connecting the customer interface, services, data and release process while continuing to support and evolve the running product.",
+          "role": "As CTO and co-founder, I led a four-developer team and owned delivery across frontend, backend, database, deployment and production support. I combined hands-on engineering with technical direction and product ownership.",
+          "scale": "The confirmed team size was four developers. Responsibilities spanned the full stack and continued beyond release; the work included an existing frontend migration rather than only building a new application.",
+          "decisions": "I led a Next.js migration for server-side rendering and technical SEO. Node.js/Express and MongoDB supported marketplace services, while AI descriptions and content validation addressed product-content workflows.",
+          "implementation": "I brought frontend, backend, data and deployment work together with the team. We delivered unified search across products, events and users, AI-assisted content, and staging and production deployments on Vercel and Railway.",
+          "outcome": "The product gained the described search and AI-content capabilities, with continued production support. The engineering takeaway: technical direction must connect release decisions and team delivery with the needs of the evolving product."
+        },
+        "diagramNodes": [
+          "Next.js: rendering and SEO",
+          "Node.js/Express services",
+          "MongoDB persistence",
+          "AI descriptions and validation",
+          "Unified search"
+        ]
+      }
+    }
   }
 }

@@ -1,28 +1,25 @@
 import { Box, Stack, Typography } from "@mui/material";
 import type { Dictionary } from "@/i18n/dictionaries";
-import { coreTechnologies, experienceTechnologies } from "@/content/experience";
+import type { Locale } from "@/i18n/config";
+import { experienceTechnologies } from "@/content/experience";
 import { ExperienceCard } from "../ui/experience-card";
 import { Section } from "../ui/section";
-import { TechnologyList } from "../ui/technology-list";
 import { PublicContributions } from "./public-contributions";
+import { EngineeringWork } from "./engineering-work";
 
 export function ExperienceContent({
-  content,
+  locale,
+  t,
 }: {
-  content: Dictionary["experienceContent"];
+  locale: Locale;
+  t: Dictionary;
 }) {
+  const content = t.experienceContent;
   return (
     <>
+      <EngineeringWork locale={locale} content={t.work} />
       <Section>
-        <Typography
-          variant="subtitle1"
-          component="p"
-          color="text.secondary"
-          sx={{ maxWidth: 850, lineHeight: 1.8, mb: 6 }}
-        >
-          {content.overview}
-        </Typography>
-        <Typography variant="h2" sx={{ mb: 4 }}>
+        <Typography component="h2" variant="h2" sx={{ mb: 4 }}>
           {content.workTitle}
         </Typography>
         <Box
@@ -32,41 +29,34 @@ export function ExperienceContent({
             gap: 3,
           }}
         >
-          {content.cards.map((card) => (
-            <ExperienceCard
-              key={card.id}
-              title={card.title}
-              focus={card.focus}
-              highlights={card.highlights}
-              technologies={experienceTechnologies[card.id] ?? []}
-            />
-          ))}
+          {content.cards
+            .filter(
+              (card) => card.id === "commerce" || card.id === "hospitality",
+            )
+            .map((card) => (
+              <ExperienceCard
+                key={card.id}
+                title={card.title}
+                focus={card.focus}
+                highlights={card.highlights}
+                technologies={experienceTechnologies[card.id] ?? []}
+              />
+            ))}
         </Box>
       </Section>
       <Section>
-        <Stack spacing={4}>
-          <Typography variant="h2">{content.skillsTitle}</Typography>
-          <TechnologyList technologies={coreTechnologies} variant="showcase" />
-        </Stack>
-      </Section>
-      <Section>
-        <Stack spacing={6} sx={{ maxWidth: 850 }}>
-          <Box>
-            <Typography variant="h2" sx={{ mb: 3 }}>
-              {content.collaborationTitle}
+        <Stack spacing={3} sx={{ maxWidth: 850 }}>
+          <Typography component="h2" variant="h2">
+            {t.work.leadershipTitle}
+          </Typography>
+          <Typography variant="subtitle1" component="p">
+            {t.work.leadershipDescription}
+          </Typography>
+          {content.collaborationParagraphs.map((paragraph) => (
+            <Typography key={paragraph} color="text.secondary">
+              {paragraph}
             </Typography>
-            <Stack spacing={3}>
-              {content.collaborationParagraphs.map((paragraph) => (
-                <Typography
-                  key={paragraph}
-                  color="text.secondary"
-                  sx={{ lineHeight: 1.8 }}
-                >
-                  {paragraph}
-                </Typography>
-              ))}
-            </Stack>
-          </Box>
+          ))}
         </Stack>
       </Section>
       <PublicContributions content={content.contributions} />

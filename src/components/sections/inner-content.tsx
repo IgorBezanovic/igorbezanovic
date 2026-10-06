@@ -1,13 +1,21 @@
 import { Box, Paper, Stack, Typography } from "@mui/material";
 import type { Dictionary } from "@/i18n/dictionaries";
 import type { Locale } from "@/i18n/config";
-import { pagePath, servicePages, profile, type Page } from "@/lib/site";
+import {
+  pagePath,
+  servicePages,
+  profile,
+  isCaseStudyPage,
+  type Page,
+} from "@/lib/site";
 import { Section } from "../ui/section";
 import { PageHeading } from "../ui/page-heading";
 import { InquiryForm } from "../forms/inquiry-form";
 import { ProjectCta } from "./project-cta";
 import { ExperienceContent } from "./experience-content";
 import { ActionLink } from "../ui/action-link";
+import { CaseStudy } from "./case-study";
+import { WorkingApproach } from "./home/working-approach";
 import { cardAccentStyles } from "../ui/card-styles";
 export function InnerContent({
   page,
@@ -18,6 +26,8 @@ export function InnerContent({
   locale: Locale;
   t: Dictionary;
 }) {
+  if (isCaseStudyPage(page))
+    return <CaseStudy page={page} locale={locale} t={t} />;
   const serviceForm = servicePages.includes(
     page as (typeof servicePages)[number],
   )
@@ -143,9 +153,12 @@ export function InnerContent({
           </Typography>
         )}
       </Section>
+      {page === "ask-for-project" && (
+        <WorkingApproach content={t.homeContent} />
+      )}
       {page === "experience" && (
         <>
-          <ExperienceContent content={t.experienceContent} />
+          <ExperienceContent locale={locale} t={t} />
           <ProjectCta locale={locale} t={t} />
         </>
       )}

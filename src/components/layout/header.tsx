@@ -33,7 +33,9 @@ export function Header({ locale, t }: { locale: Locale; t: Dictionary }) {
           spacing={1}
           className="header-controls"
         >
-          <ThemeSwitcher labels={t.theme} />
+          <ThemeSwitcher
+            labels={{ light: t.theme.light, dark: t.theme.dark }}
+          />
           <LanguageSwitcher locale={locale} label={t.languageLabel} />
         </Stack>
       </Container>

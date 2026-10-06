@@ -145,3 +145,186 @@ nav a:hover {
 .header-controls {
   margin-left: auto;
 }
+
+/* Portfolio narratives share the existing palette and typographic scale. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.portfolio-hero {
+  max-width: 1000px;
+}
+.portfolio-hero h1 {
+  font-size: clamp(2.6rem, 4.8vw, 5rem);
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+.journey-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
+}
+.work-list {
+  border-top: 1px solid var(--mui-palette-divider);
+}
+.work-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
+  gap: 32px;
+  padding: 36px 0;
+  border-bottom: 1px solid var(--mui-palette-divider);
+}
+.work-title {
+  text-decoration: none;
+}
+.work-title:hover,
+.work-row:focus-within .work-title {
+  text-decoration: underline;
+}
+.work-result {
+  align-self: center;
+}
+.work-read {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 12px;
+  color: var(--mui-palette-secondary-main);
+}
+.work-diagram {
+  margin: 0;
+  padding: clamp(20px, 3vw, 36px);
+  border: 1px solid var(--mui-palette-divider);
+  border-radius: 12px;
+  background: var(--mui-palette-background-paper);
+  min-width: 0;
+}
+.diagram-title {
+  margin: 0 0 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--mui-palette-divider);
+  font-weight: 600;
+}
+.migration-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  color: var(--mui-palette-secondary-main);
+  font-size: clamp(1.1rem, 1.6vw, 1.5rem);
+  font-weight: 600;
+}
+.migration-flow span:not([aria-hidden]) {
+  padding: 12px;
+  border: 1px solid var(--mui-palette-divider);
+  border-radius: 8px;
+}
+.diagram-nodes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.diagram-nodes li {
+  padding: 12px;
+  border-left: 3px solid var(--mui-palette-secondary-main);
+  background: var(--mui-palette-action-hover);
+  overflow-wrap: anywhere;
+}
+.diagram-scale {
+  margin: 24px 0 16px;
+  font-variant-numeric: tabular-nums;
+}
+.work-diagram figcaption {
+  font-size: 0.8125rem;
+  color: var(--mui-palette-text-secondary);
+  line-height: 1.6;
+}
+.summary-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+  gap: clamp(32px, 5vw, 80px);
+}
+.strengths-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+}
+.strengths-grid section {
+  border-top: 1px solid var(--mui-palette-divider);
+  padding-top: 24px;
+}
+.strengths-grid ul {
+  padding-left: 20px;
+  color: var(--mui-palette-text-secondary);
+  line-height: 1.9;
+}
+.case-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  gap: clamp(32px, 6vw, 96px);
+  align-items: start;
+}
+.case-narrative {
+  max-width: 72ch;
+}
+.case-narrative section + section {
+  margin-top: 40px;
+}
+.case-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding: 20px 0;
+  list-style: none;
+  color: var(--mui-palette-text-secondary);
+  font-size: 0.875rem;
+}
+.final-contact {
+  border-top: 1px solid var(--mui-palette-divider);
+  padding-top: 40px;
+}
+.contact-email {
+  display: inline-block;
+  margin-top: 20px;
+  color: var(--mui-palette-secondary-main);
+  font-size: clamp(1.1rem, 2.5vw, 2rem);
+  overflow-wrap: anywhere;
+}
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+@media (max-width: 900px) {
+  .portfolio-hero,
+  .summary-layout,
+  .case-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .work-row,
+  .strengths-grid,
+  .diagram-nodes {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .work-row {
+    gap: 16px;
+    padding: 28px 0;
+  }
+  .header-controls {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}

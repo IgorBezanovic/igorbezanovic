@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
 import { locales, type Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries";
-import { pagePath, profile, siteUrl, servicePages, type Page } from "./site";
+import {
+  pagePath,
+  profile,
+  siteUrl,
+  servicePages,
+  isCaseStudyPage,
+  type Page,
+} from "./site";
 export function pageMetadata(
   locale: Locale,
   page: Page,
@@ -24,9 +31,10 @@ export function pageMetadata(
   )
     ? t.collaboration.forms[page as keyof typeof t.collaboration.forms]
     : undefined;
+  const caseStudy = isCaseStudyPage(page) ? t.work.cases[page] : undefined;
   const basePage = page as keyof typeof labels;
-  const title = `${serviceForm?.title ?? labels[basePage]} | ${profile.name}`;
-  const description = `${profile.name} — ${serviceForm?.description ?? descriptions[basePage]}`;
+  const title = `${caseStudy?.title ?? serviceForm?.title ?? labels[basePage]} | ${profile.name}`;
+  const description = `${profile.name} — ${caseStudy?.summary ?? serviceForm?.description ?? descriptions[basePage]}`;
   const url = siteUrl ? `${siteUrl}${pagePath(locale, page)}` : undefined;
   return {
     title,

@@ -13,7 +13,17 @@ export const servicePages = [
   "maintenance",
   "join-team",
 ] as const;
+export const caseStudyPages = [
+  "enterprise-device-management",
+  "serverless-modernization",
+  "marketplace-product",
+] as const;
+export type CaseStudyPage = (typeof caseStudyPages)[number];
+export function isCaseStudyPage(page: string): page is CaseStudyPage {
+  return caseStudyPages.includes(page as CaseStudyPage);
+}
 export const pages = [
+  ...caseStudyPages,
   "experience",
   "ask-for-project",
   "contact-me",

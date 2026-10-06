@@ -1,12 +1,12 @@
 {
   "theme": {
-    "light": "Világos téma",
-    "dark": "Sötét téma",
-    "system": "Rendszertéma használata"
+    "light": "Világos",
+    "dark": "Sötét",
+    "system": "Rendszer"
   },
-  "role": "Szoftvermérnök",
-  "heroTitle": "Szia, Igor vagyok. Összekapcsolom az ötleteket a szoftverben.",
-  "intro": "Webalkalmazásokkal, felhőrendszerekkel és digitális termékekkel foglalkozó szoftvermérnök. Az első ötlettől a működést biztosító részletekig.",
+  "role": "Senior szoftvermérnök",
+  "heroTitle": "Igor vagyok, senior mérnök a frontend, backend és cloud területén.",
+  "intro": "Segítek a csapatoknak megbízható rendszereket szállítani, a felhasználói folyamatoktól az API-kig és az infrastruktúráig.",
   "home": "Kezdőlap",
   "experience": "Tapasztalat",
   "project": "Együttműködés",
@@ -32,7 +32,7 @@
   "languageLabel": "Nyelv kiválasztása",
   "skip": "Ugrás a tartalomra",
   "explore": "Tapasztalataim megtekintése",
-  "seoDescription": "Szoftvermérnök webalkalmazások és digitális termékek fejlesztéséhez.",
+  "seoDescription": "Segítek a csapatoknak megbízható rendszereket szállítani, a felhasználói folyamatoktól az API-kig és az infrastruktúráig.",
   "draftReady": "Az email-piszkozat elkészült. Egészítsd ki és küldd el a levelezőprogramodból.",
   "experienceContent": {
     "role": "Szoftvermérnök",
@@ -392,5 +392,103 @@
     "location": "Újvidék, Szerbia",
     "email": "E-mail",
     "backToTop": "Vissza a tetejére"
+  },
+  "work": {
+    "nav": "Mérnöki munkák",
+    "viewWork": "Mérnöki munkák megtekintése",
+    "discussProject": "Beszéljünk egy projektről",
+    "selected": "Válogatott munkák",
+    "read": "Esettanulmány olvasása",
+    "context": "Háttér",
+    "role": "Szerepem",
+    "scale": "Korlátok és méret",
+    "decisions": "Döntések és indokok",
+    "implementation": "Megvalósítás és együttműködés",
+    "outcome": "Eredmény és mérnöki tanulság",
+    "diagram": "Munkaterületek",
+    "diagramCaption": "Dokumentált mérnöki munkaterületek.",
+    "back": "Vissza a munkákhoz",
+    "leadershipTitle": "Technikai vezetés a gyakorlatban",
+    "leadershipDescription": "Termékcsapatokban és éles rendszereken a fejlesztést architektúrával, tervezéssel és szállítási felelősséggel kapcsolom össze.",
+    "strengths": "Technikai erősségek",
+    "approachTitle": "Így dolgozunk együtt",
+    "approachDescription": "Megértjük a problémát. Egyeztetjük a prioritásokat. Kezelhető lépésekben fejlesztünk, és a kiadás után is részt veszünk a munkában.",
+    "choose": "Együttműködés kiválasztása",
+    "themeLabel": "Téma",
+    "description": "Termékcsapatokban és éles rendszereken a fejlesztést architektúrával, tervezéssel és szállítási felelősséggel kapcsolom össze.",
+    "cases": {
+      "enterprise-device-management": {
+        "title": "Távoli eszközkezelés",
+        "role": "Full-stack mérnök · Vállalati rendszerek",
+        "scale": "Körülbelül 15 000 felhasználó",
+        "summary": "Újrafelhasználható képességek, kevesebb felesleges kérés és jobb működési folyamatok.",
+        "technologies": [
+          "React",
+          "Material UI",
+          "Azure Redis",
+          "Azure Durable Functions"
+        ],
+        "sections": {
+          "context": "Egy távoli eszközkezelő és karbantartó platform körülbelül 15 000 felhasználót szolgált ki. A munka felhasználói folyamatokat, jogosultságokat, közös felületeket és működési szolgáltatásokat kapcsolt össze.",
+          "role": "Full-stack funkciókat, részletes szerepköralapú hozzáférést és közös React/MUI-komponenseket fejlesztettem. Feladataim adatfolyamatokra, backend-fejlesztésekre, valamint Azure karbantartási és telepítési folyamatokra is kiterjedtek.",
+          "scale": "A platform alkalmazásokat, működési folyamatokat és több alkalmazásban használt komponenseket kapcsolt össze. A módosításoknál figyelembe kellett venni a jogosultságokat, lapozást és az ismételt kérések hatását.",
+          "decisions": "Az újrafelhasználható UI- és backend-képességek az egységességet támogatták. A felesleges kérések csökkentése és független műveletek párhuzamosítása fölös munkát kerültek el; a Redis-optimalizálás az adatelérést célozta.",
+          "implementation": "API-kon, lapozáson, közös csomagokon és Azure Durable Functions folyamatokon dolgoztam. A mérnökökkel és architektekkel való együttműködés a megvalósítást a több csapat által használt rendszerekhez igazította.",
+          "outcome": "A munka csökkentette a felesleges API-hívásokat, és közös képességeket, működési folyamatokat adott hozzá. Mérnöki tanulság: a megbízhatóság a jogosultságok, UI-adatfolyamok és backend-végrehajtás kapcsolatától is függ."
+        },
+        "diagramNodes": [
+          "Szerepköralapú hozzáférés",
+          "Közös React/MUI-felületek",
+          "API-adatfolyamok és lapozás",
+          "Redis-lekérdezések optimalizálása",
+          "Durable Functions folyamatok"
+        ]
+      },
+      "serverless-modernization": {
+        "title": "AWS serverless modernizálás",
+        "role": "Backend és cloud mérnök · Médiaplatform",
+        "scale": "36 repozitórium · Több mint 150 Lambda-függvény",
+        "summary": "TypeScript-migráció és AWS SDK v3 modernizálás egy kiterjedt serverless rendszerben.",
+        "technologies": [
+          "TypeScript",
+          "AWS Lambda",
+          "AWS SDK v3",
+          "AppSync",
+          "DynamoDB",
+          "AWS CDK"
+        ],
+        "sections": {
+          "context": "Egy médiaplatform több termékcsapatban használt serverless szolgáltatásokat és közös csomagokat. A modernizálás JavaScript–TypeScript migrációt és az AWS SDK v3 bevezetését foglalta magában.",
+          "role": "36 repozitórium és több mint 150 Lambda-függvény migrációját vezettem és automatizáltam. GraphQL-lel, infrastruktúrakóddal, közös modellekkel és adatcsomagokkal, monitorozással és CI/CD-vel is dolgoztam.",
+          "scale": "A méret egységességet és koordinációt igényelt repozitóriumok, csomagok és csapatok között. A szolgáltatások között AppSync, DynamoDB, AWS CDK és Serverless Framework infrastruktúra szerepelt.",
+          "decisions": "A TypeScript egyértelművé tette a szolgáltatások és csomagok szerződéseit. A közös csomagok egységesítették a modelleket, leképezést és tárolást; az infrastruktúrakód ellenőrizhetővé tette a cloud-definíciókat.",
+          "implementation": "Automatizáltam a migrációt, és architektekkel, termékcsapatokkal működtem együtt. Feladataim AppSync-re, VTL-resolverekre, npm-csomagokra, monitorozásra, riasztásokra és szállítási folyamatok támogatására terjedtek ki.",
+          "outcome": "A leírt rendszer TypeScriptre és AWS SDK v3-ra váltott. A közös modellek támogatták az egységességet. Mérnöki tanulság: sok repozitórium modernizálása koordinációs feladat is, nem csak kódátalakítás."
+        },
+        "diagramNodes": ["JavaScript", "TypeScript", "AWS SDK v3"]
+      },
+      "marketplace-product": {
+        "title": "Marketplace termékfejlesztés",
+        "role": "CTO és társalapító · Marketplace",
+        "scale": "Négy fejlesztőből álló csapat",
+        "summary": "Összekapcsolt termékfejlesztés, AI-tartalom, egységes keresés és éles támogatás.",
+        "technologies": ["Next.js", "Node.js", "Express", "MongoDB", "OpenAI"],
+        "sections": {
+          "context": "A marketplace termékeket, eseményeket és felhasználókat kapcsolt össze. A fejlesztésnek felületet, szolgáltatásokat, adatokat és kiadást kellett összefognia, miközben a működő terméket is támogatta.",
+          "role": "CTO-ként és társalapítóként négy fejlesztőt vezettem, és a frontendért, backendért, adatbázisért, telepítésért és támogatásért feleltem. Gyakorlati fejlesztést kapcsoltam össze technikai iránnyal és termékfelelősséggel.",
+          "scale": "A megerősített csapatméret négy fejlesztő. A felelősség a teljes stackre és a kiadás utáni időre kiterjedt; a munka meglévő frontend migrációját is tartalmazta.",
+          "decisions": "A Next.js-migrációt szerveroldali renderelés és technikai SEO érdekében vezettem. A Node.js/Express és MongoDB szolgáltatásokat, az AI-leírások és tartalomellenőrzés terméktartalmi folyamatokat támogattak.",
+          "implementation": "A csapattal összekapcsoltam a frontendet, backendet, adatokat és telepítést. Egységes termék-, esemény- és felhasználókeresést, AI-tartalmat, Vercel és Railway staging és éles környezeteket szállítottunk.",
+          "outcome": "A termék megkapta a leírt keresési és AI-tartalmi funkciókat, folyamatos éles támogatással. Mérnöki tanulság: a technikai iránynak a kiadási döntéseket és csapatmunkát a termék fejlődéséhez kell kapcsolnia."
+        },
+        "diagramNodes": [
+          "Next.js: renderelés és SEO",
+          "Node.js/Express-szolgáltatások",
+          "MongoDB adattárolás",
+          "AI-leírások és ellenőrzés",
+          "Egységes keresés"
+        ]
+      }
+    }
   }
 }

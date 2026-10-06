@@ -86,4 +86,12 @@ Have a product idea, a cloud modernization challenge or a web application to bui
 
 [Email](mailto:igorbezanovic@gmail.com) · [LinkedIn](https://www.linkedin.com/in/igor-bezanovic/) · [GitHub](https://github.com/IgorBezanovic)
 
-The Collaboration page presents four ways to work together and an overview of my approach and ownership. Each service links to a dedicated, localized inquiry page: `/[locale]/consulting`, `/[locale]/project-delivery`, `/[locale]/maintenance`, and `/[locale]/join-team`. Each form asks questions specific to that service and opens a prefilled email draft; it does not send or store inquiries. A direct email link is also available. The finite route set now contains 48 prerendered content pages (six locales × eight pages).
+The Collaboration page presents four ways to work together and an overview of my approach and ownership. Each service links to a dedicated, localized inquiry page: `/[locale]/consulting`, `/[locale]/project-delivery`, `/[locale]/maintenance`, and `/[locale]/join-team`. Each form asks questions specific to that service and opens a prefilled email draft; it does not send or store inquiries. A direct email link is also available. The finite route set now contains 66 prerendered content pages (six locales × eleven pages).
+
+## Engineering portfolio
+
+The homepage leads with separate paths for reviewing engineering work and discussing a project. `/[locale]/experience` links to three anonymized case studies: `/[locale]/enterprise-device-management`, `/[locale]/serverless-modernization`, and `/[locale]/marketplace-product`. Each includes context, responsibilities, scale, decisions, implementation, outcomes and a restrained map of the documented work. Content uses supplied facts without employer names, dates or unverified performance and business metrics. All content and metadata are localized in the existing six dictionaries.
+
+The light/dark switch initially reflects the operating-system theme through the existing MUI color-scheme provider. A manual choice is persisted; there is no System control in the interface. Public pages remain statically generated. No backend, dependency or deployment changes are required.
+
+The former engineering-work overview redirects permanently to Experience in every supported locale. Experience is the single overview for case studies and professional experience.

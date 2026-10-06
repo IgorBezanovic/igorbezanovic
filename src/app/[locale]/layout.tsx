@@ -23,7 +23,7 @@ export default async function LocaleLayout({
   if (!isLocale(locale)) notFound();
   const t = await getDictionary(locale);
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning data-scroll-behavior="smooth">
       <body>
         <InitColorSchemeScript attribute="data" defaultMode="system" />
         <AppProvider>

@@ -1,12 +1,12 @@
 {
   "theme": {
-    "light": "Svetla tema",
-    "dark": "Tamna tema",
-    "system": "Koristi sistemsku temu"
+    "light": "Svetla",
+    "dark": "Tamna",
+    "system": "Sistemska"
   },
-  "role": "Softverski inženjer",
-  "heroTitle": "Ćao, ja sam Igor. Razvijam softver koji povezuje stvari.",
-  "intro": "Softverski inženjer koji razvija web aplikacije, cloud sisteme i digitalne proizvode. Od prve ideje do detalja koji čine da sve radi.",
+  "role": "Senior softverski inženjer",
+  "heroTitle": "Ja sam Igor, senior inženjer koji povezuje frontend, backend i cloud.",
+  "intro": "Pomažem timovima da isporuče pouzdane sisteme, od korisničkih tokova do API-ja i infrastrukture koja ih podržava.",
   "home": "Početna",
   "experience": "Iskustvo",
   "project": "Saradnja",
@@ -32,7 +32,7 @@
   "languageLabel": "Izaberi jezik",
   "skip": "Pređi na sadržaj",
   "explore": "Pogledaj moje iskustvo",
-  "seoDescription": "Softverski inženjer za razvoj web aplikacija i digitalnih proizvoda.",
+  "seoDescription": "Pomažem timovima da isporuče pouzdane sisteme, od korisničkih tokova do API-ja i infrastrukture koja ih podržava.",
   "draftReady": "Email nacrt je pripremljen. Dopunite ga i pošaljite iz svog email programa.",
   "experienceContent": {
     "role": "Softverski inženjer",
@@ -392,5 +392,103 @@
     "location": "Novi Sad, Srbija",
     "email": "Email",
     "backToTop": "Nazad na vrh"
+  },
+  "work": {
+    "nav": "Inženjerski rad",
+    "viewWork": "Pogledajte moj rad",
+    "discussProject": "Razgovarajmo o projektu",
+    "selected": "Izdvojeni radovi",
+    "read": "Pročitajte studiju slučaja",
+    "context": "Kontekst",
+    "role": "Moja uloga",
+    "scale": "Ograničenja i obim",
+    "decisions": "Odluke i obrazloženje",
+    "implementation": "Implementacija i saradnja",
+    "outcome": "Rezultat i inženjerska pouka",
+    "diagram": "Oblasti rada",
+    "diagramCaption": "Potvrđene oblasti inženjerskog rada.",
+    "back": "Nazad na pregled radova",
+    "leadershipTitle": "Tehničko vođstvo u praksi",
+    "leadershipDescription": "U radu sa proizvodnim timovima i produkcionim sistemima povezujem razvoj sa arhitekturom, planiranjem i odgovornošću za isporuku.",
+    "strengths": "Tehničke snage",
+    "approachTitle": "Kako sarađujemo",
+    "approachDescription": "Razumemo problem. Dogovaramo prioritete. Razvijamo u manjim koracima i ostajemo uključeni posle objavljivanja.",
+    "choose": "Izaberite saradnju",
+    "themeLabel": "Tema",
+    "description": "U radu sa proizvodnim timovima i produkcionim sistemima povezujem razvoj sa arhitekturom, planiranjem i odgovornošću za isporuku.",
+    "cases": {
+      "enterprise-device-management": {
+        "title": "Upravljanje udaljenim uređajima",
+        "role": "Full-stack inženjer · Enterprise sistemi",
+        "scale": "Približno 15.000 korisnika",
+        "summary": "Više deljenih funkcionalnosti, manje suvišnih zahteva i unapređeni operativni tokovi.",
+        "technologies": [
+          "React",
+          "Material UI",
+          "Azure Redis",
+          "Azure Durable Functions"
+        ],
+        "sections": {
+          "context": "Platforma za upravljanje i održavanje udaljenih uređaja služila je približno 15.000 korisnika. Rad je povezivao korisničke tokove sa dozvolama, deljenim interfejsima i servisima za operativne zadatke.",
+          "role": "Razvijao sam full-stack funkcionalnosti, granularnu kontrolu pristupa po ulogama i deljene React/MUI komponente. Odgovornosti su obuhvatale i tokove podataka, backend unapređenja i Azure procese održavanja i deploy-a.",
+          "scale": "Platforma je povezivala korisničke aplikacije, operativne tokove i komponente korišćene u više aplikacija. Promene su zahtevale pažnju prema dozvolama, paginaciji i uticaju ponovljenih zahteva na deljene servise.",
+          "decisions": "Deljene UI i backend funkcionalnosti podržavale su doslednost između aplikacija. Uklanjanje suvišnih zahteva i paralelno izvršavanje nezavisnih operacija smanjivali su nepotreban rad; optimizacija Redis skeniranja bavila se pristupom podacima.",
+          "implementation": "Radio sam na API-ju i paginaciji, deljenim paketima i Azure Durable Functions orkestracijama. Saradnja sa inženjerima i arhitektama povezivala je implementaciju sa potrebama sistema koje koristi više timova.",
+          "outcome": "Isporučeni rad smanjio je suvišne API pozive i dodao deljene funkcionalnosti i operativne tokove. Inženjerska pouka: pouzdanost zavisi i od veza između dozvola, UI tokova podataka i backend izvršavanja."
+        },
+        "diagramNodes": [
+          "Pristup po ulogama",
+          "Deljeni React/MUI interfejsi",
+          "API tokovi podataka i paginacija",
+          "Optimizacija Redis skeniranja",
+          "Durable Functions tokovi"
+        ]
+      },
+      "serverless-modernization": {
+        "title": "Modernizacija AWS serverless sistema",
+        "role": "Backend i cloud inženjer · Medijska platforma",
+        "scale": "36 repozitorijuma · Više od 150 Lambda funkcija",
+        "summary": "Migracija na TypeScript i modernizacija na AWS SDK v3 kroz veliki serverless sistem.",
+        "technologies": [
+          "TypeScript",
+          "AWS Lambda",
+          "AWS SDK v3",
+          "AppSync",
+          "DynamoDB",
+          "AWS CDK"
+        ],
+        "sections": {
+          "context": "Medijska platforma koristila je serverless servise i deljene pakete u više proizvodnih timova. Modernizacija je obuhvatila migraciju sa JavaScript-a na TypeScript i prelazak na AWS SDK v3.",
+          "role": "Vodio sam i automatizovao migraciju kroz 36 repozitorijuma i više od 150 Lambda funkcija. Radio sam i na GraphQL servisima, infrastrukturi kao kodu, deljenim modelima i paketima za podatke, monitoringu i CI/CD-u.",
+          "scale": "Obim je zahtevao doslednost i koordinaciju između repozitorijuma, paketa i proizvodnih timova. Postojeći servisi uključivali su AppSync, DynamoDB i infrastrukturu definisanu kroz AWS CDK i Serverless Framework.",
+          "decisions": "TypeScript je eksplicitno opisivao ugovore između servisa i paketa. Deljeni paketi standardizovali su modele sadržaja, mapiranje i pristup podacima; infrastruktura kao kod omogućavala je pregled cloud definicija uz aplikacione promene.",
+          "implementation": "Automatizovao sam migraciju i sarađivao sa arhitektama i proizvodnim timovima. Odgovornosti su uključivale AppSync i VTL resolvere, deljene npm pakete, monitoring, upozorenja i podršku procesima isporuke.",
+          "outcome": "Opisani sistem migriran je na TypeScript uz modernizaciju na AWS SDK v3. Deljeni modeli i pristup podacima podržavali su doslednost. Inženjerska pouka: modernizacija više repozitorijuma zahteva koordinaciju, ne samo promenu sintakse."
+        },
+        "diagramNodes": ["JavaScript", "TypeScript", "AWS SDK v3"]
+      },
+      "marketplace-product": {
+        "title": "Razvoj marketplace proizvoda",
+        "role": "CTO i suosnivač · Marketplace",
+        "scale": "Tim od četiri developera",
+        "summary": "Povezana isporuka proizvoda, AI funkcionalnosti, objedinjena pretraga i produkciona podrška.",
+        "technologies": ["Next.js", "Node.js", "Express", "MongoDB", "OpenAI"],
+        "sections": {
+          "context": "Marketplace je povezivao proizvode, događaje i korisnike. Razvoj je zahtevao povezivanje interfejsa, servisa, podataka i objavljivanja, uz podršku i dalji razvoj proizvoda koji već radi.",
+          "role": "Kao CTO i suosnivač vodio sam tim od četiri developera i isporuku frontenda, backenda, baze, deploy-a i produkcione podrške. Povezivao sam praktičan razvoj, tehnički pravac i odgovornost za proizvod.",
+          "scale": "Potvrđen obim tima je četiri developera. Odgovornosti su pokrivale ceo stack i period nakon objavljivanja; rad je uključivao migraciju postojećeg frontenda, a ne samo novu aplikaciju.",
+          "decisions": "Vodio sam migraciju na Next.js zbog serverskog renderovanja i tehničkog SEO-a. Node.js/Express i MongoDB podržavali su marketplace servise, dok su AI opisi i validacija sadržaja unapređivali rad sa sadržajem proizvoda.",
+          "implementation": "Sa timom sam povezivao frontend, backend, podatke i deploy. Isporučili smo objedinjenu pretragu proizvoda, događaja i korisnika, AI funkcionalnosti i staging i production okruženja na Vercel-u i Railway-u.",
+          "outcome": "Proizvod je dobio opisane mogućnosti pretrage i AI sadržaja, uz nastavak produkcione podrške. Inženjerska pouka: tehnički pravac treba da poveže odluke o objavljivanju i rad tima sa razvojem proizvoda."
+        },
+        "diagramNodes": [
+          "Next.js: renderovanje i SEO",
+          "Node.js/Express servisi",
+          "MongoDB podaci",
+          "AI opisi i validacija",
+          "Objedinjena pretraga"
+        ]
+      }
+    }
   }
 }

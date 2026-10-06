@@ -1,12 +1,12 @@
 {
   "theme": {
-    "light": "Tema chiaro",
-    "dark": "Tema scuro",
-    "system": "Usa il tema di sistema"
+    "light": "Chiaro",
+    "dark": "Scuro",
+    "system": "Sistema"
   },
-  "role": "Ingegnere del software",
-  "heroTitle": "Ciao, sono Igor. Sviluppo software che collega le idee.",
-  "intro": "Ingegnere del software per applicazioni web, sistemi cloud e prodotti digitali. Dalla prima idea ai dettagli che fanno funzionare tutto.",
+  "role": "Ingegnere software senior",
+  "heroTitle": "Sono Igor, un senior engineer che lavora tra frontend, backend e cloud.",
+  "intro": "Aiuto i team a rilasciare sistemi affidabili, dai flussi degli utenti alle API e all’infrastruttura che li supportano.",
   "home": "Home",
   "experience": "Esperienza",
   "project": "Collaborazione",
@@ -32,7 +32,7 @@
   "languageLabel": "Scegli la lingua",
   "skip": "Vai al contenuto",
   "explore": "Scopri la mia esperienza",
-  "seoDescription": "Ingegnere del software per applicazioni web e prodotti digitali.",
+  "seoDescription": "Aiuto i team a rilasciare sistemi affidabili, dai flussi degli utenti alle API e all’infrastruttura che li supportano.",
   "draftReady": "Bozza email preparata. Completala e inviala dal tuo programma email.",
   "experienceContent": {
     "role": "Ingegnere del software",
@@ -392,5 +392,103 @@
     "location": "Novi Sad, Serbia",
     "email": "Email",
     "backToTop": "Torna in cima"
+  },
+  "work": {
+    "nav": "Progetti di ingegneria",
+    "viewWork": "Esplora i miei progetti",
+    "discussProject": "Parliamo di un progetto",
+    "selected": "Progetti selezionati",
+    "read": "Leggi il caso studio",
+    "context": "Contesto",
+    "role": "Il mio ruolo",
+    "scale": "Vincoli e dimensioni",
+    "decisions": "Decisioni e motivazioni",
+    "implementation": "Implementazione e collaborazione",
+    "outcome": "Risultato e riflessione tecnica",
+    "diagram": "Aree di lavoro",
+    "diagramCaption": "Aree documentate del lavoro tecnico.",
+    "back": "Torna ai progetti",
+    "leadershipTitle": "Leadership tecnica nella pratica",
+    "leadershipDescription": "Nei team di prodotto e nei sistemi in produzione unisco sviluppo, architettura, pianificazione e responsabilità della consegna.",
+    "strengths": "Competenze tecniche",
+    "approachTitle": "Come lavoriamo insieme",
+    "approachDescription": "Comprendere il problema. Concordare le priorità. Sviluppare per passi gestibili e restare coinvolti dopo il rilascio.",
+    "choose": "Scegli la collaborazione",
+    "themeLabel": "Tema",
+    "description": "Nei team di prodotto e nei sistemi in produzione unisco sviluppo, architettura, pianificazione e responsabilità della consegna.",
+    "cases": {
+      "enterprise-device-management": {
+        "title": "Gestione remota dei dispositivi",
+        "role": "Full-stack engineer · Sistemi enterprise",
+        "scale": "Circa 15.000 utenti",
+        "summary": "Funzionalità riutilizzabili, meno richieste ridondanti e flussi operativi migliorati.",
+        "technologies": [
+          "React",
+          "Material UI",
+          "Azure Redis",
+          "Azure Durable Functions"
+        ],
+        "sections": {
+          "context": "Una piattaforma di gestione e manutenzione remota dei dispositivi serviva circa 15.000 utenti. Il lavoro collegava flussi utente, permessi, interfacce condivise e servizi per attività operative.",
+          "role": "Ho sviluppato funzionalità full-stack, controllo granulare degli accessi per ruolo e componenti React/MUI condivisi. Le responsabilità comprendevano flussi dati, miglioramenti backend e processi Azure di manutenzione e deployment.",
+          "scale": "La piattaforma comprendeva applicazioni, flussi operativi e componenti usati in più applicazioni. Le modifiche richiedevano attenzione a permessi, paginazione e impatto delle richieste ripetute sui servizi condivisi.",
+          "decisions": "Funzionalità UI e backend riutilizzabili favorivano la coerenza. Ridurre richieste ridondanti ed eseguire operazioni indipendenti in parallelo evitava lavoro superfluo; l’ottimizzazione delle scansioni Redis riguardava l’accesso ai dati.",
+          "implementation": "Ho lavorato su API, paginazione, pacchetti condivisi e orchestrazioni Azure Durable Functions. La collaborazione con sviluppatori e architetti collegava l’implementazione alle esigenze dei sistemi usati da più team.",
+          "outcome": "Il lavoro ha ridotto chiamate API ridondanti e aggiunto funzionalità condivise e flussi operativi. Riflessione tecnica: l’affidabilità dipende anche dai confini tra permessi, flussi dati UI ed esecuzione backend."
+        },
+        "diagramNodes": [
+          "Accesso basato sui ruoli",
+          "Interfacce React/MUI condivise",
+          "Flussi dati API e paginazione",
+          "Ottimizzazione scansioni Redis",
+          "Processi Durable Functions"
+        ]
+      },
+      "serverless-modernization": {
+        "title": "Modernizzazione serverless su AWS",
+        "role": "Backend e cloud engineer · Piattaforma media",
+        "scale": "36 repository · Oltre 150 funzioni Lambda",
+        "summary": "Migrazione a TypeScript e modernizzazione AWS SDK v3 di un ampio sistema serverless.",
+        "technologies": [
+          "TypeScript",
+          "AWS Lambda",
+          "AWS SDK v3",
+          "AppSync",
+          "DynamoDB",
+          "AWS CDK"
+        ],
+        "sections": {
+          "context": "Una piattaforma media utilizzava servizi serverless e pacchetti condivisi tra più team di prodotto. La modernizzazione comprendeva la migrazione da JavaScript a TypeScript e l’adozione di AWS SDK v3.",
+          "role": "Ho guidato e automatizzato la migrazione di 36 repository e oltre 150 funzioni Lambda. Ho lavorato anche su GraphQL, infrastruttura come codice, modelli e pacchetti dati condivisi, monitoraggio e CI/CD.",
+          "scale": "Le dimensioni richiedevano coerenza e coordinamento tra repository, pacchetti e team. I servizi includevano AppSync, DynamoDB e infrastruttura definita con AWS CDK e Serverless Framework.",
+          "decisions": "TypeScript rendeva espliciti i contratti tra servizi e pacchetti. I pacchetti condivisi standardizzavano modelli, mapping e persistenza; l’infrastruttura come codice rendeva verificabili le definizioni cloud insieme alle modifiche applicative.",
+          "implementation": "Ho automatizzato la migrazione e collaborato con architetti e team di prodotto. Le responsabilità includevano AppSync e resolver VTL, pacchetti npm, monitoraggio, avvisi e supporto alle pipeline di rilascio.",
+          "outcome": "Il sistema descritto è stato migrato a TypeScript e modernizzato con AWS SDK v3. I modelli condivisi favorivano la coerenza. Riflessione tecnica: modernizzare più repository richiede coordinamento oltre alla conversione del codice."
+        },
+        "diagramNodes": ["JavaScript", "TypeScript", "AWS SDK v3"]
+      },
+      "marketplace-product": {
+        "title": "Sviluppo di un prodotto marketplace",
+        "role": "CTO e cofondatore · Marketplace",
+        "scale": "Un team di quattro sviluppatori",
+        "summary": "Consegna del prodotto, contenuti AI, ricerca unificata e supporto in produzione.",
+        "technologies": ["Next.js", "Node.js", "Express", "MongoDB", "OpenAI"],
+        "sections": {
+          "context": "Il marketplace collegava prodotti, eventi e utenti. Lo sviluppo richiedeva di unire interfaccia, servizi, dati e rilascio, continuando a supportare ed evolvere il prodotto già operativo.",
+          "role": "Come CTO e cofondatore ho guidato quattro sviluppatori e la consegna di frontend, backend, database, deployment e supporto. Ho unito sviluppo pratico, direzione tecnica e responsabilità del prodotto.",
+          "scale": "La dimensione confermata del team è quattro sviluppatori. Le responsabilità coprivano l’intero stack e proseguivano dopo il rilascio; il lavoro includeva la migrazione di un frontend esistente.",
+          "decisions": "Ho guidato la migrazione a Next.js per rendering server-side e SEO tecnico. Node.js/Express e MongoDB supportavano i servizi; descrizioni AI e validazione dei contenuti supportavano i flussi dei contenuti prodotto.",
+          "implementation": "Con il team ho collegato frontend, backend, dati e deployment. Abbiamo realizzato ricerca unificata di prodotti, eventi e utenti, contenuti AI e ambienti staging e produzione su Vercel e Railway.",
+          "outcome": "Il prodotto ha acquisito le funzioni di ricerca e contenuti AI descritte, con supporto continuativo. Riflessione tecnica: la direzione tecnica deve collegare decisioni di rilascio e lavoro del team all’evoluzione del prodotto."
+        },
+        "diagramNodes": [
+          "Next.js: rendering e SEO",
+          "Servizi Node.js/Express",
+          "Persistenza MongoDB",
+          "Descrizioni AI e validazione",
+          "Ricerca unificata"
+        ]
+      }
+    }
   }
 }
