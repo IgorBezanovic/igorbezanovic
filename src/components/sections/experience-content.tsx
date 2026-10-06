@@ -45,7 +45,7 @@ export function ExperienceContent({
         </Box>
       </Section>
       <Section>
-        <Stack spacing={3} sx={{ maxWidth: 850 }}>
+        <Stack spacing={3}>
           <Typography component="h2" variant="h2">
             {t.work.leadershipTitle}
           </Typography>
